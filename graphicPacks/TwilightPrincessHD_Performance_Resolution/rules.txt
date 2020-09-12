@@ -1,0 +1,48 @@
+[Definition]
+titleIds = 000500001019C800,000500001019E600,000500001019E500
+name = 性能分辨率
+path = "塞尔达传说:黄昏公主HD/图像插件/性能分辨率"
+description = 更改游戏中某些效果的分辨率以提高性能.
+version = 4
+
+[Preset]
+name = 1280x720
+$width = 1280
+$height = 720
+$gameWidth = 1920
+$gameHeight = 1080
+
+[Preset]
+name = 640x360
+$width = 640
+$height = 360
+$gameWidth = 1920
+$gameHeight = 1080
+
+[Preset]
+name = 960x540
+$width = 960
+$height = 540
+$gameWidth = 1920
+$gameHeight = 1080
+
+[Preset]
+name = 1600x900
+$width = 1600
+$height = 900
+$gameWidth = 1920
+$gameHeight = 1080
+
+[TextureRedefine]
+width = 1920
+height = 1088
+#formats = 0x011,0x01a
+overwriteWidth = ($width/$gameWidth) * 1920
+overwriteHeight = ($height/$gameHeight) * 1088
+
+[TextureRedefine]
+width = 1920
+height = 1080
+#formats =
+overwriteWidth = ($width/$gameWidth) * 1920
+overwriteHeight  = ($height/$gameHeight) * 1080

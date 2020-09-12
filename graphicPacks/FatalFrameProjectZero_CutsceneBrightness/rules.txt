@@ -1,0 +1,35 @@
+[Definition]
+titleIds = 00050000101D0300,00050000101D0600,000500001014D200,00050000101D3F00
+name = 调整过场亮度
+path = "零:濡鸦之巫女/模组/过场亮度"
+description = 使过场动画变亮,通常很暗.由于仍然缺少照明,因此这可能很难看,但会有助于提高可见性.
+version = 4
+
+
+[Preset]
+name = 正常 (默认)
+$cutsceneBrightness = 1.0
+
+[Preset]
+name = 3倍亮度增强
+$cutsceneBrightness = 3.0
+
+[Preset]
+name = 5倍亮度增强
+$cutsceneBrightness = 5.0
+
+[Preset]
+name = 8倍亮度增强
+$cutsceneBrightness = 8.0
+
+[Preset]
+name = 10倍亮度增强
+$cutsceneBrightness = 10.0
+
+[Preset]
+name = 15倍亮度增强
+$cutsceneBrightness = 15.0
+
+[Preset]
+name = 20倍亮度增强
+$cutsceneBrightness = 20.0

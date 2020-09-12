@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101ABC00,00050000101B5100
+name = 移除AA
+path = "星之卡比:彩虹画笔 & 彩虹诅咒/增强插件/移除AA"
+description = 移除AA,无性能提升.用于清理或AA的超采样.
+version = 4

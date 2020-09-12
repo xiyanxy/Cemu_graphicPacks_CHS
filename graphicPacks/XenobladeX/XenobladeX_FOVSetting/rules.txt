@@ -1,0 +1,38 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = 视野
+path = "异度之刃X/模组/视野" 
+description = 更改视野(FOV).修复21：9和其他FOV调整的边缘取景.
+version = 4
+
+[Preset]
+name = 默认 FOV
+$fov = 1.0
+
+[Preset]
+name = 将16:9水平视野FOV匹配到21:9 (1.3125)
+$fov = 1.3125
+
+[Preset]
+name = 平衡 48:9 (1.45)
+$fov = 1.45
+
+[Preset]
+name = FOV略有增加而不会破坏帧 (0.925)
+$fov = 0.925
+
+[Preset]
+name = 将16:10水平视野FOV匹配到16:9 (0.9)
+$fov  = 0.9
+
+[Preset]
+name = PC视野宽FOV (0.825)
+$fov = 0.825
+
+[Preset]
+name = 将21:9水平视野FOV匹配到16:9 (0.7442)
+$fov = 0.7442
+
+[Preset]
+name = 鱼眼 (0.5)
+$fov = 0.5

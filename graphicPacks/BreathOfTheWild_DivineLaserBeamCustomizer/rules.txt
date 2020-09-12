@@ -1,0 +1,48 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 神兽激光束自定义工具
+path = "塞尔达传说: 旷野之息/模组/神兽激光束自定义工具"
+description = 允许自定义神兽激光束的颜色. 它们也可以完全不显示. 在渲染器中你可以找到其他选项例如饱和度和透明度.
+version = 4
+
+[Preset]
+name = 红色 (默认)
+$hue:int = 0
+$rainbow:int = 0
+$disableBeams:int = 0
+
+[Preset]
+name = 蓝色
+$hue:int = 225
+$rainbow:int = 0
+$disableBeams:int = 0
+
+[Preset]
+name = 绿色
+$hue:int = 120
+$rainbow:int = 0
+$disableBeams:int = 0
+
+[Preset]
+name = 黄色
+$hue:int = 45
+$rainbow:int = 0
+$disableBeams:int = 0
+
+[Preset]
+name = 紫色
+$hue:int = 300
+$rainbow:int = 0
+$disableBeams:int = 0
+
+[Preset]
+name = 禁用
+$hue:int = 0
+$rainbow:int = 0
+$disableBeams:int = 1
+
+[Preset]
+name = 七彩色
+$hue:int = 0
+$rainbow:int = 1
+$disableBeams:int = 0

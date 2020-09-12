@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 卡卡利科村火把渲染解决方案 (OpenGL)
+path = "塞尔达传说: 旷野之息/解决方案/卡卡利科村火把渲染 (OpenGL)"
+description = 使用OpenGL时在卡卡利科村的火把周围看到的方块渲染的解决方案. 由 Kiri制作.
+rendererFilter = opengl
+version = 4

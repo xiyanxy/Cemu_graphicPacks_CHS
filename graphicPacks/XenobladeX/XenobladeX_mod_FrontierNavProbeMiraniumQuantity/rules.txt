@@ -1,0 +1,36 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "Miranium收入数量mod"
+path = "异度之刃X/模组/FrontierNav/Miranium收入数量mod"
+description = 影响Miranium的FrontierNav收入数量.
+version = 4
+
+[Preset]
+name = "Miranium x2"
+$mod = 2
+$uncap = 0
+
+[Preset]
+name = "Miranium x5"
+$mod = 5
+$uncap = 0
+
+[Preset]
+name = "Miranium x10"
+$mod = 10
+$uncap = 0
+
+[Preset]
+name = "Miranium x10 (无上限)"
+$mod = 10
+$uncap = 1
+
+[Preset]
+name = "Miranium x50 (无上限)"
+$mod = 50
+$uncap = 1
+
+[Preset]
+name = "Miranium x100 (无上限)"
+$mod = 100
+$uncap = 1

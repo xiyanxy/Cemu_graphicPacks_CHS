@@ -1,0 +1,35 @@
+[Definition]
+titleIds = 00050000101D0300,00050000101D0600,000500001014D200,00050000101D3F00
+name = 亮度
+path = "零:濡鸦之巫女/模组/亮度"
+description = 更改游戏的亮度,可用于使游戏看起来更明亮,更类似于WiiU.
+version = 4
+
+[Preset]
+name = 最暗了^_^
+$brightness = 0.4
+
+[Preset]
+name = 再暗一点
+$brightness = 0.6
+
+[Preset]
+name = 暗一点
+$brightness = 0.75
+
+[Preset]
+name = 正常 (默认)
+default=1
+$brightness = 1.0
+
+[Preset]
+name = 稍亮
+$brightness = 1.5
+
+[Preset]
+name = 再亮一点
+$brightness = 2.5
+
+[Preset]
+name = 最亮(能瞎眼)
+$brightness = 4.0

@@ -1,0 +1,72 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "跳得更高"
+path = "异度之刃X/模组/物理/跳高距离"
+description = 提高跳跃的水平和垂直速度（两者的Vanilla值均为1.0）.
+version = 4
+
+[Preset]
+name = "水平 3.0 / 垂直 1.10"
+$horz = 3.0
+$vert = 1.10
+
+[Preset]
+name = "水平 2.0 / 垂直 1.10"
+$horz = 2.0
+$vert = 1.10
+
+[Preset]
+name = "水平 1.5 / 垂直 1.10"
+$horz = 1.5
+$vert = 1.10
+
+[Preset]
+name = "水平 1.5 / 垂直 1.05"
+$horz = 1.5
+$vert = 1.05
+
+[Preset]
+name = "水平 1.5 / 垂直 1.03"
+$horz = 1.5
+$vert = 1.03
+
+[Preset]
+name = "水平 2.0 / 垂直 1.05"
+$horz = 2.0
+$vert = 1.05
+
+
+[Preset]
+name = "[TEST] 水平 1.0 / 垂直 1.02"
+$horz = 1.0
+$vert = 1.02
+
+[Preset]
+name = "[TEST] 水平 1.0 / 垂直 1.05"
+$horz = 1.0
+$vert = 1.05
+
+[Preset]
+name = "[TEST] 水平 1.0 / 垂直 1.10"
+$horz = 1.0
+$vert = 1.10
+
+[Preset]
+name = "[TEST] 水平 1.0 / 垂直 2.0"
+$horz = 1.0
+$vert = 2.0
+
+[Preset]
+name = "[TEST] 水平 1.5 / 垂直 1.0"
+$horz = 1.5
+$vert = 1.0
+
+[Preset]
+name = "[TEST] 水平 2.0 / 垂直 1.0"
+$horz = 2.0
+$vert = 1.0
+
+[Preset]
+name = "[TEST] 水平 3.0 / 垂直 1.0"
+$horz = 3.0
+$vert = 1.0

@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 无限耐力
+path = "塞尔达传说: 旷野之息/模组/修改器/无限耐力"
+description = BotW修改器由C313571N和Xalphenos制作
+version = 4

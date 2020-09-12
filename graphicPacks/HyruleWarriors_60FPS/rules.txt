@@ -1,0 +1,6 @@
+[Definition] 
+titleIds = 000500001017D800,000500001017D900,000500001017CD00
+name = 60FPS
+path = "塞尔达无双/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+version = 4

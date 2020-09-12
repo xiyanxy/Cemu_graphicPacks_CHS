@@ -1,0 +1,21 @@
+[Definition]
+titleIds = 0005000010176900,0005000010176A00,0005000010162B00
+name = 潮色姐妹(squid sister)交换
+path = "喷射战士/模组/潮色姐妹(squid sister)交换"
+description = 潮色姐妹(squid sister)交换.
+version = 4
+
+[Preset]
+name = Callie 交换为 Marie
+$callieLetter = 65
+$marieLetter = 65
+
+[Preset]
+name = Marie 交换为 Callie
+$callieLetter = 66
+$marieLetter = 66
+
+[Preset]
+name = 互换
+$callieLetter = 66
+$marieLetter = 65

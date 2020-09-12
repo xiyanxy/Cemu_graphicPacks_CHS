@@ -1,0 +1,14 @@
+[Definition]
+titleIds = 0005000010190300,00050000101E5300,00050000101E5400
+name = 移除HUD
+path = "马里奥与索尼克在里约奥运会/增强插件/移除HUD"
+description = 删除游戏的HUD.
+version = 4
+
+[Preset]
+name = 禁用 (默认)
+$enabled:int = 0
+
+[Preset]
+name = 启用
+$enabled:int = 1

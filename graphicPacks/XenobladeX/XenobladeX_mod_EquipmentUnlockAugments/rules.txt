@@ -1,0 +1,17 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "解锁所有增强"
+path = "异度之刃X/模组/装备/解锁所有增强"
+description = 所有增强功能在商店中都是已知的，并且使用CHEAT预设无需花费任何费用.
+version = 4
+
+[Preset]
+name = "正常"
+$checkIgnore = 5
+$checkIgnoreEnd = 7
+
+[Preset]
+name = "作弊 - 忽略Miranium和资源需求"
+$checkIgnore = 0
+$checkIgnoreEnd = 0
+

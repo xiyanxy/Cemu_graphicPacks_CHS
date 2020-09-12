@@ -1,0 +1,57 @@
+[Definition]
+titleIds = 00050000101FA600,00050000101F9700
+name = 无上限帧率
+path = "暗黑血统:战神版/模组/无上限帧率"
+description = 修补游戏帧速率上限,CPU模式更改为双核或三核可能会提高性能.由theboy181制成.
+version = 4
+
+[Preset]
+name = 60FPS (240/120/60Hz 显示器)
+$targetFPS:int = 60
+
+[Preset]
+name = 30FPS (240/120/60Hz 显示器)
+$targetFPS:int = 30
+
+[Preset]
+name = 40FPS (240/120/60Hz 显示器)
+$targetFPS:int = 40
+
+[Preset]
+name = 20FPS (240/120/60Hz 显示器)
+$targetFPS:int = 20
+
+[Preset]
+name = 33FPS (165Hz 显示器)
+$targetFPS:int = 33
+
+[Preset]
+name = 48FPS (144Hz 显示器)
+$targetFPS:int = 48
+
+[Preset]
+name = 55FPS (165Hz 显示器)
+$targetFPS:int = 55
+
+[Preset]
+name = 72FPS (144Hz 显示器)
+$targetFPS:int = 72
+
+[Preset]
+name = 75FPS (75Hz 显示器)
+$targetFPS:int = 75
+
+[Preset]
+name = 120FPS (240/120/60Hz 显示器)
+$targetFPS:int = 120
+
+[Preset]
+name = 144FPS (144Hz 显示器)
+$targetFPS:int = 144
+
+[Preset]
+name = 165FPS (165Hz 显示器)
+$targetFPS:int = 165
+
+[Control]
+vsyncFrequency = $targetFPS

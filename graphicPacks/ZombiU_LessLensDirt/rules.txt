@@ -1,0 +1,26 @@
+[Definition]
+titleIds = 000500001010DD00,000500001010EF00,0005000010112300,000500001011A700,0005000E1010DD00,0005000E10112300
+name = 镜头污垢调整
+path = "僵尸U/增强插件/镜头污垢调整"
+description = 更改镜头污垢效果的强度.
+version = 4
+
+[Preset]
+name = 镜头污垢默认
+$dirt = 1.0
+
+[Preset]
+name = 镜头污垢 0.85
+$dirt = 0.85
+
+[Preset]
+name = 镜头污垢 0.75
+$dirt = 0.75
+
+[Preset]
+name = 镜头污垢 0.5
+$dirt = 0.5
+
+[Preset]
+name = 无镜头污垢
+$dirt = 0.01

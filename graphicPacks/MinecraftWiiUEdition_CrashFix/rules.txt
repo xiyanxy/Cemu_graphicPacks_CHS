@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101D9D00,00050000101D7500,00050000101DBE00
+name = 崩溃修复
+path = "我的世界:WiiU版/解决方案/Mii崩溃修复"
+description = 防止丢失mii ffl转储时启动崩溃.仅v688.
+version = 4
+

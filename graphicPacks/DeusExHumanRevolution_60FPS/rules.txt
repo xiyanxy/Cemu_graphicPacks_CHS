@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 000500001012BA00,000500001012B200
+name = 60FPS
+path = "杀出重围3:人类革命/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,帧数低于60FPS游戏速度将减慢.由theboy181制作.
+version = 4

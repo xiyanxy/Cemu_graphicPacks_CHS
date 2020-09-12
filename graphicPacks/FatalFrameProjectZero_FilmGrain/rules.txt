@@ -1,0 +1,50 @@
+[Definition]
+titleIds = 00050000101D0300,00050000101D0600,000500001014D200,00050000101D3F00
+name = 画质颗粒感
+path = "零:濡鸦之巫女/增强插件/画质颗粒感"
+description = 调整画质颗粒效果的强度.
+version = 4
+
+[Preset]
+name = 默认
+$width = 1280
+$height = 720
+$gameWidth = 1280
+$gameHeight = 720
+
+[Preset]
+name = 中等
+$width = 960
+$height = 540
+$gameWidth = 1280
+$gameHeight = 720
+
+[Preset]
+name = 高等
+$width = 640
+$height = 360
+$gameWidth = 1280
+$gameHeight = 720
+
+[Preset]
+name = 禁用
+$width = 0
+$height = 0
+$gameWidth = 1280
+$gameHeight = 720
+
+#------------------------------------
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x806
+overwriteWidth = ($width/$gameWidth)*320
+overwriteHeight = ($height/$gameHeight)*192
+
+[TextureRedefine]
+width = 320
+height = 180
+formats = 0x806
+overwriteWidth = ($width/$gameWidth)*320
+overwriteHeight = ($height/$gameHeight)*180

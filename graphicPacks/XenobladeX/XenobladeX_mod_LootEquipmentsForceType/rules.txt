@@ -1,0 +1,139 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "设备类型" 
+path = "异度之刃X/模组/搜刮/装备 - 设置类型"
+description = 设置被搜刮的装备类型.
+version = 4
+
+[Preset] ###########################################
+name = "地面武器 - 任意 ____________________________________________"
+$type = 2
+$sub = 0
+
+[Preset]
+name = "地面武器 - Photon Sabers"
+$type = 2
+$sub = 1
+
+[Preset]
+name = "地面武器 - Assault Rifles"
+$type = 2
+$sub = 2
+
+[Preset]
+name = "地面武器 - Sniper Rifles"
+$type = 2
+$sub = 3
+
+[Preset]
+name = "地面武器 - Dual Guns"
+$type = 2
+$sub = 4
+
+[Preset]
+name = "地面武器 - Gatling Guns"
+$type = 2
+$sub = 5
+
+[Preset]
+name = "地面武器 - Rayguns"
+$type = 2
+$sub = 6
+
+[Preset]
+name = "地面武器 - Psycho Launchers"
+$type = 2
+$sub = 7
+
+[Preset]
+name = "地面武器 - Longswords"
+$type = 2
+$sub = 8
+
+[Preset]
+name = "地面武器 - Javelins"
+$type = 2
+$sub = 9
+
+[Preset]
+name = "地面武器 - Dual Swords"
+$type = 2
+$sub = 10
+
+[Preset]
+name = "地面武器 - Shields"
+$type = 2
+$sub = 11
+
+[Preset]
+name = "地面武器 - Knives"
+$type = 2
+$sub = 12
+
+[Preset] ###########################################
+name = "地面装甲 - 任意 ____________________________________________"
+$type = 4
+$sub = 0
+
+[Preset]
+name = "地面装甲 - Head"
+$type = 4
+$sub = 1
+
+[Preset]
+name = "地面装甲 - Torso"
+$type = 4
+$sub = 2
+
+[Preset]
+name = "地面装甲 - Right arm"
+$type = 4
+$sub = 3
+
+[Preset]
+name = "地面装甲 - Left arm"
+$type = 4
+$sub = 4
+
+[Preset]
+name = "地面装甲 - Leg"
+$type = 4
+$sub = 5
+
+[Preset] ###########################################
+name = "Skell武器 - 任意 ____________________________________________"
+$type = 6
+$sub = 0
+
+[Preset] ###########################################
+name = "Skell装甲 - 任意 ____________________________________________"
+$type = 8
+$sub = 0
+
+[Preset]
+name = "Skell装甲 - Head"
+$type = 8
+$sub = 1
+
+[Preset]
+name = "Skell装甲 - Torso"
+$type = 8
+$sub = 2
+
+[Preset]
+name = "Skell装甲 - Right arm"
+$type = 8
+$sub = 3
+
+[Preset]
+name = "Skell装甲 - Left arm"
+$type = 8
+$sub = 4
+
+[Preset]
+name = "Skell装甲 - Leg"
+$type = 8
+$sub = 5
+
+
+

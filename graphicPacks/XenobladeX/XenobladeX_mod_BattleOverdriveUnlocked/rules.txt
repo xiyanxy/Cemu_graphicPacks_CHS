@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "超速档解锁第5章"
+path = "异度之刃X/模组/战斗/超速解锁"
+description = 在第5章之前释放了Overdrive的功能.
+version = 4

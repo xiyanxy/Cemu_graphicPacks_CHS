@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 英特尔iGPU (Vulkan及英特尔)渲染方案
+path = "塞尔达传说: 旷野之息/解决方案/英特尔GPU渲染 (Vulkan)"
+description = 降低当英特尔GPU使用Vulkan渲染时出错的严重性. 由ethrillo制作, Cypher更新.
+vendorFilter = intel
+rendererFilter = vulkan
+version = 4

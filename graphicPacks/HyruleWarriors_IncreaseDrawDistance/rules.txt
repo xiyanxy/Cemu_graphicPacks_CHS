@@ -1,0 +1,11 @@
+[Definition] 
+titleIds = 000500001017D800,000500001017D900,000500001017CD00
+name = 增加图像距离
+path = "塞尔达无双/模组/增加图像距离"
+description =物品更远的距离 | 实验性的,可能太早触发远距离对象计时器.
+version = 4
+
+## reminders:  
+#NPC rendering can be increased, but some other total nr on screen limiter kicks in
+#When moving between zones, culling re-sets 
+

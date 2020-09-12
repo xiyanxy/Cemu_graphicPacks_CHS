@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010177200,0005000010180B00
+name = 60FPS
+path = "地球公民/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,帧数低于60FPS游戏速度将减慢.由theboy181制作.
+version = 4

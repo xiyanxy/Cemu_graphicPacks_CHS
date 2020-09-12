@@ -1,0 +1,13 @@
+[Definition]
+titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
+name = 删除MKTV水印
+path = "马里奥赛车8/模组/删除MKTV水印"
+description = 删除重播或高亮转轴中的MKTV水印。
+version = 4
+
+[TextureRedefine]
+width = 160
+height = 40
+formats = 0x034
+overwriteWidth = 1
+overwriteHeight = 1

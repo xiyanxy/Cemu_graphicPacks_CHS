@@ -1,0 +1,9 @@
+[Definition]
+titleIds = 0005000010136c00,0005000010137c00,0005000010154500,000500001016d300,000500001016df00
+path = "蝙蝠侠:阿甘起源/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,帧数低于60FPS游戏速度将减慢.由theboy181制作.
+version = 4
+
+[Control]
+#Give boost to performance
+vsyncFrequency = 120

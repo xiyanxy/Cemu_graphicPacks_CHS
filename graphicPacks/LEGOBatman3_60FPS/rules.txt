@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 000500001016AD00,000500001016A400
+name = 60FPS
+path = "乐高蝙蝠侠3：飞跃哥谭市/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+version = 4

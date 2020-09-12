@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010143500,0005000010143600
+name = 解决FPS的降低
+path = "塞尔达传说:风之杖HD/解决方案/解决FPS的降低"
+description = 修复了在低配设备上可能发生的速度下降。
+version = 4

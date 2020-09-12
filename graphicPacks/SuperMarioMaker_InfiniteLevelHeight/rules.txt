@@ -1,0 +1,26 @@
+[Definition]
+titleIds = 000500001018DB00,000500001018DC00,000500001018DD00
+name = 无限高度
+path = "超级马里奥制造/模组/无限高度"
+description = 在启用此图像插件的同时禁用在线功能.
+version = 4
+
+[Preset]
+name = 32 块高
+$height = 32.0
+
+[Preset]
+name = 64 块高
+$height = 64.0
+
+[Preset]
+name = 128 块高
+$height = 128.0
+
+[Preset]
+name = 135 块高
+$height = 135.0
+
+[Preset]
+name = 270 块高
+$height = 270.0

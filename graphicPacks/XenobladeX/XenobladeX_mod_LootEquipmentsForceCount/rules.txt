@@ -1,0 +1,24 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "设备数量" 
+path = "异度之刃X/模组/搜刮/装备 - 设置数量"
+description = 设置被搜刮的装备数.
+version = 4
+
+[Preset]
+name = "总是3个"
+$cnt3 = 0
+$cnt2 = 100
+$cnt1 = 100
+
+[Preset]
+name = "总是2个"
+$cnt3 = 100
+$cnt2 = 0
+$cnt1 = 100
+
+[Preset]
+name = "总是1个"
+$cnt3 = 100
+$cnt2 = 100
+$cnt1 = 0

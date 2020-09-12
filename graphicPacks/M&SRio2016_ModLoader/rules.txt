@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010190300,00050000101E5300,00050000101E5400
+name = Mod加载工具
+path = "马里奥与索尼克在里约奥运会/模组/Mod加载工具"
+description = 允许游戏从cpk文件之前的目录加载数据.需要将修改后的数据放入'content/raw'文件夹中.
+version = 4

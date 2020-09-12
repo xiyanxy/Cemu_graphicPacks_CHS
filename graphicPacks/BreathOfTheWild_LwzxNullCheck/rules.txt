@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = LWZX崩溃解决方案(OpenGL)
+path = "塞尔达传说: 旷野之息/解决方案/LWZX崩溃(OpenGL)"
+description = 建议此包保持启用,因为它没有任何问题,它只修复了GX2DrawDone（）上未启用完全同步时导致的崩溃.由rajkosto制作.
+rendererFilter = opengl
+version = 4

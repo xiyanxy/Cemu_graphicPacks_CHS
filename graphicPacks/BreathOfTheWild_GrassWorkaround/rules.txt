@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Vulkan后端的草摆动解决方案
+path = "塞尔达传说: 旷野之息/解决方案/草摆动(Vulkan)"
+description = 一个Vulkan限制的解决方案包. 修正了一些在远处的草摆动不正常的问题.由Exzap制作.
+rendererFilter = vulkan
+version = 4

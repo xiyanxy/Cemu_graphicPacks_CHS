@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010143500,0005000010143600
+name = 照相机修复
+path = "塞尔达传说:风之杖HD/解决方案/照相机修复"
+description = 这更多的是作弊,而不是解决方法.强迫Lenzo接受“Lenzo的研究助手”任务中的所有照片.
+version = 4

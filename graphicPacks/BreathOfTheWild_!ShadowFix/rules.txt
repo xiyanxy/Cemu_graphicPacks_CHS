@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 英特尔及AMD GPU渲染方案 (OpenGL及英特尔/AMD)
+path = "塞尔达传说: 旷野之息/解决方案/OpenGL/AMD 及英特尔: GPU渲染指定方案"
+description = 降低在Intel和OpenGL GPU上使用OpenGL时渲染出错的严重性. 由ethrillo制作, Cypher更新.
+rendererFilter = opengl
+version = 4

@@ -1,0 +1,66 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = "清晰度"
+path = "塞尔达传说: 旷野之息/增强插件/清晰度"
+description = 选择你喜欢的手动调整饱和度,振动,颜色等的游戏视觉效果的预设.您也可以选择已有的预设.选择"用户定义"需要自行设置的预设.查看graphicPacks文件夹中的"breatofwild_Clarity/37040a485a29d54e_0000000000000;3c9_ps.txt"文件以创建一个.由Jamie和预设作者制作(已列出名字).
+version = 4
+
+[Preset]
+name = Serfrost的预设 (默认)
+$preset:int = 10
+
+[Preset]
+name = Serfrost的预设 (显示暗淡时使用)
+$preset:int = 9
+
+[Preset]
+name = Serfrost的预设 (显示光亮时使用)
+$preset:int = 8
+
+[Preset]
+name = Bruz的预设
+$preset:int = 1
+
+[Preset]
+name = CellHunter的预设
+$preset:int = 7
+
+[Preset]
+name = Jamie的预设
+$preset:int = 3
+
+[Preset]
+name = BSoD Gaming的预设
+$preset:int = 2
+
+[Preset]
+name = The Complaining Gamer的预设
+$preset:int = 5
+
+[Preset]
+name = Visk清晰度预设
+$preset:int = 11
+
+[Preset]
+name = 对比度预设
+$preset:int = 4
+
+[Preset]
+name = 电影效果预设
+$preset:int = 6
+
+[Preset]
+name = Silentverge的野外求生预设 (暖色调)
+$preset:int = 12
+
+[Preset]
+name = Silentverge的野外求生预设 (冷色调)
+$preset:int = 13
+
+[Preset]
+name = t3nka中性+
+$preset:int = 14
+
+[Preset]
+name = 自定义预设
+$preset:int = 0

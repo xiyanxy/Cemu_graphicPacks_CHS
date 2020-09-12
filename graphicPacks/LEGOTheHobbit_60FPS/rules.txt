@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 000500001016A700,0005000010168D00
+name = 60FPS
+path = "乐高霍比特人/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+version = 4

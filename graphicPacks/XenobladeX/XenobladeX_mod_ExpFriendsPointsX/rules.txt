@@ -1,0 +1,22 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "好友积分X"
+path = "异度之刃X/模组/经验/好友积分X"
+description = 在战斗中激活灵魂语音链接会获得更多的朋友积分.
+version = 4
+
+[Preset]
+name = "+100"
+$mod = 100
+
+[Preset]
+name = "+250"
+$mod = 250
+
+[Preset]
+name = "+500"
+$mod = 500
+
+[Preset]
+name = "+1000"
+$mod = 1000

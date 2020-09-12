@@ -1,0 +1,26 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "材料掉落率" 
+path = "异度之刃X/模组/搜刮/材料 - 掉落率"
+description = 影响材料在搜刮中的最小掉落率.
+version = 4
+
+[Preset]
+name = "将最小跌落设置为100% (总是掉落)"
+$mod = 100
+
+[Preset]
+name = "将最小跌落设置为70%"
+$mod = 70
+
+[Preset]
+name = "将最小跌落设置为50%"
+$mod = 50
+
+[Preset]
+name = "将最小跌落设置为30%"
+$mod = 30
+
+[Preset]
+name = "将最小跌落设置为0% (从不掉落)"
+$mod = 0

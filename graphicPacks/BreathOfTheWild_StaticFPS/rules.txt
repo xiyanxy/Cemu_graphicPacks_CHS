@@ -1,0 +1,109 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 静态FPS模组
+path = "塞尔达传说: 旷野之息/模组/静态FPS模组"
+description = "不要和FPS++混搭使用,因为它是FPS++的简化版本.为了提供更精确的模拟效果它移除了动态时间轴部分,因为它在保持性能提升的同时不会估算当前帧率. 为了获得更好的精确无误的模拟体验,请使用它的30帧模式."
+version = 4
+
+[Preset]
+name = 静态45帧
+$targetFPS:int = 45
+
+[Preset]
+name = 静态60帧 (适配于240/120/60赫兹显示器)
+$targetFPS:int = 60
+
+[Preset]
+name = 静态30帧 (最稳定; 适配于240/120/60赫兹显示器)
+$targetFPS:int = 30
+
+[Preset]
+name= 静态165帧 (适配于165赫兹显示器)
+$targetFPS:int = 165
+
+[Preset]
+name = 静态144帧 (适配于144赫兹显示器)
+$targetFPS:int = 144
+
+[Preset]
+name = 静态120帧 (适配于240/120/60赫兹显示器)
+$targetFPS:int = 120
+
+[Preset]
+name = 静态100帧 (适配于200/100赫兹显示器)
+$targetFPS:int = 100
+
+[Preset]
+name = 静态85帧 (适配于85赫兹显示器)
+$targetFPS:int = 85
+
+[Preset]
+name = 静态75帧 (适配于75赫兹显示器)
+$targetFPS:int = 75
+
+[Preset]
+name = 静态72帧 (适配于144赫兹显示器)
+$targetFPS:int = 72
+
+[Preset]
+name = 静态55帧 (适配于165赫兹显示器)
+$targetFPS:int = 55
+
+[Preset]
+name = 静态50帧 (适配于200/100赫兹显示器)
+$targetFPS:int = 50
+
+[Preset]
+name = 静态48帧 (适配于144赫兹显示器)
+$targetFPS:int = 48
+
+[Preset]
+name = 静态40帧 (适配于240/120/60赫兹显示器)
+$targetFPS:int = 40
+
+[Preset]
+name = 静态36帧 (适配于144赫兹显示器)
+$targetFPS:int = 36
+
+[Preset]
+name = 静态33帧 (适配于165赫兹显示器)
+$targetFPS:int = 33
+
+[Preset]
+name = 静态25帧 (适配于75赫兹显示器)
+$targetFPS:int = 25
+
+[Preset]
+name = 静态24帧 (适配于144赫兹显示器)
+$targetFPS:int = 24
+
+[Preset]
+name = 静态20帧 (适配于240/120/60赫兹显示器)
+$targetFPS:int = 20
+
+[Preset]
+name = 静态18帧 (适配于144赫兹显示器)
+$targetFPS:int = 18
+
+[Preset]
+name = 静态17帧 (适配于85赫兹显示器)
+$targetFPS:int = 17
+
+[Preset]
+name = 静态16帧 (适配于144赫兹显示器)
+$targetFPS:int = 16
+
+[Preset]
+name = 静态15帧 (适配于240/120/60赫兹显示器)
+$targetFPS:int = 15
+
+[Preset]
+name = 静态12帧 (适配于144赫兹显示器)
+$targetFPS:int = 12
+
+[Preset]
+name = 静态10帧 (适配于240/120/60赫兹显示器)
+$targetFPS:int = 10
+
+[Control]
+vsyncFrequency = $targetFPS

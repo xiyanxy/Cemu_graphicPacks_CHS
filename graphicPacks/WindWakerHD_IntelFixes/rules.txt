@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010143500,0005000010143600
+name= Intel集成GPU的图形修复
+path = "塞尔达传说:风之杖HD/解决方案/Intel集成GPU的图形修复"
+description = 修复了使用Intel iGPU时的图形错误.如果电脑有Nvidia或AMD的GPU,请不要使用它.
+version = 4

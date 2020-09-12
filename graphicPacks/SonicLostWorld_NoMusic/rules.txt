@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010135700,000500001012B100,0005000010128F00
+name = 禁用音乐
+path = "索尼克:失落的世界/模组/禁用音乐"
+description = 禁用音乐播放.
+version = 4

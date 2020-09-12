@@ -1,0 +1,100 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 海拉鲁城堡地牢雾霾包
+path = "塞尔达传说: 旷野之息/模组/远处雾霾去除/海拉鲁城堡地牢雾霾"
+description = 可以去除海拉鲁城堡地牢雾霾. 更改其RGB颜色.
+version = 4
+
+
+[Preset]
+name = 禁用城堡地牢雾霾
+$basefogopacity = 0
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = 30%城堡地牢雾霾
+$basefogopacity = 0.3
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = 50%城堡地牢雾霾
+$basefogopacity = 0.5
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = 启用城堡地牢雾霾
+$basefogopacity = 1
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = ----------------------------------------
+$basefogopacity = 1
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = 3倍城堡地牢雾霾不透明度
+$basefogopacity = 3
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = ----------------------------------------
+$basefogopacity = 1
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = 城堡地牢雾霾红
+$basefogopacity = 1.4
+$basefogred = 2
+$basefoggreen = 0
+$basefogblue = 0
+
+[Preset]
+name = 城堡地牢雾霾绿
+$basefogopacity = 1
+$basefogred = 0
+$basefoggreen = 1
+$basefogblue = 0
+
+[Preset]
+name = 城堡地牢雾霾蓝
+$basefogopacity = 1
+$basefogred = 0
+$basefoggreen = 0
+$basefogblue = 1
+
+[Preset]
+name = ----------------------------------------
+$basefogopacity = 1
+$basefogred = 1
+$basefoggreen = 1
+$basefogblue = 1
+
+[Preset]
+name = 自定义预设
+$basefogopacity = 1
+$basefogred = 4
+$basefoggreen = 1.0
+$basefogblue = 1.5
+
+# Information
+# by SkalFate
+# ----------------------
+# (basefogopacity) = Fog Transparency/Opacity - how thick you want the Hyrule Castle Base Fog to look
+# ------ Values are multiplied, so if you want to lower use [0.01 - 1.0], or if you want to go higher go from [1.0 - X.X]
+
+# (basefogred, basefoggreen, basefogblue ) = RGB - Red, Green, Blue -  Changes the color of the Hyrule Base Fog.
+# ------ Values are multiplied so if you want to lower use [0.01 - 1.0], or if you want to go higher go from [1.0 - X.X]

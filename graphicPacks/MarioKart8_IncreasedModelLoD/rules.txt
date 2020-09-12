@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
+name = 增加模型的细节程度
+path = "马里奥赛车8/模组/增加模型的细节程度"
+description = 增加LOD切换的距离.
+version = 4

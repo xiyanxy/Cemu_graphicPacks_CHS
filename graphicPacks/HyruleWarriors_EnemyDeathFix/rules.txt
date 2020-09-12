@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 000500001017D800,000500001017D900,000500001017CD00
+name = "NVIDIA敌人死亡修复"
+path = "塞尔达无双/解决方案/NVIDIA敌人死亡修复"
+description = 修复图形故障和由于敌人死亡而导致的崩溃.
+version = 4

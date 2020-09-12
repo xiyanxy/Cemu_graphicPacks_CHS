@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 000500001017D800,000500001017D900,000500001017CD00
+name = DLC崩溃修复
+path = "塞尔达无双/增强插件/崩溃修复"
+description = 修复了安装了DLC时游戏崩溃的问题.
+version = 4

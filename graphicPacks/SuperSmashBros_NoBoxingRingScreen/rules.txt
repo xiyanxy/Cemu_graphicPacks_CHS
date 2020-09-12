@@ -1,0 +1,19 @@
+[Definition]
+titleIds = 0005000010110E00,0005000010145000,0005000010144F00
+name = Boxing Ring禁用屏幕
+path = "任天堂全明星大乱斗/增强插件/Boxing Ring禁用屏幕"
+description = 在Boxing Ring阶段禁用屏幕,出于美观或性能原因可以使用.
+version = 4
+
+[TextureRedefine]
+width = 256
+height = 128
+formats = 0x8
+overwriteWidth = 1
+overwriteHeight = 1
+
+[TextureRedefine]
+width = 220
+height = 124
+overwriteWidth = 1
+overwriteHeight = 1

@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = AMD GPU崩溃解决方案(OpenGL及AMD)
+path = "塞尔达传说: 旷野之息/解决方案/OpenGL/AMD: GPU崩溃指定方案 "
+description = 在AMD上使用OpenGL时与渲染器崩溃相关的解决方案.需要Cemu版本1.15.8及以上.
+vendorFilter = amd
+rendererFilter = opengl
+version = 4

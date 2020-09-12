@@ -1,0 +1,27 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "资源收入数量mod"
+path = "异度之刃X/模组/FrontierNav/资源收入数量mod"
+description = 影响资源的FrontierNav收入数量.
+version = 4
+
+[Preset]
+name = "x2"
+$mod = 2
+
+[Preset]
+name = "x5"
+$mod = 5
+
+[Preset]
+name = "x10"
+$mod = 10
+
+[Preset]
+name = "x50"
+$mod = 50
+
+[Preset]
+name = "x100"
+$mod = 100
+

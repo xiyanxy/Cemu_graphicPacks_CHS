@@ -1,0 +1,74 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 远处NPCC雾霾去除包
+path = "塞尔达传说: 旷野之息/模组/远处雾霾去除/NPC雾霾去除"
+description = 可以去除远处NPC雾霾.与动画渲染修正包有冲突.
+version = 4
+
+
+[Preset]
+name = 禁用远处NPC雾霾
+$npcfogred = 0
+$npcfoggreen = 0
+$npcfogblue = 0
+
+[Preset]
+name = 10%远处NPC雾霾
+$npcfogred = 0.1
+$npcfoggreen = 0.1
+$npcfogblue = 0.1
+
+[Preset]
+name = 30%远处NPC雾霾
+$npcfogred = 0.3
+$npcfoggreen = 0.3
+$npcfogblue = 0.3
+
+[Preset]
+name = 启用远处NPC雾霾
+$npcfogred = 1
+$npcfoggreen = 1
+$npcfogblue = 1
+
+[Preset]
+name = ----------------------------------------
+$npcfogred = 1
+$npcfoggreen = 1
+$npcfogblue = 1
+
+[Preset]
+name = 远处NPC雾霾红
+$npcfogred = 2
+$npcfoggreen = 0
+$npcfogblue = 0
+
+[Preset]
+name = 远处NPC雾霾绿
+$npcfogred = 0
+$npcfoggreen = 1
+$npcfogblue = 0
+
+[Preset]
+name = 远处NPC雾霾蓝
+$npcfogred = 0
+$npcfoggreen = 0
+$npcfogblue = 1
+
+[Preset]
+name = ----------------------------------------
+$npcfogred = 1
+$npcfoggreen = 1
+$npcfogblue = 1
+
+[Preset]
+name = 自定义预设
+$npcfogred = 1
+$npcfoggreen = 1
+$npcfogblue = 1
+
+# Information
+# by SkalFate
+# ----------------------
+
+# (npcfogred, npcfoggreen, npcblue ) = RGB - Red, Green, Blue - Changes the color of distant npcs fog.
+# ------ Values are multiplied so if you want to lower use [0.01 - 1.0], or if you want to go higher go from [1.0 - X.X]

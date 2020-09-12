@@ -1,0 +1,16 @@
+[Definition]
+titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
+name = 视频平移扫描
+path = "幻影异闻录/图像插件/视频平移扫描"
+description = 21:9视频,切边而不是装箱.
+version = 4
+
+[Preset]
+name = 21:9 (上下切)
+$UIAspectX = 1.0
+$UIAspectY = (2560.0 / 1080.0) / (1280.0/720.0)
+
+[Preset]
+name = 16:10 (切边)
+$UIAspectX = (1280.0/720.0) / (3840.0 / 2400.0)
+$UIAspectY = 1.0

@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "设备-最好的质量" 
+path = "异度之刃X/模组/搜刮/装备 - 总是最好的质量 (X6X)"
+description = 被搜刮的设备始终是最高质量的（地面装备为Prime，Skell为Intergalactic），并且始终具有3个扩充和3个额外的空闲插槽（无需预设）.
+version = 4

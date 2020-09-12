@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010143400,0005000010143600,0005000010143500
+name = 移除SSAO
+path = "塞尔达传说:风之杖HD/增强插件/移除SSAO" 
+description = 删除游戏的SSAO,例如:站在树下时,Link周围的这些小的模糊阴影,将会移除.
+version = 4

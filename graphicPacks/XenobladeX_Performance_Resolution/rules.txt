@@ -1,0 +1,28 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = 性能分辨率
+path = "异度之刃X/图像插件/性能分辨率"
+description = 更改游戏中某些效果的分辨率以提高性能.
+version = 4
+
+[Preset]
+name = 320x180
+$width = 320
+$height = 180
+$gameWidth = 1280
+$gameHeight = 720
+
+[Preset]
+name = 640x360
+$width = 640
+$height = 360
+$gameWidth = 1280
+$gameHeight = 720
+
+[TextureRedefine]
+width = 1280
+height = 720
+formatsExcluded = 0x031,0x431,0x035,0x034,0x033 #dialog prompt fixes, XCX Logo NLA
+tileModesExcluded = 0x001
+overwriteWidth = ($width/$gameWidth) * 1280
+overwriteHeight = ($height/$gameHeight) * 720

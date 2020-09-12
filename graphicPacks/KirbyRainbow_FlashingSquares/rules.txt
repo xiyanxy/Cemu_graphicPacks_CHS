@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101ABC00,00050000101B5100
+name = 闪烁方块解决方法
+path = "星之卡比:彩虹画笔 & 彩虹诅咒/解决方案/闪烁方块解决方法"
+description = 当卡比碰到物体时,删除闪烁的方块.
+version = 4

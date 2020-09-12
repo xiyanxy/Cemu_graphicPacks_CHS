@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 00050000101DB000,00050000101DBB00
+name = 60FPS
+path = "奇异世界：新鲜可口/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+version = 4
