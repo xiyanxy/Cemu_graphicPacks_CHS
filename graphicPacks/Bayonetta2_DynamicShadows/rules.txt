@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010172600,0005000010172700,000500001011B900
+name = 动态阴影解决方法
+path = "猎天使魔女2/解决方案/动态阴影"
+description = Workaround for the dynamic shadows to prevent them from rendering partially or not at all.||Made by Exzap.
+version = 6

@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
-name = Debanding
-path = "马里奥赛车8/增强插件/Debanding"
-description = 平滑的天空楼梯踏步带
+name = 解决色彩断层
+path = "马里奥赛车8/增强插件/解决色彩断层"
+description = 解决色彩断层，更平滑的天空楼梯踏步带
 version = 4
 rendererFilter = opengl
 
@@ -11,21 +11,21 @@ upscaleMagFilter = Linear
 downscaleMagFilter = Linear
 
 [Preset]
-name = 少 deband T32 R16 I4 G50
+name = 较少解决断层 T32 R16 I4 G50
 $Threshold:int = 64
 $Range:int = 8
 $Iterations:int = 4
 $Grain:int = 50
 
 [Preset]
-name = 多 deband and grain T64 R8 I4 G78
+name = 较多解决断层和纹理 T64 R8 I4 G78
 $Threshold:int = 64
 $Range:int = 8
 $Iterations:int = 4
 $Grain:int = 78
 
 [Preset]
-name = 测试 deband slow T156 R16 I8 G90
+name = 测试缓慢解决断层 T156 R16 I8 G90
 $Threshold:int = 156
 $Range:int = 16
 $Iterations:int = 8

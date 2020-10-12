@@ -1,18 +1,14 @@
 [Definition]
 titleIds = 0005000010172600,0005000010172700,000500001011B900
-name = 60 FPS cutscenes 
+name = 60 FPS Cutscenes
 path = "猎天使魔女2/模组/60FPS过场动画"
 description = 60FPS过场动画.WiiU默认是30FPS.
 version = 4
 
-[Default]
-name = 60 fps
+[Preset]
+name = 60 FPS (默认)
 $enable60:int = 1
 
 [Preset]
-name = 60 fps
-$enable60:int = 1
-
-[Preset]
-name = 30 fps
+name = 30 FPS
 $enable60:int = 0

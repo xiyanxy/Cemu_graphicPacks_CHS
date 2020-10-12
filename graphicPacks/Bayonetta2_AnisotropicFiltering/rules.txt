@@ -1,0 +1,36 @@
+[Definition]
+titleIds = 0005000010172600,0005000010172700,000500001011B900
+name = 各向异性过滤
+path = "猎天使魔女2/增强插件/各向异性过滤"
+description = Cemu版本需在1.21.3或更高|对地面/墙面/环境纹理启用x16各向异性过滤|对性能的影响较小
+version = 6
+
+[TextureRedefine] # Large Environment Tiles
+width = 1024
+height = 1024
+formats = 0x031,0x033
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Floor Tiles
+width = 512
+height = 512
+formats = 0x031,0x033
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Floor Tiles
+width = 256
+height = 512
+formats = 0x033
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Environment Tiles
+width = 512
+height = 256
+formats = 0x033
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Environment Tiles
+width = 256
+height = 256
+formats = 0x033
+overwriteAnisotropy = 16

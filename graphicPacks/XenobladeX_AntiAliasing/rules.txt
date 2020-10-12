@@ -2,7 +2,7 @@
 titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
 name = 抗锯齿包
 path = "异度之刃X/增强插件/抗锯齿"
-description = 启用或禁用本机抗锯齿.还包括另一种FXAA实现.检查Botw AA graphicPack文件夹中的"Anti-Aliasing/rules.txt"文件,以获取有关各个设置的信息.
+description = 启用或禁用本机抗锯齿.还包括另一种FXAA实现.查看"BreathOfTheWild_AntiAliasing/rules.txt"文件,以获取有关各个设置的信息.
 version = 4
 
 [Preset]

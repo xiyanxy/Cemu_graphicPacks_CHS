@@ -25,9 +25,9 @@ $shadowRes = 3
 name = Extreme (400%, Unstable)
 $shadowRes = 4
 
-[TextureRedefine] # Shadows
+[TextureRedefine] # Shadows and Dynamic Shadows
 width = 1024
 height = 2048
-formats = 0x5
+formats = 0x5,0x11
 overwriteWidth = $shadowRes * 1024
 overwriteHeight = $shadowRes * 2048

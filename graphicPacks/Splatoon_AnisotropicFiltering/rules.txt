@@ -1,0 +1,37 @@
+[Definition]
+titleIds = 0005000010176900,0005000010176A00,0005000010162B00
+name = 各向异性过滤
+path = "喷射战士/增强插件/各向异性过滤"
+description = Cemu版本需在1.21.3或更高|允许对几何形状进行各向异性过滤|对性能的影响较小
+version = 6
+
+[Default]
+$anisotropy = 1
+
+[Preset]
+name = 1x
+category = 过滤等级
+
+[Preset]
+name = 2x
+category = 过滤等级
+$anisotropy = 2
+
+[Preset]
+name = 4x
+category = 过滤等级
+$anisotropy = 4
+
+[Preset]
+name = 8x
+category = 过滤等级
+$anisotropy = 8
+
+[Preset]
+name = 16x
+category = 过滤等级
+$anisotropy = 16
+
+[TextureRedefine]
+formats = 0x31,0x34,0x35,0x235,0x431,0x433
+overwriteAnisotropy = $anisotropy

@@ -1,0 +1,48 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = 各向异性过滤
+path = "异度之刃X/增强插件/各向异性过滤"
+description = Cemu版本需在1.21.3或更高|对地面/墙面/植被纹理启用x16各向异性过滤|对性能的影响较小
+version = 6
+
+[TextureRedefine] # Mountain Textures
+width = 2048
+height = 1024
+formats = 0x031
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Ground/Rock Textures
+width = 1024
+height = 1024
+formats = 0x031
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Ground/Sand Textures
+width = 512
+height = 512
+formats = 0x031
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Tree Textures
+width = 128
+height = 512
+formats = 0x031
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Ground/Sand/Plant Textures
+width = 256
+height = 256
+formats = 0x031
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Grass/Plant Textures
+width = 256
+height = 128
+formats = 0x031
+overwriteAnisotropy = 16
+
+[TextureRedefine] # Grass/Plant Textures
+width = 128
+height = 128
+formats = 0x033
+overwriteAnisotropy = 16
