@@ -1,6 +1,6 @@
 [Definition]
 titleIds = 0005000010172600,0005000010172700,000500001011B900
-name = ��̬��Ӱ�������
-path = "����ʹħŮ2/�������/��̬��Ӱ"
-description = Workaround for the dynamic shadows to prevent them from rendering partially or not at all.||Made by Exzap.
+name = 动态阴影解决方法
+path = "猎天使魔女2/解决方案/动态阴影"
+description = 解决动态阴影的方法，以防止它们部分渲染或根本不渲染||由Exzap制作
 version = 6
