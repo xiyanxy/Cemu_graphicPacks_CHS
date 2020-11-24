@@ -1,28 +1,28 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = 阴影分辨率
-path = "塞尔达传说: 旷野之息/图像插件/阴影分辨率"
-description = 注意: 阴影分辨率越高则虚拟内存的占用率则越高. 降低此值可大大提升性能,如你限制了虚拟内存,则会使其变得更模糊. 中级是原版分辨率.
+name = ��Ӱ�ֱ���
+path = "�����ﴫ˵: ��Ұ֮Ϣ/ͼ����/��Ӱ�ֱ���"
+description = ע��: ��Ӱ�ֱ���Խ���������ڴ��ռ������Խ��. ���ʹ�ֵ�ɴ����������,���������������ڴ�,���ʹ���ø�ģ��. �м���ԭ��ֱ���.
 version = 4
 
 [Preset]
-name = 中级 (100%, 默认)
+name = �м� (100%, Ĭ��)
 $shadowRes = 1
 
 [Preset]
-name = 低级 (50%)
+name = �ͼ� (50%)
 $shadowRes = 0.5
 
 [Preset]
-name = 高级 (200%)
+name = �߼� (200%)
 $shadowRes = 2
 
 [Preset]
-name = 终极 (300%)
+name = �ռ� (300%)
 $shadowRes = 3
 
 [Preset]
-name = 究极 (400%, 不稳定)
+name = ���� (400%, ���ȶ�)
 $shadowRes = 4
 
 [TextureRedefine]

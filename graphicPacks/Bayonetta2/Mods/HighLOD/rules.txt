@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010172600,0005000010172700,000500001011B900
+name = 强制最大LOD 
+path = "猎天使魔女2/模组/强制最大对象LOD"
+description = LOD - 在游戏中强制高多边形细节等级.
+version = 6

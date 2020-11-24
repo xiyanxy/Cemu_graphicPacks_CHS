@@ -1,0 +1,971 @@
+[Definition]
+titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
+name = 图像设置
+path = "马里奥赛车8/图像插件/图像设置"
+description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量 ||抗锯齿、光晕量、运动模糊质量、细节等级和各向异性过滤质量.
+version = 6
+
+[Default]
+$width = 1280
+$height = 720
+$padWidth = 854
+$padHeight = 480
+$gameWidth = 1280
+$gameHeight = 720
+$gamePadWidth = 854
+$gamePadHeight = 480
+$shadowQuality = 1
+$anisotropy = 1
+$fxaa:int = 1
+$bloom = 1
+$nrOfPasses:int = 8
+$blurStart = 0.975
+$blurWidth = 0.025
+$levelOfDetail = 1
+
+# TV Resolution
+
+[Preset]
+name = 320x180
+category = TV分辨率
+$width = 320
+$height = 180
+
+[Preset]
+name = 640x360
+category = TV分辨率
+$width = 640
+$height = 360
+
+[Preset]
+name = 854x480
+category = TV分辨率
+$width = 854
+$height = 480
+
+[Preset]
+name = 960x540
+category = TV分辨率
+$width = 960
+$height = 540
+
+[Preset]
+name = 1280x720
+category = TV分辨率
+default = 1
+
+[Preset]
+name = 1600x900
+category = TV分辨率
+$width = 1600
+$height = 900
+
+[Preset]
+name = 1920x1080
+category = TV分辨率
+$width = 1920
+$height = 1080
+
+[Preset]
+name = 2560x1440
+category = TV分辨率
+$width = 2560
+$height = 1440
+
+[Preset]
+name = 3200x1800
+category = TV分辨率
+$width = 3200
+$height = 1800
+
+[Preset]
+name = 3840x2160
+category = TV分辨率
+$width = 3840
+$height = 2160
+
+[Preset]
+name = 5120x2880
+category = TV分辨率
+$width = 5120
+$height = 2880
+
+[Preset]
+name = 7680x4320
+category = TV分辨率
+$width = 7680
+$height = 4320
+
+[Preset]
+name = 2560x1080 (21:9)
+category = TV分辨率
+$width = 2560
+$height = 1080
+
+[Preset]
+name = 3440x1440 (21:9)
+category = TV分辨率
+$width = 3440
+$height = 1440
+
+[Preset]
+name = 1440x900 (16:10)
+category = TV分辨率
+$width = 1440
+$height = 900
+
+[Preset]
+name = 1680x1050 (16:10)
+category = TV分辨率
+$width = 1680
+$height = 1050
+
+[Preset]
+name = 1920x1200 (16:10)
+category = TV分辨率
+$width = 1920
+$height = 1200
+
+[Preset]
+name = 2560x1600 (16:10)
+category = TV分辨率
+$width = 2560
+$height = 1600
+
+[Preset]
+name = 2880x1800 (16:10)
+category = TV分辨率
+$width = 2880
+$height = 1800
+
+[Preset]
+name = 3840x2400 (16:10)
+category = TV分辨率
+$width = 3840
+$height = 2400
+
+[Preset]
+name = 5120x3200 (16:10)
+category = TV分辨率
+$width = 5120
+$height = 3200
+
+# Gamepad Resolution
+
+[Preset]
+name = 320x180
+category = Gamepad分辨率
+$padWidth = 320
+$padHeight = 180
+
+[Preset]
+name = 640x360
+category = Gamepad分辨率
+$padWidth = 640
+$padHeight = 360
+
+[Preset]
+name = 854x480
+category = Gamepad分辨率
+default = 1
+
+[Preset]
+name = 960x540
+category = Gamepad分辨率
+$padWidth = 960
+$padHeight = 540
+
+[Preset]
+name = 1280x720
+category = Gamepad分辨率
+$padWidth = 1280
+$padHeight = 720
+
+[Preset]
+name = 1600x900
+category = Gamepad分辨率
+$padWidth = 1600
+$padHeight = 900
+
+[Preset]
+name = 1920x1080
+category = Gamepad分辨率
+$padWidth = 1920
+$padHeight = 1080
+
+[Preset]
+name = 2560x1440
+category = Gamepad分辨率
+$padWidth = 2560
+$padHeight = 1440
+
+[Preset]
+name = 3200x1800
+category = Gamepad分辨率
+$padWidth = 3200
+$padHeight = 1800
+
+[Preset]
+name = 3840x2160
+category = Gamepad分辨率
+$padWidth = 3840
+$padHeight = 2160
+
+[Preset]
+name = 5120x2880
+category = Gamepad分辨率
+$padWidth = 5120
+$padHeight = 2880
+
+[Preset]
+name = 7680x4320
+category = Gamepad分辨率
+$padWidth = 7680
+$padHeight = 4320
+
+[Preset]
+name = 2560x1080 (21:9)
+category = Gamepad分辨率
+$padWidth = 2560
+$padHeight = 1080
+
+[Preset]
+name = 3440x1440 (21:9)
+category = Gamepad分辨率
+$padWidth = 3440
+$padHeight = 1440
+
+[Preset]
+name = 1440x900 (16:10)
+category = Gamepad分辨率
+$padWidth = 1440
+$padHeight = 900
+
+[Preset]
+name = 1680x1050 (16:10)
+category = Gamepad分辨率
+$padWidth = 1680
+$padHeight = 1050
+
+[Preset]
+name = 1920x1200 (16:10)
+category = Gamepad分辨率
+$padWidth = 1920
+$padHeight = 1200
+
+[Preset]
+name = 2560x1600 (16:10)
+category = Gamepad分辨率
+$padWidth = 2560
+$padHeight = 1600
+
+[Preset]
+name = 2880x1800 (16:10)
+category = Gamepad分辨率
+$padWidth = 2880
+$padHeight = 1800
+
+[Preset]
+name = 3840x2400 (16:10)
+category = Gamepad分辨率
+$padWidth = 3840
+$padHeight = 2400
+
+[Preset]
+name = 5120x3200 (16:10)
+category = Gamepad分辨率
+$padWidth = 5120
+$padHeight = 3200
+
+# Shadow Quality
+
+[Preset]
+name = 低
+category = 阴影质量
+$shadowQuality = 0.5
+
+[Preset]
+name = 中等
+category = 阴影质量
+default = 1
+
+[Preset]
+name = 高
+category = 阴影质量
+$shadowQuality = 2
+
+[Preset]
+name = 超级
+category = 阴影质量
+$shadowQuality = 3
+
+[Preset]
+name = 究极
+category = 阴影质量
+$shadowQuality = 4
+
+# Anti-Aliasing
+
+[Preset]
+name = 关闭
+category = 抗锯齿
+$fxaa:int = 0
+
+[Preset]
+name = 开启
+category = 抗锯齿
+default = 1
+
+# Bloom
+
+[Preset]
+name = 关闭
+category = 光晕量
+$bloom = 0
+
+[Preset]
+name = 低
+category = 光晕量
+$bloom = 0.5
+
+[Preset]
+name = 正常
+category = 光晕量
+default = 1
+
+[Preset]
+name = 高
+category = 光晕量
+$bloom = 1.25
+
+[Preset]
+name = 超级
+category = 光晕量
+$bloom = 1.5
+
+# Motion Blur
+
+[Preset]
+name = 关闭
+category = 运动模糊质量
+$nrOfPasses:int = 0
+
+[Preset]
+name = 低
+category = 运动模糊质量
+$nrOfPasses:int = 4
+
+[Preset]
+name = 正常
+category = 运动模糊质量
+default = 1
+
+[Preset]
+name = 高
+category = 运动模糊质量
+$nrOfPasses:int = 16
+$blurStart = 0.93
+$blurWidth = 0.1
+
+[Preset]
+name = 超级
+category = 运动模糊质量
+$nrOfPasses:int = 24
+$blurStart = 0.93
+$blurWidth = 0.1
+
+[Preset]
+name = 究极
+category = 运动模糊质量
+$nrOfPasses:int = 32
+$blurStart = 0.93
+$blurWidth = 0.1
+
+# Level of Detail
+
+[Preset]
+name = 低
+category = 细节等级
+$levelOfDetail = 0.5
+
+[Preset]
+name = 正常
+category = 细节等级
+default = 1
+
+[Preset]
+name = 高
+category = 细节等级
+$levelOfDetail = 2
+
+[Preset]
+name = 超级
+category = 细节等级
+$levelOfDetail = 3
+
+# Anisotropic Filtering Quality
+
+[Preset]
+name = 1x
+category = 各向异性过滤质量
+default = 1
+
+[Preset]
+name = 2x
+category = 各向异性过滤质量
+$anisotropy = 2
+
+[Preset]
+name = 4x
+category = 各向异性过滤质量
+$anisotropy = 4
+
+[Preset]
+name = 8x
+category = 各向异性过滤质量
+$anisotropy = 8
+
+[Preset]
+name = 16x
+category = 各向异性过滤质量
+$anisotropy = 16
+
+# Anisotropic Filtering
+
+[TextureRedefine]
+tileModesExcluded = 0x001 # ignore cpu processed textures
+formatsExcluded = 0x001,0x019,0x01a,0x01f,0x122,0x806,0x80e,0x816,0x820 # ignore viewports and cubemaps
+overwriteAnisotropy = $anisotropy
+
+# Color Depth
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x806
+overwriteFormat = 0x820
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x816
+overwriteFormat = 0x820
+
+[TextureRedefine]
+width = 800
+height = 450
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x816
+overwriteFormat = 0x820
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x816
+overwriteFormat = 0x820
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x019
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x019
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 320
+height = 180
+formats = 0x019
+overwriteFormat = 0x01f
+
+# Texture Redefines
+
+# Full Res
+[TextureRedefine]
+width = 1280
+height = 720
+formatsExcluded = 0x41A,0x431 # exclude the intro background texture, race end background
+tileModesExcluded = 0x001
+overwriteWidth = ($width/$gameWidth) * 1280
+overwriteHeight = ($height/$gameHeight) * 720
+
+# Gamepad
+[TextureRedefine]
+width = 864
+height = 480
+formats = 0x816,0x019
+overwriteWidth = ($padWidth/$gamePadWidth) * 864
+overwriteHeight = ($padHeight/$gamePadHeight) * 480
+
+# Gamepad
+[TextureRedefine]
+width = 854
+height = 480
+formats = 0x816,0x019
+overwriteWidth = ($padWidth/$gamePadWidth) * 854
+overwriteHeight = ($padHeight/$gamePadHeight) * 480
+
+#[TextureRedefine] # Not verified (try verify with tilemode and depth?)
+#width = 800
+#height = 464
+#formats = 0x01a
+#overwriteWidth = ($width/$gameWidth) * 800
+#overwriteHeight = ($height/$gameHeight) * 464
+
+#[TextureRedefine]
+#width = 800
+#height = 450
+#formats = 0x01a
+#overwriteWidth = ($width/$gameWidth) * 800
+#overwriteHeight = ($height/$gameHeight) * 450
+
+# 2P Full Res
+[TextureRedefine]
+width = 640
+height = 720
+formats = 0x019,0x816,0x806,0x80e
+overwriteWidth = ($width/$gameWidth) * 640
+overwriteHeight = ($height/$gameHeight) * 720
+
+# 3-4P Full Res
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x019,0x816,0x806,0x80e
+overwriteWidth = ($width/$gameWidth) * 640
+overwriteHeight = ($height/$gameHeight) * 368
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x19,0x806,0x816,0x80e
+tileModesExcluded = 0x001
+overwriteWidth = ($width/$gameWidth) * 640
+overwriteHeight = ($height/$gameHeight) * 360
+
+[TextureRedefine]
+width = 512
+height = 256
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 512
+overwriteHeight = ($height/$gameHeight) * 256
+
+[TextureRedefine] # MP Selection Menu - Player Selection Rendering
+width = 640
+height = 320
+formats = 0x80e,0x01a,0x806,0x816,0x801,0x019,0x001
+overwriteWidth = ($width/$gameWidth) * 640
+overwriteHeight = ($height/$gameHeight) * 320
+
+[TextureRedefine] # depth applied
+width = 448
+height = 240
+formats = 0x1a,0x816
+overwriteWidth = ($width/$gameWidth) * 448
+overwriteHeight = ($height/$gameHeight) * 240
+
+[TextureRedefine] # depth applied
+width = 427
+height = 240
+formats = 0x1a,0x816
+overwriteWidth = ($width/$gameWidth) * 427
+overwriteHeight = ($height/$gameHeight) * 240
+
+[TextureRedefine] # MP Selection Menu - Depth Map
+width = 768
+height = 768
+formats = 0x80e,0x005
+overwriteWidth = ($width/$gameWidth) * 640
+overwriteHeight = ($height/$gameHeight) * 320
+
+# Blur in menus
+[TextureRedefine]
+width = 320
+height = 180
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 180
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 192
+
+# Blurred backgrounds in menu
+[TextureRedefine]
+width = 320
+height = 180
+formats = 0x1a,0x816
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 180
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x1a,0x816
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 192
+
+# Particles/highlights
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x019
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 192
+
+[TextureRedefine]
+width = 320
+height = 180
+formats = 0x019
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 180
+
+[TextureRedefine] #Depth
+width = 256
+height = 256
+formats = 0x80e
+overwriteWidth = ($width/$gameWidth) * 256
+overwriteHeight = ($height/$gameHeight) * 256
+
+[TextureRedefine]
+width = 256
+height = 128
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 256
+overwriteHeight = ($height/$gameHeight) * 128
+
+[TextureRedefine] #Depth
+width = 160
+height = 160
+formats = 0x80e
+overwriteWidth = ($width/$gameWidth) * 160
+overwriteHeight = ($height/$gameHeight) * 160
+
+[TextureRedefine]
+width = 160
+height = 90
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 160
+overwriteHeight = ($height/$gameHeight) * 90
+
+[TextureRedefine]
+width = 160
+height = 96
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 160
+overwriteHeight = ($height/$gameHeight) * 96
+
+[TextureRedefine] #Depth
+width = 148
+height = 148
+formats = 0x80e
+overwriteWidth = ($width/$gameWidth) * 148
+overwriteHeight = ($height/$gameHeight) * 148
+
+[TextureRedefine]
+width = 128
+height = 64
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 128
+overwriteHeight = ($height/$gameHeight) * 64
+
+[TextureRedefine]
+width = 40
+height = 22
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 40
+overwriteHeight = ($height/$gameHeight) * 22
+
+[TextureRedefine]
+width = 64
+height = 32
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 64
+overwriteHeight = ($height/$gameHeight) * 32
+
+[TextureRedefine]
+width = 80
+height = 45
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 80
+overwriteHeight = ($height/$gameHeight) * 45
+
+[TextureRedefine]
+width = 96
+height = 48
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 96
+overwriteHeight = ($height/$gameHeight) * 48
+
+[TextureRedefine] #4p bloom
+width = 32
+height = 16
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 32
+overwriteHeight = ($height/$gameHeight) * 16
+
+[TextureRedefine] #4p bloom
+width = 24
+height = 16
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 24
+overwriteHeight = ($height/$gameHeight) * 16
+
+[TextureRedefine]#4p bloom
+width = 20
+height = 11
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 20
+overwriteHeight = ($height/$gameHeight) * 11
+
+# Underwater effect
+[TextureRedefine] # 1P
+width = 640
+height = 368
+formats = 0x01a
+overwriteWidth = ($width/$gameWidth) * 640
+overwriteHeight = ($height/$gameHeight) * 368
+
+[TextureRedefine] # 1P
+width = 640
+height = 360
+formats = 0x01a
+overwriteWidth = ($width/$gameWidth) * 640
+overwriteHeight = ($height/$gameHeight) * 360
+
+[TextureRedefine] # 2P
+width = 320
+height = 368
+formats = 0x19,0x1a,0x806,0x80e,0x816
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 368
+
+[TextureRedefine] # 2P
+width = 320
+height = 360
+formats = 0x19,0x1a,0x806,0x816
+overwriteWidth = ($width/$gameWidth) * 320
+overwriteHeight = ($height/$gameHeight) * 360
+
+[TextureRedefine] #Cup win board 8 round
+width = 576
+height = 64
+#formats = 0x019 #,0x01a,0x806,0x816
+overwriteWidth = ($width/$gameWidth) * 560
+overwriteHeight = ($height/$gameHeight) * 64
+
+[TextureRedefine] #Cup win board
+width = 560
+height = 64
+#formats = 0x019 #,0x01a,0x806,0x816
+overwriteWidth = ($width/$gameWidth) * 560
+overwriteHeight = ($height/$gameHeight) * 64
+
+[TextureRedefine] #Cup win board
+width = 160
+height = 16
+#formats = 0x019 #,0x01a,0x806,0x816
+overwriteWidth = ($width/$gameWidth) * 160
+overwriteHeight = ($height/$gameHeight) * 16
+
+[TextureRedefine] #Cup win board
+width = 140
+height = 16
+#formats = 0x019 #,0x01a,0x806,0x816
+overwriteWidth = ($width/$gameWidth) * 140
+overwriteHeight = ($height/$gameHeight) * 16
+
+[TextureRedefine] #MKTV depth, normals
+width = 960
+height = 544
+formats = 0x80e,0x019,0x816
+overwriteWidth = ($width/$gameWidth) * 960
+overwriteHeight = ($height/$gameHeight) * 544
+
+[TextureRedefine] #MKTV depth, normals
+width = 960
+height = 540
+formats = 0x80e,0x019,0x816
+overwriteWidth = ($width/$gameWidth) * 960
+overwriteHeight = ($height/$gameHeight) * 540
+
+[TextureRedefine] #MKTV depth, normals
+width = 960
+height = 536
+formats = 0x80e,0x019,0x816
+overwriteWidth = ($width/$gameWidth) * 960
+overwriteHeight = ($height/$gameHeight) * 536
+
+[TextureRedefine] #MKTV
+width = 480
+height = 272
+formats = 0x816,0x01a
+overwriteWidth = ($width/$gameWidth) * 480
+overwriteHeight = ($height/$gameHeight) * 272
+
+[TextureRedefine] #MKTV
+width = 480
+height = 268
+formats = 0x816,0x01a
+overwriteWidth = ($width/$gameWidth) * 480
+overwriteHeight = ($height/$gameHeight) * 268
+
+[TextureRedefine] #MKTV
+width = 256
+height = 256
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 256
+overwriteHeight = ($height/$gameHeight) * 256
+
+[TextureRedefine] #MKTV
+width = 256
+height = 144
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 256
+overwriteHeight = ($height/$gameHeight) * 144
+
+[TextureRedefine] #MKTV bloom / blur
+width = 240
+height = 134
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 240
+overwriteHeight = ($height/$gameHeight) * 134
+
+[TextureRedefine] #MKTV bloom / blur
+width = 128
+height = 128
+formats = 0x816
+depth = 1
+overwriteWidth = ($width/$gameWidth) * 128
+overwriteHeight = ($height/$gameHeight) * 128
+
+[TextureRedefine] #MKTV bloom / blur
+width = 128
+height = 80
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 128
+overwriteHeight = ($height/$gameHeight) * 80
+
+[TextureRedefine] #MKTV bloom / blur
+width = 120
+height = 67
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 120
+overwriteHeight = ($height/$gameHeight) * 67
+
+[TextureRedefine] #MKTV bloom / blur
+width = 64
+height = 64
+formats = 0x816
+depth = 1
+overwriteWidth = ($width/$gameWidth) * 64
+overwriteHeight = ($height/$gameHeight) * 64
+
+[TextureRedefine] #MKTV bloom / blur
+width = 64
+height = 48
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 64
+overwriteHeight = ($height/$gameHeight) * 48
+
+[TextureRedefine] #MKTV bloom / blur
+width = 60
+height = 33
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 60
+overwriteHeight = ($height/$gameHeight) * 33
+
+[TextureRedefine] #MKTV bloom / blur
+width = 60
+height = 33
+formats = 0x816
+overwriteWidth = ($width/$gameWidth) * 60
+overwriteHeight = ($height/$gameHeight) * 33
+
+[TextureRedefine] #MKTV bloom / blur
+width = 32
+height = 16
+formats = 0x019
+overwriteWidth = ($width/$gameWidth) * 32
+overwriteHeight = ($height/$gameHeight) * 16
+
+[TextureRedefine] #MKTV bloom / blur
+width = 30
+height = 16
+formats = 0x019
+overwriteWidth = ($width/$gameWidth) * 30
+overwriteHeight = ($height/$gameHeight) * 16
+
+[TextureRedefine] #MKTV bloom / blur
+width = 64
+height = 64
+formats = 0x005
+overwriteWidth = ($width/$gameWidth) * 64
+overwriteHeight = ($height/$gameHeight) * 64
+
+[TextureRedefine] #MKTV bloom / blur
+width = 60
+height = 60
+formats = 0x005
+overwriteWidth = ($width/$gameWidth) * 60
+overwriteHeight = ($height/$gameHeight) * 60
+
+[TextureRedefine] #MKTV bloom / blur
+width = 52
+height = 52
+formats = 0x005
+overwriteWidth = ($width/$gameWidth) * 52
+overwriteHeight = ($height/$gameHeight) * 52
+
+[TextureRedefine] #MKTV bloom / blur
+width = 32
+height = 32
+formats = 0x005
+overwriteWidth = ($width/$gameWidth) * 32
+overwriteHeight = ($height/$gameHeight) * 32
+
+# Shadows
+
+[TextureRedefine]
+width = 1024
+height = 1024
+formats = 0x005
+overwriteWidth = $shadowQuality * 1024
+overwriteHeight = $shadowQuality * 1024
+
+[TextureRedefine] # Multiplayer Shadows
+width = 512
+height = 512
+formats = 0x005
+overwriteWidth = $shadowQuality * 512
+overwriteHeight = $shadowQuality * 512

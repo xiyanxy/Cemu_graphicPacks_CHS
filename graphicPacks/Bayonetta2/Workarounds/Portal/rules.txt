@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 0005000010172600,0005000010172700,000500001011B900
+name = 隐藏异常蓝色纹理
+path = "猎天使魔女2/解决方案/蓝色问纹理题"
+description = 通过蓝色门户网站隐藏一个奇怪的蓝色层,该层在原始控制台上也不可见
+version = 6
+
+# For a visual comparison, see this album: https://imgur.com/a/4e3HMS2

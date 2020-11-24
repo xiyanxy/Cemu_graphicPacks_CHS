@@ -6,9 +6,39 @@ description = 修改游戏分辨率.
 version = 4
 
 [Preset]
-name = 1920x1080 默认
+name = 1920x1080 (默认)
 $width = 1920
 $height = 1080
+$gameWidth = 1920
+$gameHeight = 1080
+$lightSource = 1.0
+$scaleShader = 1.0
+$aspectRatio = (16.0/9.0)
+
+[Preset]
+name = 320x180
+$width = 320
+$height = 180
+$gameWidth = 1920
+$gameHeight = 1080
+$lightSource = 1.0
+$scaleShader = 1.0
+$aspectRatio = (16.0/9.0)
+
+[Preset]
+name = 640x360
+$width = 640
+$height = 360
+$gameWidth = 1920
+$gameHeight = 1080
+$lightSource = 1.0
+$scaleShader = 1.0
+$aspectRatio = (16.0/9.0)
+
+[Preset]
+name = 960x540
+$width = 960
+$height = 540
 $gameWidth = 1920
 $gameHeight = 1080
 $lightSource = 1.0
@@ -29,6 +59,16 @@ $aspectRatio = (16.0/9.0)
 name = 1600x900
 $width = 1600
 $height = 900
+$gameWidth = 1920
+$gameHeight = 1080
+$lightSource = 1.0
+$scaleShader = 1.0
+$aspectRatio = (16.0/9.0)
+
+[Preset]
+name = 2560x1440
+$width = 2560
+$height = 1440
 $gameWidth = 1920
 $gameHeight = 1080
 $lightSource = 1.0
@@ -87,9 +127,9 @@ $aspectRatio = (16.0/9.0)
 
 
 #Resolutions						|Aspect ratio
-#2560脳1080, 5120脳2160, 8192脳3456	|64:27 (2.370)
-#3440脳1440							|43:18 (2.38)
-#1920脳800, 3840脳1600, 7680脳3200		|12:5 (2.4)
+#2560×1080, 5120×2160, 8192×3456	|64:27 (2.370)
+#3440×1440							|43:18 (2.38)
+#1920×800, 3840×1600, 7680×3200		|12:5 (2.4)
 
 [Preset]
 name = ---- 宽屏 21:9 ----

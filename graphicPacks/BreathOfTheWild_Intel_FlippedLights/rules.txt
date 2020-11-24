@@ -1,8 +1,0 @@
-[Definition]
-titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = 英特尔GPU带指定驱动(OpenGL及英特尔)的翻转的灯光解决方案
-path = "塞尔达传说: 旷野之息/解决方案/英特尔GPU指定解决方案: 翻转的灯光"
-description = 此解决方案针对使用OpenGL时遇到翻转灯光问题的英特尔iGPU驱动程序23.xx及更高版本的用户. 这些驱动程序可能提供更好的性能,但有画质问题. 此包旨在修正这个画质问题,让旧驱动也能创建出类似于新驱动的视觉效果.这些旧驱动可以到英特尔的官网上下载 https://downloadcenter.intel.com/download/27484/Graphics-Intel-Graphics-Driver-for-Windows-15-65-.由Altros制作.
-vendorFilter = intel
-rendererFilter = opengl
-version = 4

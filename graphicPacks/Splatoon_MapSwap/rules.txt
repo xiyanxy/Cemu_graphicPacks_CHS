@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 0005000010176900,0005000010176A00,0005000010162B00
-name = 地图交换
-path = "喷射战士/模组/地图交换"
-description = 阅读patch.txt(图像插件文件夹/Splatoon_MapSwap文件夹里).
-version = 4

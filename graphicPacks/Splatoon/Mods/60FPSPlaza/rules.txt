@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010176900,0005000010176A00,0005000010162B00
+name = 广场60FPS
+path = "喷射战士/模组/60FPS广场"
+description = 重要提示：广场以60FPS的速度运行.低于60FPS将减慢游戏速度.
+version = 6

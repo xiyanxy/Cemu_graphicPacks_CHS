@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 0005000010176900,0005000010176A00,0005000010162B00
-name = 移除HUD
-path = "喷射战士/模组/移除HUD"
-description = 移除HUD
-version = 4

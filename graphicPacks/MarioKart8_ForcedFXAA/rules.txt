@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
-name = 强制FXAA
-path = "马里奥赛车8/模组/强制FXAA"
-description = 强制启用FXAA
-version = 4
