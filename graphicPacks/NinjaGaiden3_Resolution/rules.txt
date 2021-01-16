@@ -2,7 +2,7 @@
 titleIds = 0005000010110900,0005000010110A00,0005000010110B00
 name = 分辨率
 path = "忍者龙剑传3:刀锋边缘/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls制作.
 version = 4
 
 [Preset]

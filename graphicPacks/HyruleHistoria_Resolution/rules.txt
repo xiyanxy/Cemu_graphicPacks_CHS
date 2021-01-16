@@ -2,7 +2,7 @@
 titleIds = 000500001014CA00
 name = 分辨率
 path = "海拉尔编年史/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由Morph制作.
 version = 4
 
 [Preset]

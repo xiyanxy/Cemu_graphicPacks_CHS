@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = Reshade缓存兼容性
+path = "塞尔达传说: 旷野之息/解决方案/Reshade缓存兼容性(仅在使用Reshade时启用)"
+description = 使Reshade效果依赖深度缓冲工作,但会引起问题如照明和遥远山脉闪烁.注意：只在使用Reshade时启用此项.
+rendererFilter = vulkan
+version = 6

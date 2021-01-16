@@ -2,7 +2,7 @@
 titleIds = 000500001016E100,0005000010178F00,00050000101D9300
 name = 分辨率
 path = "铲子骑士/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由Atom制作.
 version = 4
 
 [Preset]

@@ -2,5 +2,5 @@
 titleIds = 000500001018DB00,000500001018DC00,000500001018DD00
 name = 边框修复
 path = "超级马里奥制造/解决方案/边框修复"
-description = 从屏幕顶部删除边框.
+description = 从屏幕顶部删除边框.由Crementif制作.
 version = 4

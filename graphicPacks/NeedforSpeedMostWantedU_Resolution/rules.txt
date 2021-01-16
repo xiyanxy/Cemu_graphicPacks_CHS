@@ -2,7 +2,7 @@
 titleIds = 0005000010128800,0005000010128400,000500001012b700,0005000e10128400,0005000e10128800,0005000e1012b700 # replace with fulltitleID
 name = 分辨率
 path = "极品飞车17:最高通缉U/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls制作.
 version = 4
 
 [Preset]

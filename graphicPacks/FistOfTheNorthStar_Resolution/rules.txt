@@ -2,7 +2,7 @@
 titleIds = 000500001012B800,000500001012B900,0005000010116600
 name = 分辨率
 path = "真北斗无双/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由Crementif制作.
 version = 4
 
 [Preset]

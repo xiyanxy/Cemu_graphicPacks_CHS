@@ -2,7 +2,7 @@
 titleIds = 0005000010176900,0005000010176A00,0005000010162B00
 name = 图像设置
 path = "喷射战士/图像插件/图像设置"
-description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量、光晕量和各向异性过滤质量
+description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量、光晕量和各向异性过滤质量.由M&&M 和 Xalphenos制作.
 version = 6
 
 [Default]

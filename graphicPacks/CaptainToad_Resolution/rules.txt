@@ -2,7 +2,7 @@
 titleIds = 0005000010180600,0005000010180700,0005000010180500
 name = 分辨率
 path = "蘑菇队长:宝藏追踪/图像插件/分辨率"
-description = 更改游戏的分辨率.
+description = 更改游戏的分辨率.由getdls制作.
 version = 4
 
 [Preset]

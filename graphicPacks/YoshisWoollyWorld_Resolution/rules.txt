@@ -2,7 +2,7 @@
 titleIds = 0005000010131F00,0005000010184E00,0005000010184D00
 name = 分辨率
 path = "耀西的毛线世界/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由 M&&M 和 getdls制作.
 version = 4
 
 [Preset]

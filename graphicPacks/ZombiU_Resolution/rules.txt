@@ -2,7 +2,7 @@
 titleIds = 000500001010DD00,000500001010EF00,0005000010112300,000500001011A700,0005000E1010DD00,0005000E10112300
 name = 分辨率
 path = "僵尸U/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls制作.
 version = 4
 
 [Preset]

@@ -2,5 +2,5 @@
 titleIds = 0005000010110200,000500001010EA00,0005000010112B00
 name = 60FPS
 path = "无双大蛇2:加强版/模组/60FPS"
-description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由theboy181制作.
 version = 4

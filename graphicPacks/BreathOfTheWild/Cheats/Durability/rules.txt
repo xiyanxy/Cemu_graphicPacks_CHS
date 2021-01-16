@@ -1,0 +1,54 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 耐用度
+path = "塞尔达传说: 旷野之息/修改器/耐用度"
+description = 修改武器，弓和盾牌的耐久度(除了燃烧伤害和投掷武器).||由Nopt制作.
+version = 6
+
+[Default]
+$multiplier = 1
+
+[Preset]
+category = 耐用度修改
+name = 一次性
+$multiplier = 1000
+
+[Preset]
+category = 耐用度修改
+name = x1 (默认)
+default = 1
+
+[Preset]
+category = 耐用度修改
+name = x1.5
+$multiplier = 1/1.5
+
+[Preset]
+category = 耐用度修改
+name = x2
+$multiplier = 1/2
+
+[Preset]
+category = 耐用度修改
+name = x3
+$multiplier = 1/3
+
+[Preset]
+category = 耐用度修改
+name = x4
+$multiplier = 1/4
+
+[Preset]
+category = 耐用度修改
+name = x5
+$multiplier = 1/5
+
+[Preset]
+category = 耐用度修改
+name = x10
+$multiplier = 1/10
+
+[Preset]
+category = 耐用度修改
+name = 永久耐久度
+$multiplier = 0

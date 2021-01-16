@@ -2,5 +2,5 @@
 titleIds = 000500001010B300,0005000010111F00
 name = 60FPS
 path = "索尼克全明星赛车变形/模组/60FPS"
-description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由theboy181制作.
 version = 4

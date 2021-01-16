@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = AMD着色器崩溃(OpenGL及AMD)
+path = "塞尔达传说: 旷野之息/解决方案/针对OpenGL/AMD的GPU:着色器崩溃"
+description = 当使用OpenGL时，解决AMD着色器相关崩溃的方法.|需Cemu版本1.15.8及以上.
+vendorFilter = amd
+rendererFilter = opengl
+version = 6

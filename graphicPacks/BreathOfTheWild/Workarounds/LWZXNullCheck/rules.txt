@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = LWZX崩溃 (OpenGL)
+path = "塞尔达传说: 旷野之息/解决方案/LWZX崩溃 (OpenGL)"
+description = 防止GX2DrawDone()的完全同步被禁用时崩溃.只适用于OpenGL.||由rajkosto制作.
+rendererFilter = opengl
+version = 6

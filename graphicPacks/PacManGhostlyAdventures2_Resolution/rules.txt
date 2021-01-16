@@ -2,7 +2,7 @@
 titleIds = 000500001017E600,000500001017E500,0005000010182300
 name = 分辨率
 path = "吃豆人的可怕冒险2/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由 M&&M 和 ICUP321制作.
 version = 4
 
 [Preset]

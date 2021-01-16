@@ -2,7 +2,7 @@
 titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
 name = Graphic Options
 path = "Mario Kart 8/Graphics"
-description = Allows you to change the game's TV resolution, gamepad resolution, shadow quality, anti-aliasing, bloom amount, motion blur quality, level of detail and anisotropic filtering quality.|Made by Crementif, theboy181 and Slashiee.
+description = Allows you to change the game's TV resolution, gamepad resolution, shadow quality, anti-aliasing, bloom amount, motion blur quality, level of detail and anisotropic filtering quality.|Made by Crementif, theboy181 and M&&M.
 version = 6
 
 [Default]
@@ -22,6 +22,7 @@ $nrOfPasses:int = 8
 $blurStart = 0.975
 $blurWidth = 0.025
 $levelOfDetail = 1
+$advancedOpt = 0
 
 # TV Resolution
 
@@ -150,6 +151,36 @@ category = TV Resolution
 $width = 5120
 $height = 3200
 
+[Preset]
+name = 3840x1080 (32:9)
+category = TV Resolution
+$width = 3840
+$height = 1080
+
+[Preset]
+name = 5120x1440 (32:9)
+category = TV Resolution
+$width = 5120
+$height = 1440
+
+[Preset]
+name = 6400x1800 (32:9)
+category = TV Resolution
+$width = 6400
+$height = 1800
+
+[Preset]
+name = 7680x2160 (32:9)
+category = TV Resolution
+$width = 7680
+$height = 2160
+
+[Preset]
+name = 10240x2880 (32:9)
+category = TV Resolution
+$width = 10240
+$height = 2880
+
 # Gamepad Resolution
 
 [Preset]
@@ -277,6 +308,36 @@ category = Gamepad Resolution
 $padWidth = 5120
 $padHeight = 3200
 
+[Preset]
+name = 3840x1080 (32:9)
+category = Gamepad Resolution
+$padWidth = 3840
+$padHeight = 1080
+
+[Preset]
+name = 5120x1440 (32:9)
+category = Gamepad Resolution
+$padWidth = 5120
+$padHeight = 1440
+
+[Preset]
+name = 6400x1800 (32:9)
+category = Gamepad Resolution
+$padWidth = 6400
+$padHeight = 1800
+
+[Preset]
+name = 7680x2160 (32:9)
+category = Gamepad Resolution
+$padWidth = 7680
+$padHeight = 2160
+
+[Preset]
+name = 10240x2880 (32:9)
+category = Gamepad Resolution
+$padWidth = 10240
+$padHeight = 2880
+
 # Shadow Quality
 
 [Preset]
@@ -304,105 +365,6 @@ name = Extreme
 category = Shadow Quality
 $shadowQuality = 4
 
-# Anti-Aliasing
-
-[Preset]
-name = Off
-category = Anti-Aliasing
-$fxaa:int = 0
-
-[Preset]
-name = On
-category = Anti-Aliasing
-default = 1
-
-# Bloom
-
-[Preset]
-name = Off
-category = Bloom Amount
-$bloom = 0
-
-[Preset]
-name = Low
-category = Bloom Amount
-$bloom = 0.5
-
-[Preset]
-name = Normal
-category = Bloom Amount
-default = 1
-
-[Preset]
-name = High
-category = Bloom Amount
-$bloom = 1.25
-
-[Preset]
-name = Ultra
-category = Bloom Amount
-$bloom = 1.5
-
-# Motion Blur
-
-[Preset]
-name = Off
-category = Motion Blur Quality
-$nrOfPasses:int = 0
-
-[Preset]
-name = Low
-category = Motion Blur Quality
-$nrOfPasses:int = 4
-
-[Preset]
-name = Normal
-category = Motion Blur Quality
-default = 1
-
-[Preset]
-name = High
-category = Motion Blur Quality
-$nrOfPasses:int = 16
-$blurStart = 0.93
-$blurWidth = 0.1
-
-[Preset]
-name = Ultra
-category = Motion Blur Quality
-$nrOfPasses:int = 24
-$blurStart = 0.93
-$blurWidth = 0.1
-
-[Preset]
-name = Extreme
-category = Motion Blur Quality
-$nrOfPasses:int = 32
-$blurStart = 0.93
-$blurWidth = 0.1
-
-# Level of Detail
-
-[Preset]
-name = Low
-category = Level of Detail
-$levelOfDetail = 0.5
-
-[Preset]
-name = Normal
-category = Level of Detail
-default = 1
-
-[Preset]
-name = High
-category = Level of Detail
-$levelOfDetail = 2
-
-[Preset]
-name = Ultra
-category = Level of Detail
-$levelOfDetail = 3
-
 # Anisotropic Filtering Quality
 
 [Preset]
@@ -429,6 +391,134 @@ $anisotropy = 8
 name = 16x
 category = Anisotropic Filtering Quality
 $anisotropy = 16
+
+# Advanced Options
+
+[Preset]
+name = Disabled
+category = Advanced Options
+default = 1
+
+[Preset]
+name = Enabled
+category = Advanced Options
+$advancedOpt = 1
+
+# Anti-Aliasing
+
+[Preset]
+name = Off
+category = Anti-Aliasing
+condition = $advancedOpt == 1
+$fxaa:int = 0
+
+[Preset]
+name = On
+category = Anti-Aliasing
+condition = $advancedOpt == 1
+default = 1
+
+# Bloom
+
+[Preset]
+name = Off
+category = Bloom Amount
+condition = $advancedOpt == 1
+$bloom = 0
+
+[Preset]
+name = Low
+category = Bloom Amount
+condition = $advancedOpt == 1
+$bloom = 0.5
+
+[Preset]
+name = Normal
+category = Bloom Amount
+condition = $advancedOpt == 1
+default = 1
+
+[Preset]
+name = High
+category = Bloom Amount
+condition = $advancedOpt == 1
+$bloom = 1.25
+
+[Preset]
+name = Ultra
+category = Bloom Amount
+condition = $advancedOpt == 1
+$bloom = 1.5
+
+# Motion Blur
+
+[Preset]
+name = Off
+category = Motion Blur Quality
+condition = $advancedOpt == 1
+$nrOfPasses:int = 0
+
+[Preset]
+name = Low
+category = Motion Blur Quality
+condition = $advancedOpt == 1
+$nrOfPasses:int = 4
+
+[Preset]
+name = Normal
+category = Motion Blur Quality
+condition = $advancedOpt == 1
+default = 1
+
+[Preset]
+name = High
+category = Motion Blur Quality
+condition = $advancedOpt == 1
+$nrOfPasses:int = 16
+$blurStart = 0.93
+$blurWidth = 0.1
+
+[Preset]
+name = Ultra
+category = Motion Blur Quality
+condition = $advancedOpt == 1
+$nrOfPasses:int = 24
+$blurStart = 0.93
+$blurWidth = 0.1
+
+[Preset]
+name = Extreme
+category = Motion Blur Quality
+condition = $advancedOpt == 1
+$nrOfPasses:int = 32
+$blurStart = 0.93
+$blurWidth = 0.1
+
+# Level of Detail
+
+[Preset]
+name = Low
+category = Level of Detail
+condition = $advancedOpt == 1
+$levelOfDetail = 0.5
+
+[Preset]
+name = Normal
+category = Level of Detail
+condition = $advancedOpt == 1
+default = 1
+
+[Preset]
+name = High
+category = Level of Detail
+condition = $advancedOpt == 1
+$levelOfDetail = 2
+
+[Preset]
+name = Ultra
+category = Level of Detail
+condition = $advancedOpt == 1
+$levelOfDetail = 3
 
 # Anisotropic Filtering
 

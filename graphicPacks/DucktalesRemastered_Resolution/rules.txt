@@ -2,7 +2,7 @@
 titleIds = 0005000010129000,0005000010129200
 name = 分辨率
 path = "唐老鸭历险记重置版/图像插件/分辨率"
-description = 修改游戏分辨率
+description = 修改游戏分辨率.由Crementif制作.
 version = 4
 
 [Preset]

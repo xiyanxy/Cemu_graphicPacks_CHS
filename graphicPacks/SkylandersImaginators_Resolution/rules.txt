@@ -2,7 +2,7 @@
 titleIds = 00050000101F4D00,00050000101FB100
 name = 分辨率
 path = "小龙斯派罗:幻想者/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由Crementif制作.
 version = 4
 
 [Preset]

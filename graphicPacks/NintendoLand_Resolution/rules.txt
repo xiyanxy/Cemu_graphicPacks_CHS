@@ -2,7 +2,7 @@
 titleIds = 0005000010101F00,0005000010102000,0005000010102100
 name = 分辨率
 path = "任天堂大陆/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由M&&M制作.
 version = 4
 
 [Preset]

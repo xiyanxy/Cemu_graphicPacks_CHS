@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 爆炸烟雾解决方案 (NVIDIA GPU and OpenGL)
+path = "塞尔达传说: 旷野之息/解决方案/针对英伟达GPU解决方案: 爆炸烟雾"
+description = 当使用OpenGL时,NVIDIA上的烟雾和爆炸粒子的解决方案.||由rajkosto, Xalphenos, 和 Darkemaste制作.
+vendorFilter = nvidia
+rendererFilter = opengl
+version = 6

@@ -2,7 +2,7 @@
 titleIds = 000500001012BC00,000500001012BD00,000500001012BE00,000500021012BD01,000500021012BE01
 name = 分辨率
 path = "皮克敏3/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由M&&M 和 Crementif制作.
 version = 4
 
 [Preset]

@@ -10,7 +10,7 @@ By default game scales GUI and pillar boxes video.
 Example:
 ```
 [Preset]
-name = 2560x2160 (21:9)  
+name = 2560x2160 ("21:9")  
 $width = 2560
 $height = 2160  <- double vertical res
 $gameWidth = 1280

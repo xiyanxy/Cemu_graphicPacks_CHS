@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = 修正Reshade深度缓存的兼容性
-path = "塞尔达传说: 旷野之息/模组/Reshade兼容性"
-description =如你未使用RESHADE请千万不要启用此功能.使某些reshade效果(如MXAO和光线追踪)不再出现问题.会使远处的山峦和几何图形有闪烁的纹理.
-version = 4

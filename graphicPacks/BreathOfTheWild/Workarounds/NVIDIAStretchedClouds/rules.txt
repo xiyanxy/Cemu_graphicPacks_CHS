@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 拉长的云层解决方案 (NVIDIA GPU and OpenGL)
+path = "塞尔达传说: 旷野之息/解决方案/针对英伟达GPU解决方案: 拉长的云层"
+description = 如果你使用的是OpenGL和NVIDIA GPU,那么一些低空的云可能会被拉伸.||由Exzap制作.
+vendorFilter = nvidia
+rendererFilter = opengl
+version = 6

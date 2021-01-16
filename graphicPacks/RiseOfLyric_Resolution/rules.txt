@@ -2,7 +2,7 @@
 titleIds = 0005000010175B00,0005000010177800,0005000010191F00
 name = 分辨率
 path = "索尼克爆破:雷利克的崛起/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由M&&M制作.
 version = 4
 
 [Preset]

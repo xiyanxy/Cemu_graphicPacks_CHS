@@ -2,7 +2,7 @@
 titleIds = 00050000101FA600,00050000101F9700
 name = 分辨率
 path = "暗黑血统:战神版/图像插件/分辨率"
-description = 更改游戏的分辨率.
+description = 更改游戏的分辨率.由theboy181制作.
 version = 4
 
 [Preset]

@@ -1,0 +1,161 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 增强插件
+path = "塞尔达传说: 旷野之息/增强插件"
+description = 允许你改变处理效果和纹理细节，以增强画质.||由Kiri, Jamie, M&&M, Pig, 清晰度的预设制作者等制作.
+version = 6
+
+[Default]
+$preset:int = 10
+$disableClarity:int = 0
+$disableDOF:int = 0
+$reflExtra:int = 0
+$advancedLOD = 0
+$lodBias = 0
+$anisotropy = 1
+
+# Clarity Preset
+
+[Preset]
+name = 禁用 (默认)
+category = 清晰度
+default = 1
+$disableClarity:int = 1
+
+[Preset]
+name = Serfrost的预设 (默认)
+category = 清晰度
+$preset:int = 10
+
+[Preset]
+name = Serfrost的预设 (显示暗淡时使用)
+category = 清晰度
+$preset:int = 9
+
+[Preset]
+name = Serfrost的预设 (显示太亮时使用)
+category = 清晰度
+$preset:int = 8
+
+[Preset]
+name = Bruz的预设
+category = 清晰度
+$preset:int = 1
+
+[Preset]
+name = CellHunter的预设
+category = 清晰度
+$preset:int = 7
+
+[Preset]
+name = Jamie的预设
+category = 清晰度
+$preset:int = 3
+
+[Preset]
+name = t3nka中性+
+category = 清晰度
+$preset:int = 2
+
+[Preset]
+name = The Complaining Gamer的预设
+category = 清晰度
+$preset:int = 5
+
+[Preset]
+name = Visk预设
+category = 清晰度
+$preset:int = 11
+
+[Preset]
+name = 对比度预设
+category = 清晰度
+$preset:int = 4
+
+[Preset]
+name = 电影式预设
+category = 清晰度
+$preset:int = 6
+
+[Preset]
+name = Silentverge的野外求生预设 (暖色调)
+category = 清晰度
+$preset:int = 12
+
+[Preset]
+name = Silentverge的野外求生预设 (冷色调)
+category = 清晰度
+$preset:int = 13
+
+[Preset]
+name = 戈多的墨西哥预设
+category = 清晰度
+$preset:int = 14
+
+[Preset]
+name = BSoD游戏的预设
+category = 清晰度
+$preset:int = 15
+
+[Preset]
+name = 自定义预设
+category = 清晰度
+$preset:int = 0
+
+# Depth of Field
+
+[Preset]
+name = 启用
+category = 景深
+default = 1
+
+[Preset]
+name = 禁用 (无性能提升即不提升FPS)
+category = 景深
+$disableDOF:int = 1
+
+# Enhanced Reflections
+
+[Preset]
+name = 正常反射
+category = 反射效果
+default = 1
+
+[Preset]
+name = 增强反射
+category = 反射效果
+$reflExtra:int = 1
+
+# Anisotropic Filtering
+
+[Preset]
+name = 究极 (16x)
+category = 各向异性过滤
+$anisotropy = 16
+
+[Preset]
+name = 超级 (8x, Default)
+category = 各向异性过滤
+default = 1
+$anisotropy = 8
+
+[Preset]
+name = 高 (4x)
+category = 各向异性过滤
+$anisotropy = 4
+
+[Preset]
+name = 中 (2x)
+category = 各向异性过滤
+$anisotropy = 2
+
+[Preset]
+name = 低 (1x)
+category = 各向异性过滤
+$anisotropy = 1
+
+
+[TextureRedefine]
+tileModesExcluded = 0x001 # ignore cpu processed textures (ex. videos)
+formatsExcluded = 0x001,0x005,0x007,0x019,0x01a,0x01f,0x122,0x41a,0x806,0x80e,0x816,0x820 # ignore viewports, cubemaps, and shadows
+overwriteAnisotropy = $anisotropy

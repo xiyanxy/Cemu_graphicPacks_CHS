@@ -2,7 +2,7 @@
 titleIds = 000500001017C600,0005000010181F00
 name = 分辨率
 path = "小龙斯派罗:诱捕小队/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由Crementif制作.
 version = 4
 
 [Preset]

@@ -2,7 +2,7 @@
 titleIds = 0005000010118300,0005000010117200,0005000010104D00
 name = "分辨率"
 path = "怪物猎人3:终极版/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由Skalfate制作.
 version = 4
 
 [Preset]

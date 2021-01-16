@@ -2,7 +2,7 @@
 titleIds = 000500001015B200,000500001016D800,000500001016EA00
 name = 分辨率
 path = "光之子/图像插件/分辨率"
-description = 更改游戏的分辨率.
+description = 更改游戏的分辨率.由Crementif 和 ICUP321制作.
 version = 4
 
 [Preset]

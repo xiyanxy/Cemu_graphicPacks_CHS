@@ -2,7 +2,7 @@
 titleIds = 0005000010146800,0005000010156100,0005000010157900
 name = 分辨率
 path = "使命召唤:幽灵/图像插件/分辨率"
-description = 更改游戏的分辨率.
+description = 更改游戏的分辨率.由Atom制作.
 version = 4
 
 [Preset]

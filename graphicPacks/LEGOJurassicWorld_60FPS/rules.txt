@@ -2,5 +2,5 @@
 titleIds = 00050000101CDF00,00050000101A6200,00050000101A5C00
 name = 60FPS
 path = "乐高侏罗纪世界/模组/60FPS"
-description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由theboy181制作.
 version = 4

@@ -1,0 +1,151 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 物体距离
+path = "塞尔达传说: 旷野之息/模组/物体距离"
+description = 延长游戏中物体和实体的绘制距离,增加时,性能会有所下降.降低不会提供更好的性能.|你也可以让远处的纹理显示为更高分辨率的变体.||由Crementif制作.
+version = 6
+
+[Default]
+$actor = 1.0
+$object = 1.0
+$textureLODBias:int = 0
+
+
+# Actor Draw Distance
+
+[Preset]
+name = 很近 (0.5x)
+category = NPC, 敌人和其他实体
+$actor = 0.5
+
+[Preset]
+name = 近 (0.75x)
+category = NPC, 敌人和其他实体
+$actor = 0.75
+
+[Preset]
+name = 中等 (1x)
+category = NPC, 敌人和其他实体
+default = 1
+$actor = 1.0
+
+[Preset]
+name = 远 (1.25x)
+category = NPC, 敌人和其他实体
+$actor = 1.25
+
+[Preset]
+name = 超远 (1.5x)
+category = NPC, 敌人和其他实体
+$actor = 1.5
+
+[Preset]
+name = 究极远 (2x, 需启用扩展内存Mod!)
+category = NPC, 敌人和其他实体
+$actor = 2
+
+# Objects Draw Distance
+
+[Preset]
+name = 超级近 (0.2x)
+category = 树木、灌木、景观及其他物体(实验)
+$object = 0.2
+
+[Preset]
+name = 很近 (0.5x)
+category = 树木、灌木、景观及其他物体(实验)
+$object = 0.5
+
+[Preset]
+name = 近 (0.75x)
+category = 树木、灌木、景观及其他物体(实验)
+$object = 0.75
+
+[Preset]
+name = 中等 (1x)
+category = 树木、灌木、景观及其他物体(实验)
+default = 1
+$object = 1.0
+
+[Preset]
+name = 远 (1.25x)
+category = 树木、灌木、景观及其他物体(实验)
+$object = 1.25
+
+[Preset]
+name = 超远 (1.5x, 需启用扩展内存Mod!)
+category = 树木、灌木、景观及其他物体(实验)
+$object = 1.5
+
+
+# Texture LOD Bias
+
+[Preset]
+name = 最低 (+16, 不推荐)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = +16
+
+[Preset]
+name = 超级低 (+8, 不推荐)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = +8
+
+[Preset]
+name = 非常低 (+4, 不推荐)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = +4
+
+[Preset]
+name = 更低 (+3, 不推荐)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = +3
+
+[Preset]
+name = 稍低 (+2)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = +2
+
+[Preset]
+name = 微低 (+1)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = +1
+
+[Preset]
+name = 正常 (默认)
+category = 纹理距离细节(LOD)
+default = 1
+
+[Preset]
+name = 微高 (-1)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = -1
+
+[Preset]
+name = 稍高 (-2)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = -2
+
+[Preset]
+name = 更高(-3)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = -3
+
+[Preset]
+name = 非常高 (-4, 不推荐)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = -4
+
+[Preset]
+name = 超级高 (-8, 不推荐)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = -8
+
+[Preset]
+name = 最高 (-16, 不推荐)
+category = 纹理距离细节(LOD)
+$textureLODBias:int = -16
+
+
+[TextureRedefine]
+formats = 0x31,0x32,0x34,0x35,0x431,0x432,0x433,0x234,0x235
+overwriteRelativeLodBias = $textureLODBias

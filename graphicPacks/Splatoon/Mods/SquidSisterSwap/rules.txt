@@ -2,7 +2,7 @@
 titleIds = 0005000010176900,0005000010176A00,0005000010162B00
 name = 潮色姐妹(squid sister)交换
 path = "喷射战士/模组/潮色姐妹(squid sister)交换"
-description = 潮色姐妹(squid sister)交换.
+description = 潮色姐妹(squid sister)交换.由M&&M制作.
 version = 6
 
 [Default]

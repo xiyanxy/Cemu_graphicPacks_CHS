@@ -2,7 +2,7 @@
 titleIds = 0005000010110900,0005000010110A00,0005000010110B00
 name = 对比度
 path = "忍者龙剑传3:刀锋边缘/增强插件/对比度"
-description = 该包调整颜色和对比度.
+description = 该包调整颜色和对比度.由getdls制作.
 version = 4
 
 [Preset]

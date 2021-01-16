@@ -2,7 +2,7 @@
 titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
 name = 负纹理LOD偏差
 path = "幻影异闻录/增强插件/负纹理LOD偏差"
-description = 覆盖纹理LOD,有更清晰的纹理但可能会产生闪烁.
+description = 覆盖纹理LOD,有更清晰的纹理但可能会产生闪烁.由getdls制作.
 version = 4
 
 [Preset]

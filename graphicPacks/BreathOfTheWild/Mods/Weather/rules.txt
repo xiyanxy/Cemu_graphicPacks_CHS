@@ -1,0 +1,676 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 天气设置
+path = "塞尔达传说: 旷野之息/模组/天气设置"
+description = 允许改变天气.|不会改变有特定类型强制地区的天气.||由dragbe制作.
+version = 6
+
+# Weather names from https://github.com/zeldaret/botw
+
+[Default]
+$individualControl:int = 1
+
+$blueSky:int = 0
+$cloudy:int = 1
+$rain:int = 2
+$heavyRain:int = 3
+$snow:int = 4
+$heavySnow:int = 5
+$thunderstorm:int = 6
+$thunderRain:int = 7
+$blueSkyRain:int = 8
+
+
+[Preset]
+name = 无 (使用个人设置)
+category = 修改所有天气
+default = 1
+$individualControl:int = 1
+
+[Preset]
+name = 晴天
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 0
+$cloudy:int = 0
+$rain:int = 0
+$heavyRain:int = 0
+$snow:int = 0
+$heavySnow:int = 0
+$thunderstorm:int = 0
+$thunderRain:int = 0
+$blueSkyRain:int = 0
+
+[Preset]
+name = 阴天
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 1
+$cloudy:int = 1
+$rain:int = 1
+$heavyRain:int = 1
+$snow:int = 1
+$heavySnow:int = 1
+$thunderstorm:int = 1
+$thunderRain:int = 1
+$blueSkyRain:int = 1
+
+[Preset]
+name = 小雨
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 2
+$cloudy:int = 2
+$rain:int = 2
+$heavyRain:int = 2
+$snow:int = 2
+$heavySnow:int = 2
+$thunderstorm:int = 2
+$thunderRain:int = 2
+$blueSkyRain:int = 2
+
+[Preset]
+name = 大雨
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 3
+$cloudy:int = 3
+$rain:int = 3
+$heavyRain:int = 3
+$snow:int = 3
+$heavySnow:int = 3
+$thunderstorm:int = 3
+$thunderRain:int = 3
+$blueSkyRain:int = 3
+
+[Preset]
+name = 小雪
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 4
+$cloudy:int = 4
+$rain:int = 4
+$heavyRain:int = 4
+$snow:int = 4
+$heavySnow:int = 4
+$thunderstorm:int = 4
+$thunderRain:int = 4
+$blueSkyRain:int = 4
+
+[Preset]
+name = 大雪
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 5
+$cloudy:int = 5
+$rain:int = 5
+$heavyRain:int = 5
+$snow:int = 5
+$heavySnow:int = 5
+$thunderstorm:int = 5
+$thunderRain:int = 5
+$blueSkyRain:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 6
+$cloudy:int = 6
+$rain:int = 6
+$heavyRain:int = 6
+$snow:int = 6
+$heavySnow:int = 6
+$thunderstorm:int = 6
+$thunderRain:int = 6
+$blueSkyRain:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 7
+$cloudy:int = 7
+$rain:int = 7
+$heavyRain:int = 7
+$snow:int = 7
+$heavySnow:int = 7
+$thunderstorm:int = 7
+$thunderRain:int = 7
+$blueSkyRain:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改所有天气
+$individualControl:int = 0
+$blueSky:int = 8
+$cloudy:int = 8
+$rain:int = 8
+$heavyRain:int = 8
+$snow:int = 8
+$heavySnow:int = 8
+$thunderstorm:int = 8
+$thunderRain:int = 8
+$blueSkyRain:int = 8
+
+
+# Clear Weather
+
+[Preset]
+name = 晴天
+category = 修改晴天
+default = 1
+condition = $individualControl == 1
+$blueSky:int = 0
+
+[Preset]
+name = 阴天
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 1
+
+[Preset]
+name = 小雨
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 2
+
+[Preset]
+name = 大雨
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 3
+
+[Preset]
+name = 小雪
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 4
+
+[Preset]
+name = 大雪
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改晴天
+condition = $individualControl == 1
+$blueSky:int = 8
+
+
+# Cloudy Weather
+
+[Preset]
+name = 晴天
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 0
+
+[Preset]
+name = 阴天
+category = 修改阴天
+default = 1
+condition = $individualControl == 1
+$cloudy:int = 1
+
+[Preset]
+name = 小雨
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 2
+
+[Preset]
+name = 大雨
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 3
+
+[Preset]
+name = 小雪
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 4
+
+[Preset]
+name = 大雪
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改阴天
+condition = $individualControl == 1
+$cloudy:int = 8
+
+
+# Rain Weather
+
+[Preset]
+name = 晴天
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 0
+
+[Preset]
+name = 阴天
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 1
+
+[Preset]
+name = 小雨
+category = 修改小雨天
+default = 1
+condition = $individualControl == 1
+$rain:int = 2
+
+[Preset]
+name = 大雨
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 3
+
+[Preset]
+name = 小雪
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 4
+
+[Preset]
+name = 大雪
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改小雨天
+condition = $individualControl == 1
+$rain:int = 8
+
+
+# Heavy Rain Weather
+
+[Preset]
+name = 晴天
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 0
+
+[Preset]
+name = 阴天
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 1
+
+[Preset]
+name = 小雨
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 2
+
+[Preset]
+name = 大雨
+category = 修改大雨天
+default = 1
+condition = $individualControl == 1
+$heavyRain:int = 3
+
+[Preset]
+name = 小雪
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 4
+
+[Preset]
+name = 大雪
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改大雨天
+condition = $individualControl == 1
+$heavyRain:int = 8
+
+
+# Snow Weather
+
+[Preset]
+name = 晴天
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 0
+
+[Preset]
+name = 阴天
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 1
+
+[Preset]
+name = 小雨
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 2
+
+[Preset]
+name = 大雨
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 3
+
+[Preset]
+name = 小雪
+category = 修改小雪天
+default = 1
+condition = $individualControl == 1
+$snow:int = 4
+
+[Preset]
+name = 大雪
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改小雪天
+condition = $individualControl == 1
+$snow:int = 8
+
+
+# Heavy Snow Weather
+
+[Preset]
+name = 晴天
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 0
+
+[Preset]
+name = 阴天
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 1
+
+[Preset]
+name = 小雨
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 2
+
+[Preset]
+name = 大雨
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 3
+
+[Preset]
+name = 小雪
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 4
+
+[Preset]
+name = 大雪
+category = 修改大雪天
+default = 1
+condition = $individualControl == 1
+$heavySnow:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改大雪天
+condition = $individualControl == 1
+$heavySnow:int = 8
+
+
+# Thunderstorm Weather
+
+[Preset]
+name = 晴天
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 0
+
+[Preset]
+name = 阴天
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 1
+
+[Preset]
+name = 小雨
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 2
+
+[Preset]
+name = 大雨
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 3
+
+[Preset]
+name = 小雪
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 4
+
+[Preset]
+name = 大雪
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改雷暴天
+default = 1
+condition = $individualControl == 1
+$thunderstorm:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改雷暴天
+condition = $individualControl == 1
+$thunderstorm:int = 8
+
+
+# Thunderstorm With Rain Weather
+
+[Preset]
+name = 晴天
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 0
+
+[Preset]
+name = 阴天
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 1
+
+[Preset]
+name = 小雨
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 2
+
+[Preset]
+name = 大雨
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 3
+
+[Preset]
+name = 小雪
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 4
+
+[Preset]
+name = 大雪
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改雷雨天
+default = 1
+condition = $individualControl == 1
+$thunderRain:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改雷雨天
+condition = $individualControl == 1
+$thunderRain:int = 8
+
+
+# 晴天 With Rain Weather
+
+[Preset]
+name = 晴天
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 0
+
+[Preset]
+name = 阴天
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 1
+
+[Preset]
+name = 小雨
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 2
+
+[Preset]
+name = 大雨
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 3
+
+[Preset]
+name = 小雪
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 4
+
+[Preset]
+name = 大雪
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 5
+
+[Preset]
+name = 雷暴
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 6
+
+[Preset]
+name = 雷雨
+category = 修改晴雨天
+condition = $individualControl == 1
+$blueSkyRain:int = 7
+
+[Preset]
+name = 晴雨
+category = 修改晴雨天
+default = 1
+condition = $individualControl == 1
+$blueSkyRain:int = 8

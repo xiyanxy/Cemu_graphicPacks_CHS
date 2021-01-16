@@ -2,5 +2,5 @@
 titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
 name = 60FPS
 path = "幻影异闻录/模组/静态60FPS"
-description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由getdls制作.
 version = 4

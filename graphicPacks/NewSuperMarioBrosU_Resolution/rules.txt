@@ -2,7 +2,7 @@
 titleIds = 0005000010101D00,0005000010101E00,000500001014B700,000500001014B800,0005000010101C00,0005000010142300,0005000010142400,0005000010142200
 name = 分辨率
 path = "新超级马里奥兄弟U/图像插件/分辨率" #and luigi
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls制作.
 version = 4
 
 //compatible resolutions

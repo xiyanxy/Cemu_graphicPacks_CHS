@@ -2,7 +2,7 @@
 titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
 name = 理想FX # I would have called this RTX on, but Nvidia has trademarked it ;)
 path = "异度之刃X/增强插件/理想FX"
-description = 在Nvidia上保持漂亮的模糊效果,消除天空束缚,重新调整电影效果等.
+description = 在Nvidia上保持漂亮的模糊效果,消除天空束缚,重新调整电影效果等.由getdls制作.
 version = 4
 
 #Disabled, causes gfx errors on 1.15.x  Enable if fixed.

@@ -2,7 +2,7 @@
 titleIds = 0005000010143400,0005000010143600,0005000010143500
 name = 分辨率
 path = "塞尔达传说:风之杖HD/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls 和 Morph制作.
 version = 4
 
 [Preset]

@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = CPU遮挡查询
-path = "塞尔达传说: 旷野之息/模组/FPS++/NPC卡壳修正(CPU遮挡查询)"
-description = 将遮挡查询类型从GPU更改为CPU. 此解决方案适用于GX2DrawDone的完全同步被禁用,而NPC或生物在远处卡壳时. 如你因为超帧而禁用此选项, 你需要启用LWZX解决方案以修正因你禁用此项而导致的(大部分) 崩溃.
-version = 4

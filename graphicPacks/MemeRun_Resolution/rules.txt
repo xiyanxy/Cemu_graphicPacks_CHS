@@ -2,7 +2,7 @@
 titleIds = 0005000010194000
 name = 分辨率
 path = "么么跑(Meme Run)/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由Zalnor制作.
 version = 4
 
 [Preset]

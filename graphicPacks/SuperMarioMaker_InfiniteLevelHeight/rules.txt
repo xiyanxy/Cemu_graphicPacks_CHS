@@ -2,7 +2,7 @@
 titleIds = 000500001018DB00,000500001018DC00,000500001018DD00
 name = 无限高度
 path = "超级马里奥制造/模组/无限高度"
-description = 在启用此图像插件的同时禁用在线功能.
+description = 在启用此图像插件的同时禁用在线功能.如果你被禁了,自行负责! ||插件允许你创造更高的关卡.感谢comex的mod (http://yt.vu/+comex)和GRAnimated把它改编成一个插件.
 version = 4
 
 [Preset]

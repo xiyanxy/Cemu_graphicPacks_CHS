@@ -2,5 +2,5 @@
 titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
 name = 删除所有HUD元素
 path = "马里奥赛车8/模组/删除所有HUD元素"
-description = 禁用任何HUD,因此如果您只想玩游戏,请不要使用此项设置.
+description = 禁用任何HUD,因此如果您只想玩游戏,请不要使用此项设置.由Crementif制作.
 version = 6

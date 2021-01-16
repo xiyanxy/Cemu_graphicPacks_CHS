@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010190300,00050000101E5300,00050000101E5400
+name = 60FPS
+path = "马里奥与索尼克在里约奥运会/模组/60FPS"
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由theboy181制作.
+version = 6

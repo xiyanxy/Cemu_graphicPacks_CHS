@@ -2,7 +2,7 @@
 titleIds = 00050000101ABC00,00050000101B5100
 name = 分辨率
 path = "星之卡比:彩虹画笔 & 彩虹诅咒/图像插件/分辨率"
-description = 修改游戏分辨率
+description = 修改游戏分辨率.由Crementif制作.
 version = 4
 
 [Preset]

@@ -2,5 +2,5 @@
 titleIds = 0005000010150300,0005000010152A00,0005000010152B00
 name = 抗锯齿
 path = "路易吉医生/图像插件/抗锯齿（WIP）"
-description = 重新启用游戏的抗锯齿功能,并将其缩放到当前分辨率.由Slashiee制造.
+description = 重新启用游戏的抗锯齿功能,并将其缩放到当前分辨率.由Slashiee制作.
 version = 4

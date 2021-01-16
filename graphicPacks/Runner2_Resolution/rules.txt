@@ -2,7 +2,7 @@
 titleIds = 000500001011AF00,0005000010136300,00050000101DD600
 name = 分辨率
 path = "像素起跑2：未来外太空传奇/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由M&&M制作.
 version = 4
 
 [Preset]

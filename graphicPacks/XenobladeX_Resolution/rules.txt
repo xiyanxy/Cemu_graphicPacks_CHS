@@ -2,7 +2,7 @@
 titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
 name = 分辨率
 path = "异度之刃X/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls制作.
 version = 4
 
 

@@ -1,0 +1,17 @@
+[Definition]
+titleIds = 0005000010190300,00050000101E5300,00050000101E5400
+name = No HUD
+path = "Mario & Sonic at the Rio 2016 Olympic Games/Enhancements/No HUD"
+description = Removes the game's HUD.|Made by M&&M.
+version = 6
+
+[Default]
+$enabled:int = 0
+
+[Preset]
+name = Disabled
+default = 1
+
+[Preset]
+name = Enabled
+$enabled:int = 1

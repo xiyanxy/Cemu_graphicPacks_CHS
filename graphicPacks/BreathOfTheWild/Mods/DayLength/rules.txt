@@ -1,0 +1,80 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 一天时长
+path = "塞尔达传说: 旷野之息/模组/一天时长"
+description = 更改游戏中一天所需的真实时长.|血月不再出现或者很少出现.||由chrispurnell制作.
+version = 6
+
+[Default]
+$timeScale = 1
+
+
+[Preset]
+name = 15秒
+category = 一天时长
+$timeScale = 0.025
+
+[Preset]
+name = 30秒
+category = 一天时长
+$timeScale = 0.05
+
+[Preset]
+name = 1分钟
+category = 一天时长
+$timeScale = 0.1
+
+[Preset]
+name = 6分钟
+category = 一天时长
+$timeScale = 0.25
+
+[Preset]
+name = 12分钟
+category = 一天时长
+$timeScale = 0.5
+
+[Preset]
+name = 24分钟 (默认)
+category = 一天时长
+default = 1
+
+[Preset]
+name = 48分钟
+category = 一天时长
+$timeScale = 2
+
+[Preset]
+name = 72分钟
+category = 一天时长
+$timeScale = 3
+
+[Preset]
+name = 96分钟
+category = 一天时长
+$timeScale = 4
+
+[Preset]
+name = 2小时
+category = 一天时长
+$timeScale = 5
+
+[Preset]
+name = 4小时
+category = 一天时长
+$timeScale = 10
+
+[Preset]
+name = 12小时
+category = 一天时长
+$timeScale = 30
+
+[Preset]
+name = 24小时
+category = 一天时长
+$timeScale = 60
+
+[Preset]
+name = 冻结时间
+category = 一天时长
+$timeScale = 9999

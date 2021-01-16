@@ -1,10 +1,10 @@
 #### cemu模拟器图像插件graphicPacks汉化
 
-##### 版本：V715
+##### 版本：V734
 
 ##### 汉化作者：曦颜XY(微博：曦颜XY)
 
-##### 更新时间：2020.11.24
+##### 更新时间：2021.01.16
 
 ##### 说明：
 
@@ -14,7 +14,16 @@
 4. 文件相关权利见：[**Cemu Graphic Packs**](https://slashiee.github.io/cemu_graphic_packs/)
 5. 没有汉化的官网图像插件请见：**graphicPacks_English**
 6. **请勿作为商用**，**请勿作为商用**，**请勿作为商用**，**淘宝和闲鱼奸商请知悉！**
+7. 汉化包补全原版每个插件的作者相关信息，尊重版权！
 
 ##### 使用方法
     例如cemu目录是D:\Games\BOTW\cemu.exe,那么图像插件就在D:\Games\BOTW\
     删除 D:\Games\BOTW\ 路径下的graphicPacks文件夹，把我的graphicPacks复制进D:\Games\BOTW\即可
+	
+##### 捐赠
+
+Cemu汉化插件更新不易，给作者加个🍗
+
+| 微信| 支付宝 |
+| - | - | - |
+| ![wechat](img/wechat.jpg) | ![alipay](img/alipay.jpg) |

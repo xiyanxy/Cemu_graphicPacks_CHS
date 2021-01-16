@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = NPC结巴修正 (OpenGL)
+path = "塞尔达传说: 旷野之息/解决方案/NPC结巴修正 (OpenGL)"
+description = 当GX2DrawDone()完全同步被禁用时,防止NPC在一定距离内结巴.只适用于OpenGL.||由Xalphenos制作.
+rendererFilter = opengl
+version = 6

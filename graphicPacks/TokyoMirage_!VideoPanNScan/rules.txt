@@ -2,7 +2,7 @@
 titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
 name = 视频平移扫描
 path = "幻影异闻录/图像插件/视频平移扫描"
-description = 21:9视频,切边而不是装箱.
+description = 21:9视频,切边而不是装箱.由getdls制作.
 version = 4
 
 [Preset]

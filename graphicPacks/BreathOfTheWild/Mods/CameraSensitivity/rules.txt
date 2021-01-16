@@ -1,0 +1,131 @@
+[Definition]
+titleIds = 00050000101C9400,00050000101C9500
+path = "塞尔达传说: 旷野之息/模组/相机敏感度"
+description = 如题.|在正常灵敏度的基础上，你可以提高移动灵敏度.||由FakeMichau 和 theboy181制作.
+version = 6
+
+[Default]
+$sensitivity = 1.00
+$movementSensitivity = 1.00
+
+
+[Preset]
+name = 0.5x
+category = 相机敏感度
+$sensitivity = 0.50
+
+[Preset]
+name = 0.75x
+category = 相机敏感度
+$sensitivity = 0.9
+
+[Preset]
+name = 0.9x
+category = 相机敏感度
+$sensitivity = 0.9
+
+[Preset]
+name = 1x (默认)
+category = 相机敏感度
+default = 1
+
+[Preset]
+name = 1.1x
+category = 相机敏感度
+$sensitivity = 1.10
+
+[Preset]
+name = 1.25x
+category = 相机敏感度
+$sensitivity = 1.25
+
+[Preset]
+name = 1.4x (推荐)
+category = 相机敏感度
+$sensitivity = 1.40
+
+[Preset]
+name = 1.5x
+category = 相机敏感度
+$sensitivity = 1.50
+
+[Preset]
+name = 1.75x
+category = 相机敏感度
+$sensitivity = 1.75
+
+[Preset]
+name = 2x
+category = 相机敏感度
+$sensitivity = 2.00
+
+[Preset]
+name = 2.5x
+category = 相机敏感度
+$sensitivity = 2.50
+
+[Preset]
+name = 3x
+category = 相机敏感度
+$sensitivity = 3.00
+
+
+[Preset]
+name = 0.5x
+category = 额外的运动灵敏度
+$movementSensitivity = 0.5
+
+[Preset]
+name = 0.75x
+category = 额外的运动灵敏度
+$movementSensitivity = 0.75
+
+[Preset]
+name = 0.9x
+category = 额外的运动灵敏度
+$movementSensitivity = 0.9
+
+[Preset]
+name = 1x (默认)
+category = 额外的运动灵敏度
+default = 1
+
+[Preset]
+name = 1.1x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.10
+
+[Preset]
+name = 1.15x (推荐)
+category = 额外的运动灵敏度
+$movementSensitivity = 1.15
+
+[Preset]
+name = 1.25x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.25
+
+[Preset]
+name = 1.35x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.35
+
+[Preset]
+name = 1.5x
+category = 额外的运动灵敏度
+$movementSensitivity = 1.50
+
+[Preset]
+name = 2x
+category = 额外的运动灵敏度
+$movementSensitivity = 2.00
+
+[Preset]
+name = 2.5x
+category = 额外的运动灵敏度
+$movementSensitivity = 2.50
+
+[Preset]
+name = 3x
+category = 额外的运动灵敏度
+$movementSensitivity = 3.00

@@ -2,5 +2,5 @@
 titleIds = 0005000010176900,0005000010176A00,0005000010162B00
 name = Octohax
 path = "喷射战士/模组/Octohax"
-description = 用Octoling代替女性Inkling. 
-version = 6
+description = 用Octoling代替女性Inkling. 由M&&M制作.
+version = 7

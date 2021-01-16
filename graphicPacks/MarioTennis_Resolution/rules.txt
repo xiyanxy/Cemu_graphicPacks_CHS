@@ -2,7 +2,7 @@
 titleIds = 00050000101A3500,00050000101A3600,0005000010199000
 name = 分辨率
 path = "马里奥网球:终极扣杀/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由M&&M制作.
 version = 4
 
 [Preset]

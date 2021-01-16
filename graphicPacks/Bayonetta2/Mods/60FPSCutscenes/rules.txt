@@ -2,5 +2,5 @@
 titleIds = 0005000010172600,0005000010172700,000500001011B900
 name = 60 FPS Cutscenes
 path = "猎天使魔女2/模组/60FPS过场动画"
-description = 60FPS过场动画.WiiU默认是30FPS.低于60FPS可能会降低游戏速度
+description = 60FPS过场动画.WiiU默认是30FPS.低于60FPS可能会降低游戏速度.由getdls制作.
 version = 6

@@ -1,0 +1,595 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 自定义卡通渲染
+path = "塞尔达传说: 旷野之息/模组/自定义卡通渲染"
+description = 改变林克和世界的渲染类型.|物品菜单显示界面将不会显示林克.|由SkalFate, Altros 和 Pig制作.
+version = 6
+
+[Default]
+$mode:int = 4
+$clarity = 0.05
+$menuWrkrnd:int = 0
+$shdwFix:int = 2
+$bright = 0.45
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+# Cel-Shading Type
+
+[Preset]
+name = 禁用卡通渲染
+category = 预设
+default = 1
+
+[Preset]
+name = 轻度卡通渲染
+category = 预设
+$mode:int = 6
+$shdwFix:int = 2 # To hide Shadow Dropdowns
+
+[Preset]
+name = 绘画渲染 (世界)
+category = 预设
+$mode:int = 8
+$shdwFix:int = 2 # To hide Shadow Dropdowns
+
+[Preset]
+name = 绘画渲染 (世界 & 林克)
+category = 预设
+$mode:int = 10
+$shdwFix:int = 2 # To hide Shadow Dropdowns
+
+# Plastic Mode
+
+[Preset]
+name = 禁用
+category = 塑料模式
+condition = $mode == 4
+default = 1
+$clarity = 1
+
+[Preset]
+name = 塑料 100%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.05
+
+[Preset]
+name = 塑料 95%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.15
+
+[Preset]
+name = 塑料 90%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.30
+
+[Preset]
+name = 塑料 85%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.37
+
+[Preset]
+name = 塑料 75%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.43
+
+[Preset]
+name = 塑料 65%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.50
+
+[Preset]
+name = 塑料 55%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.57
+
+[Preset]
+name = 塑料 45%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.65
+
+[Preset]
+name = 塑料 35%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.75
+
+[Preset]
+name = 塑料 25%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 0.95
+
+[Preset]
+name = 塑料 15%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 1.15
+
+[Preset]
+name = 塑料 5%
+category = 塑料模式
+condition = $mode == 4
+$clarity = 1.35
+
+# Menu Workaround
+
+[Preset]
+name = 禁用 (物品菜单背景显示异常)
+category = 物品菜单解决方案
+condition = $mode == 4
+default = 1
+
+[Preset]
+name = 启用 (将移除林克显示)
+category = 物品菜单解决方案
+condition = $mode == 4
+$menuWrkrnd:int = 1
+
+# Shadow Fix Verison
+
+[Preset]
+name = Altros版
+category = 阴影修正版本
+condition = $mode == 4
+$shdwFix:int = 0
+
+[Preset]
+name = SkalFate版
+category = 阴影修正版本
+condition = $mode == 4
+$shdwFix:int = 1
+
+# Altros Shadow Fix
+
+[Preset]
+name = 阴影0.25%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 0.25
+
+[Preset]
+name = 阴影0.35%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 0.35
+
+[Preset]
+name = 阴影0.45% (默认)
+category = Altros阴影修正
+condition = $shdwFix == 0
+default = 1
+$bright = 0.45
+
+[Preset]
+name = 阴影0.55%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 0.55
+
+[Preset]
+name = 阴影0.65%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 0.65
+
+[Preset]
+name = 阴影0.75%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 0.75
+
+[Preset]
+name = 阴影0.95%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 0.95
+
+[Preset]
+name = 阴影1.0% (游戏原始)
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.0
+
+[Preset]
+name = 阴影1.15%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.15
+
+[Preset]
+name = 阴影1.25%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.25
+
+[Preset]
+name = 阴影1.35%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.35
+
+[Preset]
+name = 阴影1.45%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.45
+
+[Preset]
+name = 阴影1.55%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.55
+
+[Preset]
+name = 阴影1.65%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.65
+
+[Preset]
+name = 阴影1.75%
+category = Altros阴影修正
+condition = $shdwFix == 0
+$bright = 1.75
+
+# SkalFate Shadow Fix
+
+# Shadow Mode (smode) -- Various visual styles can be achieved with mode 1-5
+#
+# Shadow Brihtness (shadowbrightness) - Controls how  brightened up link and his back side will be
+#
+# RGB - sred, sgreen, sblue - adjusting this will add more intensity of the specific color.
+# ------ Values are multiplied, so if you want to lower values use [0.01 - 1.0], or if you want to raise then use [1.00 - X.X]
+
+[Preset]
+name = 模式1 - 阴影X1 (最好的设置)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+default = 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式2 - 阴影X1 (无高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 2
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式3 - 阴影X1 (强烈高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 3
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式4 - 阴影X1 (明亮阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 4
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式5 - 阴影X1 (昏暗阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 5
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = ----------------------------------------
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式1 - 阴影X2 (最好的设置)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式2 - 阴影X2 (无高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 2
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式3 - 阴影X2 (强烈高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 3
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式4 - 阴影X2 (明亮阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 4
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式5 - 阴影X2 (昏暗阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 5
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = ----------------------------------------
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式1 - 阴影X4 (最好的设置)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 4
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式2 - 阴影X4 (无高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 2
+$shadowsbrightness = 4
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式3 - 阴影X4 (强烈高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 3
+$shadowsbrightness = 4
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式4 - 阴影X4 (明亮阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 4
+$shadowsbrightness = 4
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式5 - 阴影X4 (昏暗阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 5
+$shadowsbrightness = 4
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = ----------------------------------------
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式1 - 阴影X8  (最好的设置)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 8
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式2 - 阴影X8 (无高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 2
+$shadowsbrightness = 8
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式3 - 阴影X8 (强烈高亮)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 3
+$shadowsbrightness = 8
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式4 - 阴影X8 (明亮阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 4
+$shadowsbrightness = 8
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 模式5 - 阴影X8 (昏暗阴影)
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 5
+$shadowsbrightness = 8
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = ----------------------------------------
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 红色林克
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 2
+$sred = 10
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 红色林克2
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 2
+$sred = 20
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 绿色林克
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 10
+$sblue = 1
+
+[Preset]
+name = 绿色林克2
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 20
+$sblue = 1
+
+[Preset]
+name = 蓝色林克
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 1
+$sblue = 10
+
+[Preset]
+name = 蓝色林克2
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 2
+$sred = 1
+$sgreen = 1
+$sblue = 20
+
+[Preset]
+name = ----------------------------------------
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 原始游戏模式
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 0
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = ----------------------------------------
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1
+
+[Preset]
+name = 自定义设置
+category = SkalFate阴影修正
+condition = $shdwFix == 1
+$smode = 1
+$shadowsbrightness = 1
+$sred = 1
+$sgreen = 1
+$sblue = 1

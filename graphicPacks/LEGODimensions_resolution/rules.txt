@@ -2,7 +2,7 @@
 titleIds = 5000010194200, 0005000010195d00
 name = "分辨率"
 path = "乐高:次元/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由bloodmc 和 Xalphenos制作.
 version = 4
 
 [Preset]

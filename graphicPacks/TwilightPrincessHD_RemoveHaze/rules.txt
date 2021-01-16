@@ -2,7 +2,7 @@
 titleIds = 000500001019C800,000500001019E600,000500001019E500
 name = 远雾
 path = "塞尔达传说:黄昏公主HD/模组/远雾"
-description = 设置远雾的深度和曝光.可能存在物体消失的问题.
+description = 设置远雾的深度和曝光.可能存在物体消失的问题.由getdls制作.
 version = 4
 
 [Preset]

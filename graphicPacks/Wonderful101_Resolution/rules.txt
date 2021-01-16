@@ -2,7 +2,7 @@
 titleIds = 0005000010116300,000500001012DC00,0005000010135300
 name = 分辨率
 path = "神奇101/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由M&&M制作.
 version = 4
 
 [Preset]

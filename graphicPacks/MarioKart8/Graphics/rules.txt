@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
 name = 图像设置
-path = "马里奥赛车8/图像插件/图像设置"
-description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量 ||抗锯齿、光晕量、运动模糊质量、细节等级和各向异性过滤质量.
+path = "马里奥赛车8/图像设置"
+description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量 ||抗锯齿、光晕量、运动模糊质量、细节等级和各向异性过滤质量.由Crementif, theboy181 和 M&&M制作.
 version = 6
 
 [Default]
@@ -22,6 +22,7 @@ $nrOfPasses:int = 8
 $blurStart = 0.975
 $blurWidth = 0.025
 $levelOfDetail = 1
+$advancedOpt = 0
 
 # TV Resolution
 
@@ -150,6 +151,36 @@ category = TV分辨率
 $width = 5120
 $height = 3200
 
+[Preset]
+name = 3840x1080 (32:9)
+category = TV分辨率
+$width = 3840
+$height = 1080
+
+[Preset]
+name = 5120x1440 (32:9)
+category = TV分辨率
+$width = 5120
+$height = 1440
+
+[Preset]
+name = 6400x1800 (32:9)
+category = TV分辨率
+$width = 6400
+$height = 1800
+
+[Preset]
+name = 7680x2160 (32:9)
+category = TV分辨率
+$width = 7680
+$height = 2160
+
+[Preset]
+name = 10240x2880 (32:9)
+category = TV分辨率
+$width = 10240
+$height = 2880
+
 # Gamepad Resolution
 
 [Preset]
@@ -277,6 +308,36 @@ category = Gamepad分辨率
 $padWidth = 5120
 $padHeight = 3200
 
+[Preset]
+name = 3840x1080 (32:9)
+category = Gamepad分辨率
+$padWidth = 3840
+$padHeight = 1080
+
+[Preset]
+name = 5120x1440 (32:9)
+category = Gamepad分辨率
+$padWidth = 5120
+$padHeight = 1440
+
+[Preset]
+name = 6400x1800 (32:9)
+category = Gamepad分辨率
+$padWidth = 6400
+$padHeight = 1800
+
+[Preset]
+name = 7680x2160 (32:9)
+category = Gamepad分辨率
+$padWidth = 7680
+$padHeight = 2160
+
+[Preset]
+name = 10240x2880 (32:9)
+category = Gamepad分辨率
+$padWidth = 10240
+$padHeight = 2880
+
 # Shadow Quality
 
 [Preset]
@@ -304,105 +365,6 @@ name = 究极
 category = 阴影质量
 $shadowQuality = 4
 
-# Anti-Aliasing
-
-[Preset]
-name = 关闭
-category = 抗锯齿
-$fxaa:int = 0
-
-[Preset]
-name = 开启
-category = 抗锯齿
-default = 1
-
-# Bloom
-
-[Preset]
-name = 关闭
-category = 光晕量
-$bloom = 0
-
-[Preset]
-name = 低
-category = 光晕量
-$bloom = 0.5
-
-[Preset]
-name = 正常
-category = 光晕量
-default = 1
-
-[Preset]
-name = 高
-category = 光晕量
-$bloom = 1.25
-
-[Preset]
-name = 超级
-category = 光晕量
-$bloom = 1.5
-
-# Motion Blur
-
-[Preset]
-name = 关闭
-category = 运动模糊质量
-$nrOfPasses:int = 0
-
-[Preset]
-name = 低
-category = 运动模糊质量
-$nrOfPasses:int = 4
-
-[Preset]
-name = 正常
-category = 运动模糊质量
-default = 1
-
-[Preset]
-name = 高
-category = 运动模糊质量
-$nrOfPasses:int = 16
-$blurStart = 0.93
-$blurWidth = 0.1
-
-[Preset]
-name = 超级
-category = 运动模糊质量
-$nrOfPasses:int = 24
-$blurStart = 0.93
-$blurWidth = 0.1
-
-[Preset]
-name = 究极
-category = 运动模糊质量
-$nrOfPasses:int = 32
-$blurStart = 0.93
-$blurWidth = 0.1
-
-# Level of Detail
-
-[Preset]
-name = 低
-category = 细节等级
-$levelOfDetail = 0.5
-
-[Preset]
-name = 正常
-category = 细节等级
-default = 1
-
-[Preset]
-name = 高
-category = 细节等级
-$levelOfDetail = 2
-
-[Preset]
-name = 超级
-category = 细节等级
-$levelOfDetail = 3
-
 # Anisotropic Filtering Quality
 
 [Preset]
@@ -429,6 +391,134 @@ $anisotropy = 8
 name = 16x
 category = 各向异性过滤质量
 $anisotropy = 16
+
+# Advanced Options
+
+[Preset]
+name = Disabled
+category = Advanced Options
+default = 1
+
+[Preset]
+name = Enabled
+category = Advanced Options
+$advancedOpt = 1
+
+# Anti-Aliasing
+
+[Preset]
+name = 关闭
+category = 抗锯齿
+condition = $advancedOpt == 1
+$fxaa:int = 0
+
+[Preset]
+name = 开启
+category = 抗锯齿
+condition = $advancedOpt == 1
+default = 1
+
+# Bloom
+
+[Preset]
+name = 关闭
+category = 光晕量
+condition = $advancedOpt == 1
+$bloom = 0
+
+[Preset]
+name = 低
+category = 光晕量
+condition = $advancedOpt == 1
+$bloom = 0.5
+
+[Preset]
+name = 正常
+category = 光晕量
+condition = $advancedOpt == 1
+default = 1
+
+[Preset]
+name = 高
+category = 光晕量
+condition = $advancedOpt == 1
+$bloom = 1.25
+
+[Preset]
+name = 超级
+category = 光晕量
+condition = $advancedOpt == 1
+$bloom = 1.5
+
+# Motion Blur
+
+[Preset]
+name = 关闭
+category = 运动模糊质量
+condition = $advancedOpt == 1
+$nrOfPasses:int = 0
+
+[Preset]
+name = 低
+category = 运动模糊质量
+condition = $advancedOpt == 1
+$nrOfPasses:int = 4
+
+[Preset]
+name = 正常
+category = 运动模糊质量
+condition = $advancedOpt == 1
+default = 1
+
+[Preset]
+name = 高
+category = 运动模糊质量
+condition = $advancedOpt == 1
+$nrOfPasses:int = 16
+$blurStart = 0.93
+$blurWidth = 0.1
+
+[Preset]
+name = 超级
+category = 运动模糊质量
+condition = $advancedOpt == 1
+$nrOfPasses:int = 24
+$blurStart = 0.93
+$blurWidth = 0.1
+
+[Preset]
+name = 究极
+category = 运动模糊质量
+condition = $advancedOpt == 1
+$nrOfPasses:int = 32
+$blurStart = 0.93
+$blurWidth = 0.1
+
+# Level of Detail
+
+[Preset]
+name = 低
+category = 细节等级
+condition = $advancedOpt == 1
+$levelOfDetail = 0.5
+
+[Preset]
+name = 正常
+category = 细节等级
+condition = $advancedOpt == 1
+default = 1
+
+[Preset]
+name = 高
+category = 细节等级
+condition = $advancedOpt == 1
+$levelOfDetail = 2
+
+[Preset]
+name = 超级
+category = 细节等级
+condition = $advancedOpt == 1
+$levelOfDetail = 3
 
 # Anisotropic Filtering
 

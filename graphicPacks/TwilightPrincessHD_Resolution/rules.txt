@@ -2,7 +2,7 @@
 titleIds = 000500001019C800,000500001019E600,000500001019E500
 name = 分辨率
 path = "塞尔达传说:黄昏公主HD/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls制作.
 version = 4
 
 [Preset]
@@ -113,7 +113,7 @@ $UIAspectY = 1.0
 $UItransp = 1.0
 
 [Preset]
-name = -- 21:9 --
+name = -- 21:9 -- 分辨率
 $width = 2560
 $height = 1080
 $gameWidth = 1920
@@ -173,7 +173,7 @@ $UIAspectY = 1.0
 $UItransp = 1.0
 
 [Preset]
-name = -- 16:10 -- 
+name = -- 16:10 -- 分辨率
 $width = 1440
 $height = 900
 $gameWidth = 1920
@@ -293,7 +293,7 @@ $UIAspectY = ( 5120.0 / 3200.0 ) / (1920.0 / 1080.0)
 $UItransp = 1.0
 
 [Preset]
-name = -- 48:9 -- 
+name = -- 48:9 -- 分辨率
 $width = 5760
 $height = 1080
 $gameWidth = 1920
@@ -338,7 +338,7 @@ $UIAspectY = 1.0
 $UItransp = 1.0
 
 [Preset] # Should work fine on a 1070 and fixes most of horizontal shimmering
-name = -- SSAA 仅垂直Height 1080x2 - 将缩放比例设置为拉伸
+name = -- SSAA 垂直资源x2 - 将缩放比例设置为拉伸
 $width = 1920
 $height = 2160
 $gameWidth = 1920
@@ -353,7 +353,7 @@ $UIAspectY = 1.0
 $UItransp = 1.0
 
 [Preset]
-name = 1920x2160 (Height1080 x2)
+name = 1920x2160 (垂直 x2)
 $width = 1920
 $height = 2160
 $gameWidth = 1920

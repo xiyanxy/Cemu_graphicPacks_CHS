@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 英特尔GPU阴影 (Vulkan)
+path = "塞尔达传说: 旷野之息/解决方案/英特尔GPU阴影 (Vulkan)"
+description = 减少了使用Vulkan时英特尔gpu上阴影bug的严重问题.由ethrillo和Cypher制作.
+vendorFilter = intel
+rendererFilter = vulkan
+version = 6

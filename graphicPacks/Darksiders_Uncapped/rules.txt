@@ -2,7 +2,7 @@
 titleIds = 00050000101FA600,00050000101F9700
 name = 无上限帧率
 path = "暗黑血统:战神版/模组/无上限帧率"
-description = 修补游戏帧速率上限,CPU模式更改为双核或三核可能会提高性能.由theboy181制成.
+description = 修补游戏帧速率上限,CPU模式更改为双核或三核可能会提高性能.由theboy181制作.
 version = 4
 
 [Preset]

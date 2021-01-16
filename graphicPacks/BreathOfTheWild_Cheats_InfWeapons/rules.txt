@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = 无限武器,弓箭及盾
-path = "塞尔达传说: 旷野之息/模组/修改器/无限武器,弓箭及盾"
-description = (投掷型及燃烧型武器除外) BotW修改器由C313571N和Xalphenos制作
-version = 4

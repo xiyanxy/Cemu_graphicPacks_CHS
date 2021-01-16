@@ -2,5 +2,5 @@
 titleIds = 0005000010184900,00050000101D8900
 name = 60FPS
 path = "瘦长鬼影:降临/模组/60FPS"
-description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由theboy181制作.
 version = 4

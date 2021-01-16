@@ -1,0 +1,519 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 雾设置
+path = "塞尔达传说: 旷野之息/模组/雾设置"
+description = 允许你在游戏中减少各种类型的雾的可见性或改变它们的颜色.||由Skalfate制作.
+version = 6
+
+[Default]
+$setting:int = 0
+
+$enableDistanceFogColor:int = 1
+$distanceFogRed = 1.0
+$distanceFogGreen = 1.0
+$distanceFogBlue = 1.0
+$distanceFogOpacity = 1.0
+
+$enableFogCloudsColor:int = 1
+$fogCloudsRed = 1.0
+$fogCloudsGreen = 1.0
+$fogCloudsBlue = 1.0
+$fogCloudsOpacity = 1.0
+
+$enableCastleFogColor:int = 1
+$castleFogRed = 1.0
+$castleFogGreen = 1.0
+$castleFogBlue = 1.0
+$castleFogOpacity = 1.0
+
+$enableGanonAuraColor:int = 1
+$ganonAuraRed = 1.0
+$ganonAuraGreen = 1.0
+$ganonAuraBlue = 1.0
+$ganonAuraOpacity = 1.0
+
+# Setting Selector
+
+[Preset]
+name = 远处雾霾
+category = 雾霾设置
+default = 1
+$setting:int = 0
+
+[Preset]
+name = 雾云
+category = 雾霾设置
+$setting:int = 1
+
+[Preset]
+name = 海拉鲁城堡加农瘴气
+category = 雾霾设置
+$setting:int = 2
+
+
+# Distance Fog
+
+[Preset]
+name = 100%不透明度 (默认)
+category = 远处雾能见度
+condition = $setting == 0
+default = 1
+$distanceFogOpacity = 1.0
+
+[Preset]
+name = 80%不透明度
+category = 远处雾能见度
+condition = $setting == 0
+$distanceFogOpacity = 0.8
+
+[Preset]
+name = 60%不透明度
+category = 远处雾能见度
+condition = $setting == 0
+$distanceFogOpacity = 0.6
+
+[Preset]
+name = 50%不透明度
+category = 远处雾能见度
+condition = $setting == 0
+$distanceFogOpacity = 0.5
+
+[Preset]
+name = 40%不透明度
+category = 远处雾能见度
+condition = $setting == 0
+$distanceFogOpacity = 0.4
+
+[Preset]
+name = 20%不透明度
+category = 远处雾能见度
+condition = $setting == 0
+$distanceFogOpacity = 0.2
+
+[Preset]
+name = 10%不透明度
+category = 远处雾能见度
+condition = $setting == 0
+$distanceFogOpacity = 0.1
+
+[Preset]
+name = 0%不透明度
+category = 远处雾能见度
+condition = $setting == 0
+$distanceFogOpacity = 0.0
+
+[Preset]
+name = 正常 (默认)
+category = 远处雾颜色
+condition = $setting == 0
+default = 1
+$enableDistanceFogColor:int = 0
+
+[Preset]
+name = 黑雾
+category = 远处雾颜色
+condition = $setting == 0
+$distanceFogRed = 1.0
+$distanceFogGreen = 1.0
+$distanceFogBlue = 1.0
+
+[Preset]
+name = 灰雾
+category = 远处雾颜色
+condition = $setting == 0
+$distanceFogRed = 0.75
+$distanceFogGreen = 0.75
+$distanceFogBlue = 0.75
+
+[Preset]
+name = 深蓝雾
+category = 远处雾颜色
+condition = $setting == 0
+$distanceFogRed = 0.0
+$distanceFogGreen = 0.0
+$distanceFogBlue = 0.5
+
+[Preset]
+name = 蓝雾
+category = 远处雾颜色
+condition = $setting == 0
+$distanceFogRed = 0.0
+$distanceFogGreen = 0.0
+$distanceFogBlue = 1.0
+
+[Preset]
+name = 蓝青雾
+category = 远处雾颜色
+condition = $setting == 0
+$distanceFogRed = 0.0
+$distanceFogGreen = 0.5
+$distanceFogBlue = 0.5
+
+[Preset]
+name = 绿雾
+category = 远处雾颜色
+condition = $setting == 0
+$distanceFogRed = 0.0
+$distanceFogGreen = 1.0
+$distanceFogBlue = 0.0
+
+[Preset]
+name = 红雾
+category = 远处雾颜色
+condition = $setting == 0
+$distanceFogRed = 1.0
+$distanceFogGreen = 0.0
+$distanceFogBlue = 0.0
+
+# Fog Clouds
+
+[Preset]
+name = 100%不透明度 (默认)
+category = 雾云能见度
+condition = $setting == 1
+default = 1
+$fogCloudsOpacity = 1.0
+
+[Preset]
+name = 80%不透明度
+category = 雾云能见度
+condition = $setting == 1
+$fogCloudsOpacity = 0.8
+
+[Preset]
+name = 60%不透明度
+category = 雾云能见度
+condition = $setting == 1
+$fogCloudsOpacity = 0.6
+
+[Preset]
+name = 50%不透明度
+category = 雾云能见度
+condition = $setting == 1
+$fogCloudsOpacity = 0.5
+
+[Preset]
+name = 40%不透明度
+category = 雾云能见度
+condition = $setting == 1
+$fogCloudsOpacity = 0.4
+
+[Preset]
+name = 20%不透明度
+category = 雾云能见度
+condition = $setting == 1
+$fogCloudsOpacity = 0.2
+
+[Preset]
+name = 10%不透明度
+category = 雾云能见度
+condition = $setting == 1
+$fogCloudsOpacity = 0.1
+
+[Preset]
+name = 0%不透明度
+category = 雾云能见度
+condition = $setting == 1
+$fogCloudsOpacity = 0.0
+
+[Preset]
+name = 正常 (默认)
+category = 雾云颜色
+condition = $setting == 1
+default = 1
+$enableFogCloudsColor:int = 0
+
+[Preset]
+name = 黑雾
+category = 雾云颜色
+condition = $setting == 1
+$fogCloudsRed = 1.0
+$fogCloudsGreen = 1.0
+$fogCloudsBlue = 1.0
+
+[Preset]
+name = 灰雾
+category = 雾云颜色
+condition = $setting == 1
+$fogCloudsRed = 0.75
+$fogCloudsGreen = 0.75
+$fogCloudsBlue = 0.75
+
+[Preset]
+name = 深蓝雾
+category = 雾云颜色
+condition = $setting == 1
+$fogCloudsRed = 0.0
+$fogCloudsGreen = 0.0
+$fogCloudsBlue = 0.5
+
+[Preset]
+name = 蓝雾
+category = 雾云颜色
+condition = $setting == 1
+$fogCloudsRed = 0.0
+$fogCloudsGreen = 0.0
+$fogCloudsBlue = 1.0
+
+[Preset]
+name = 蓝青雾
+category = 雾云颜色
+condition = $setting == 1
+$fogCloudsRed = 0.0
+$fogCloudsGreen = 0.5
+$fogCloudsBlue = 0.5
+
+[Preset]
+name = 绿雾
+category = 雾云颜色
+condition = $setting == 1
+$fogCloudsRed = 0.0
+$fogCloudsGreen = 1.0
+$fogCloudsBlue = 0.0
+
+[Preset]
+name = 红雾
+category = 雾云颜色
+condition = $setting == 1
+$fogCloudsRed = 1.0
+$fogCloudsGreen = 0.0
+$fogCloudsBlue = 0.0
+
+# Hyrule Castle Fog
+
+[Preset]
+name = 100%不透明度 (默认)
+category = 城堡瘴气能见度
+condition = $setting == 2
+default = 1
+$castleFogOpacity = 1.0
+
+[Preset]
+name = 80%不透明度
+category = 城堡瘴气能见度
+condition = $setting == 2
+$castleFogOpacity = 0.8
+
+[Preset]
+name = 60%不透明度
+category = 城堡瘴气能见度
+condition = $setting == 2
+$castleFogOpacity = 0.6
+
+[Preset]
+name = 50%不透明度
+category = 城堡瘴气能见度
+condition = $setting == 2
+$castleFogOpacity = 0.5
+
+[Preset]
+name = 40%不透明度
+category = 城堡瘴气能见度
+condition = $setting == 2
+$castleFogOpacity = 0.4
+
+[Preset]
+name = 20%不透明度
+category = 城堡瘴气能见度
+condition = $setting == 2
+$castleFogOpacity = 0.2
+
+[Preset]
+name = 10%不透明度
+category = 城堡瘴气能见度
+condition = $setting == 2
+$castleFogOpacity = 0.1
+
+[Preset]
+name = 0%不透明度
+category = 城堡瘴气能见度
+condition = $setting == 2
+$castleFogOpacity = 0.0
+
+[Preset]
+name = 正常 (默认)
+category = 城堡瘴气颜色
+condition = $setting == 2
+default = 1
+$enableCastleFogColor:int = 0
+
+[Preset]
+name = 黑色
+category = 城堡瘴气颜色
+condition = $setting == 2
+$castleFogRed = 1.0
+$castleFogGreen = 1.0
+$castleFogBlue = 1.0
+
+[Preset]
+name = 灰色
+category = 城堡瘴气颜色
+condition = $setting == 2
+$castleFogRed = 0.75
+$castleFogGreen = 0.75
+$castleFogBlue = 0.75
+
+[Preset]
+name = 深蓝色
+category = 城堡瘴气颜色
+condition = $setting == 2
+$castleFogRed = 0.0
+$castleFogGreen = 0.0
+$castleFogBlue = 0.5
+
+[Preset]
+name = 蓝色
+category = 城堡瘴气颜色
+condition = $setting == 2
+$castleFogRed = 0.0
+$castleFogGreen = 0.0
+$castleFogBlue = 1.0
+
+[Preset]
+name = 蓝青色
+category = 城堡瘴气颜色
+condition = $setting == 2
+$castleFogRed = 0.0
+$castleFogGreen = 0.5
+$castleFogBlue = 0.5
+
+[Preset]
+name = 绿色
+category = 城堡瘴气颜色
+condition = $setting == 2
+$castleFogRed = 0.0
+$castleFogGreen = 1.0
+$castleFogBlue = 0.0
+
+[Preset]
+name = 灰色
+category = 城堡瘴气颜色
+condition = $setting == 2
+$castleFogRed = 1.0
+$castleFogGreen = 0.0
+$castleFogBlue = 0.0
+
+
+# Hyrule Castle Ganon's Aura
+
+[Preset]
+name = 300%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 2.0
+
+[Preset]
+name = 200%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 2.0
+
+[Preset]
+name = 150%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 1.5
+
+[Preset]
+name = 100%不透明度 (默认)
+category = 加农瘴气能见度
+condition = $setting == 2
+default = 1
+$ganonAuraOpacity = 1.0
+
+[Preset]
+name = 80%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 0.8
+
+[Preset]
+name = 60%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 0.6
+
+[Preset]
+name = 50%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 0.5
+
+[Preset]
+name = 40%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 0.4
+
+[Preset]
+name = 20%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 0.2
+
+[Preset]
+name = 10%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 0.2
+
+[Preset]
+name = 0%不透明度
+category = 加农瘴气能见度
+condition = $setting == 2
+$ganonAuraOpacity = 0.0
+
+[Preset]
+name = 正常 (默认)
+category = 加农瘴气颜色
+condition = $setting == 2
+default = 1
+$enableGanonAuraColor:int = 0
+
+[Preset]
+name = 黑色
+category = 加农瘴气颜色
+condition = $setting == 2
+$ganonAuraRed = 1.0
+$ganonAuraGreen = 1.0
+$ganonAuraBlue = 1.0
+
+[Preset]
+name = 深蓝色
+category = 加农瘴气颜色
+condition = $setting == 2
+$ganonAuraRed = 0.0
+$ganonAuraGreen = 0.0
+$ganonAuraBlue = 0.5
+
+[Preset]
+name = 蓝色
+category = 加农瘴气颜色
+condition = $setting == 2
+$ganonAuraRed = 0.0
+$ganonAuraGreen = 0.0
+$ganonAuraBlue = 1.0
+
+[Preset]
+name = 蓝青色
+category = 加农瘴气颜色
+condition = $setting == 2
+$ganonAuraRed = 0.0
+$ganonAuraGreen = 0.5
+$ganonAuraBlue = 0.5
+
+[Preset]
+name = 绿色
+category = 加农瘴气颜色
+condition = $setting == 2
+$ganonAuraRed = 0.0
+$ganonAuraGreen = 1.0
+$ganonAuraBlue = 0.0
+
+[Preset]
+name = 红色
+category = 加农瘴气颜色
+condition = $setting == 2
+$ganonAuraRed = 1.0
+$ganonAuraGreen = 0.0
+$ganonAuraBlue = 0.0

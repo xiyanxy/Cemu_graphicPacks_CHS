@@ -2,7 +2,7 @@
 titleIds = 0005000010177600,0005000010177700,0005000010197d00
 name = 分辨率
 path = "恶魔三人组/图像插件/分辨率"
-description = 更改游戏的分辨率.
+description = 更改游戏的分辨率.由Crementif制作.
 version = 4
 
 [Preset]

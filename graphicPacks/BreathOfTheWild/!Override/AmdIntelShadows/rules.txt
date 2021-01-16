@@ -1,0 +1,7 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 阴影解决方案 (针对旧版本Cemu)
+path = "塞尔达传说: 旷野之息/解决方案/针对OpenGL/AMD和英特尔的GPU特定解决方案(针对旧版本Cemu)"
+description = 只有当你有问题时才启用这个插件.| 通过一些Cemu版本和一些驱动版本的联合降低英特尔和AMD gpu上的bug阴影的严重问题.由ethrillo和Cypher制作.
+version = 6
+rendererFilter = opengl

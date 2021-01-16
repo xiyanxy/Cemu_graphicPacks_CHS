@@ -2,7 +2,7 @@
 titleIds = 000500001017D800,000500001017D900,000500001017CD00
 name = 分辨率
 path = "塞尔达无双/图像插件/分辨率"
-description = 修改游戏分辨率.
+description = 修改游戏分辨率.由getdls制作
 version = 4
 
 #Resolutions						|Aspect ratio
@@ -24,7 +24,7 @@ $2pScaling = 1.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 640x360 (0.5 x native)
+name = 640x360 (0.5 x 默认)
 $width = 640
 $height = 360
 $gameWidth = 1280
@@ -130,7 +130,7 @@ $2pScaling = 1.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 2560x1440 (Native x2)
+name = 2560x1440 (默认 x2)
 $width = 2560
 $height = 1440
 $gameWidth = 1280
@@ -169,7 +169,7 @@ $2pScaling = 1.0
 $aspectRatio = (16.0/9.0)
 
 #[Preset]
-#name = 2560x1440 (Native x2) 1080 FX scaling
+#name = 2560x1440 (默认 x2) 1080 FX缩放
 #$width = 2560
 #$height = 1440
 #$gameWidth = 1280
@@ -208,7 +208,7 @@ $2pScaling = 1.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 3840x2160 (4k - Native x3)
+name = 3840x2160 (4k - 默认 x3)
 $width = 3840
 $height = 2160
 $gameWidth = 1280
@@ -247,7 +247,7 @@ $2pScaling = 1.0
 $aspectRatio = (16.0/9.0)
 
 #[Preset]
-#name = 3840x2160 (4k - 1080 FX scaling)
+#name = 3840x2160 (4k - 1080FX缩放)
 #$width = 3840
 #$height = 2160
 #$gameWidth = 1280
@@ -260,7 +260,7 @@ $aspectRatio = (16.0/9.0)
 #$aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 5120x2880 (Native 4x)
+name = 5120x2880 (默认 4x)
 $width = 5120
 $height = 2880
 $gameWidth = 1280
@@ -273,7 +273,7 @@ $2pScaling = 1.0
 $aspectRatio = (16.0/9.0)
 
 #[Preset]
-#name = 5120x2880 (1080 FX scaling)
+#name = 5120x2880 (1080FX缩放)
 #$width = 5120
 #$height = 2880
 #$gameWidth = 1280
@@ -314,7 +314,7 @@ $aspectRatio = (16.0/9.0)
 #$aspectRatio = (16.0/9.0)
 
 [Preset]
-name = --- 2p x2 res scaling, normally runs at half res ---
+name = --- 2p x2资源缩放, 通常以半分辨率运行 ---
 $width = 1280
 $height = 720
 $gameWidth = 1280
@@ -367,7 +367,7 @@ $aspectRatio = (16.0/9.0)
 
 
 [Preset]
-name = 2560x1440 (Native x2, 2p x2 res)
+name = 2560x1440 (默认 x2, 2p x2 res)
 $width = 2560
 $height = 1440
 $gameWidth = 1280
@@ -380,7 +380,7 @@ $2pScaling = 2.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 3840x2160 (4k - Native x3, 2p x2 res)
+name = 3840x2160 (4k - 默认 x3, 2p x2 res)
 $width = 3840
 $height = 2160
 $gameWidth = 1280
@@ -393,7 +393,7 @@ $2pScaling = 2.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = --- Custom - Vertical res x2 "SSAA" ---
+name = --- 自定义-垂直分辨率x2 "SSAA" ---
 $width = 1920
 $height = 2160
 $gameWidth = 1280
@@ -406,7 +406,7 @@ $2pScaling = 2.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 1920x2160 - Use stretch for aspect ratio
+name = 1920x2160 - 对纵横比使用拉伸
 $width = 1920
 $height = 2160
 $gameWidth = 1280
@@ -419,7 +419,7 @@ $2pScaling = 2.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 2560x2880  - Use stretch for aspect ratio
+name = 2560x2880  - 对纵横比使用拉伸
 $width = 2560
 $height = 2880
 $gameWidth = 1280
@@ -432,7 +432,7 @@ $2pScaling = 2.0
 $aspectRatio = (16.0/9.0)
 
 [Preset]
-name = 3840x4320  - Use stretch for aspect ratio
+name = 3840x4320  - 对纵横比使用拉伸
 $width = 3840
 $height = 4320
 $gameWidth = 1280

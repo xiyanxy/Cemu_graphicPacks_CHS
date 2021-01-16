@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = 随处刷出摩托车
-path = "塞尔达传说: 旷野之息/模组/修改器/随处刷出摩托车"
-description = 仅限v208版本! 感谢Zeikken (转为补丁) 和leoetlino (查找阙值).BotW修改器由C313571N和Xalphenos制作
-version = 4

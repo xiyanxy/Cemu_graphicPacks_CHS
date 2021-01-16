@@ -2,5 +2,5 @@
 titleIds = 00050000101BEF00,00050000101BE900
 name = 60FPS
 path = "乐高:漫威复仇者联盟/模组/60FPS"
-description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由theboy181制作.
 version = 4

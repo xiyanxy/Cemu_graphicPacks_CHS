@@ -2,7 +2,7 @@
 titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
 name = 解决色彩断层
 path = "马里奥赛车8/增强插件/解决色彩断层"
-description = 解决色彩断层，更平滑的天空楼梯踏步带
+description = 解决色彩断层，更平滑的天空楼梯踏步带.此插件仅用于OpenGL.由getdls制作.
 version = 6
 rendererFilter = opengl
 

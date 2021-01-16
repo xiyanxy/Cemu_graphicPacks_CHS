@@ -1,0 +1,59 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = 快速射箭
+path = "塞尔达传说: 旷野之息/修改器/快速射箭"
+description = 修改射箭速度.||由C313571N 和 Xalphenos制作.
+version = 6
+
+[Default]
+$multiplier = 1
+
+[Preset]
+category = 射箭速度
+name = 禁用弓
+$multiplier = 0.0
+
+[Preset]
+category = 射箭速度
+name = 0.5x
+$multiplier = 0.5
+
+[Preset]
+category = 射箭速度
+name = 0.75x
+$multiplier = 0.75
+
+[Preset]
+category = 射箭速度
+default = 1
+name = 1x (默认)
+
+[Preset]
+category = 射箭速度
+name = 1.5x
+$multiplier = 1.5
+
+[Preset]
+category = 射箭速度
+name = 2x
+$multiplier = 2.0
+
+[Preset]
+category = 射箭速度
+name = 3x
+$multiplier = 3.0
+
+[Preset]
+category = 射箭速度
+name = 10x
+$multiplier = 10.0
+
+[Preset]
+category = 射箭速度
+name = 20x
+$multiplier = 20.0
+
+[Preset]
+category = 射箭速度
+name = 40x
+$multiplier = 40.0

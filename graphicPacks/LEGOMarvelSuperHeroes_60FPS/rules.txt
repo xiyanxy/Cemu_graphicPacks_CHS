@@ -2,5 +2,5 @@
 titleIds = 0005000010132B00,0005000010132400
 name = 60FPS
 path = "乐高漫威超级英雄/模组/60FPS"
-description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.
+description = 重要提示:设置游戏为60FPS,低于60fps将减慢游戏速度.由theboy181制作.
 version = 4

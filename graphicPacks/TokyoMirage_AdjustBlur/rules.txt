@@ -2,7 +2,7 @@
 titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
 name = 调整过场模糊
 path = "幻影异闻录/图像插件/调整过场模糊"
-description = 调整过场模糊
+description = 调整过场模糊.由getdls制作.
 version = 4
 
 [Preset]
