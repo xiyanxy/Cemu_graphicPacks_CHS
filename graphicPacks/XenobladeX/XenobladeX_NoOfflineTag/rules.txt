@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
-name = 没有离线标签
-path = "异度之刃X/模组/离线标签" 
-description = 删除离线闪烁标签 - 不更改实际离线状态.
-version = 4

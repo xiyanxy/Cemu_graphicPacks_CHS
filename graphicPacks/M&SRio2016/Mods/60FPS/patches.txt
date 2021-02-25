@@ -1,12 +1,5 @@
-[M&S2016FpsVerv16]
+[unison60FPS]
 moduleMatches = 0xD44C22E3
-
-# 0x020C27D4 = li r3, 1 # original town patch
-
-# 0x2E713530 .original .float 30
-# 0x0298aa0c = lfs f0,0x10(31)
-
-# Code selects .float 60 from 0X1000333C
 
 _60fps = 0x00000000
 

@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010135700,000500001012B100,0005000010128F00
+name = 在正常比赛中重试
+path = "索尼克:失落的世界/模组/允许重试"
+description = 允许您在计时赛之外重试。||由M&&M和Sajid制作.
+version = 6

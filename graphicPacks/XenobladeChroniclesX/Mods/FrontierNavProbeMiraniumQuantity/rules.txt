@@ -1,0 +1,43 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "Miranium收入数量mod"
+path = "异度之刃X/模组/FrontierNav/Miranium收入数量mod"
+description = 影响Miranium的FrontierNav收入数量.
+version = 4
+
+[Default]
+$mod = 2
+$uncap = 0
+
+[Preset]
+name = "Miranium x2"
+category = Miranium数量
+
+[Preset]
+name = "Miranium x5"
+category = Miranium数量
+$mod = 5
+
+[Preset]
+name = "Miranium x10"
+category = Miranium数量
+$mod = 10
+
+[Preset]
+name = "Miranium x50"
+category = Miranium数量
+$mod = 50
+
+[Preset]
+name = "Miranium x100"
+category = Miranium数量
+$mod = 100
+
+[Preset]
+name = "是"
+category = "限制在BLADE级别"
+
+[Preset]
+name = "否"
+category = "限制在BLADE级别"
+$uncap = 1

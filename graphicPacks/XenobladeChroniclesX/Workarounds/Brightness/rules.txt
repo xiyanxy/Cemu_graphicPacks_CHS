@@ -1,0 +1,26 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = 亮度修正
+path = "异度之刃X/解决方案/亮度"
+description = 编辑rules.txt首选项的预设. 由getdls制作.
+version = 4
+
+[Preset]
+name = NVIDIA
+$crushContrast = 0.000
+$exposure = 0.52
+$gamma = 0.93
+$glare = 0.95
+$lift = 0.002
+$postExposure = 1.05
+$vibrance = 0.318
+
+[Preset]
+name = AMD
+$crushContrast = 0
+$exposure = 0.32
+$gamma = 0.93
+$glare = 0.95
+$lift = 0.002
+$postExposure = 1.05
+$vibrance = 0.318

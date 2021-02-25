@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 5000010145d00,5000010145c00
+name = 移除HUD元素
+path = "超级马里奥3D世界/模组/移除HUD (破坏菜单)"
+description = 播放时禁用大部分UI。|仅用于屏幕截图，因为它会破坏某些菜单。| |由@etra0制作.
+version = 6

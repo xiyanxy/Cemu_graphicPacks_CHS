@@ -1,7 +1,7 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = 神兽激光束自定义工具
-path = "塞尔达传说: 旷野之息/模组/神兽激光束自定义工具"
+name = 神兽激光束
+path = "塞尔达传说: 旷野之息/模组/神兽激光束"
 description = 允许自定义神兽激光束的颜色. 它们也可以完全不显示. 在渲染器中你可以找到其他选项例如饱和度和透明度.||由Kiri制作.
 version = 6
 
@@ -9,53 +9,119 @@ version = 6
 $hue:int = 0
 $rainbow:int = 0
 $disableBeams:int = 0
+$saturation = 1.0
+$alpha = 1.0
 
 
 [Preset]
-name = 禁用 (默认)
-category = 隐藏激光
+name = 是 (默认)
+category = 显示激光
 default = 1
 $disableBeams:int = 0
 
 [Preset]
-name = 启用
-category = 隐藏激光
-default = 1
+name = 否
+category = 显示激光
 $disableBeams:int = 1
 
 
 [Preset]
 name = 红色 (默认)
+condition = $disableBeams == 0
 category = 激光颜色
 default = 1
 $hue:int = 0
 
 [Preset]
 name = 七彩
+condition = $disableBeams == 0
 category = 激光颜色
 $rainbow:int = 1
 
 [Preset]
 name = 紫色
+condition = $disableBeams == 0
 category = 激光颜色
 $hue:int = 300
 
 [Preset]
 name = 蓝色
+condition = $disableBeams == 0
 category = 激光颜色
 $hue:int = 225
 
 [Preset]
 name = 蓝青色
+condition = $disableBeams == 0
 category = 激光颜色
 $hue:int = 160
 
 [Preset]
 name = 绿色
+condition = $disableBeams == 0
 category = 激光颜色
 $hue:int = 120
 
 [Preset]
 name = 黄色
+condition = $disableBeams == 0
 category = 激光颜色
 $hue:int = 45
+
+
+[Preset]
+name = 100% (默认)
+condition = $disableBeams == 0
+category = 颜色饱和度
+default = 1
+$saturation = 1.0
+
+[Preset]
+name = 75%
+condition = $disableBeams == 0
+category = 颜色饱和度
+$saturation = 0.75
+
+[Preset]
+name = 50%
+condition = $disableBeams == 0
+category = 颜色饱和度
+$saturation = 0.5
+
+[Preset]
+name = 25%
+condition = $disableBeams == 0
+category = 颜色饱和度
+$saturation = 0.25
+
+
+[Preset]
+name = 100% (默认)
+condition = $disableBeams == 0
+category = 激光透明度
+default = 1
+$alpha = 1.0
+
+[Preset]
+name = 75%
+condition = $disableBeams == 0
+category = 激光透明度
+$alpha = 0.75
+
+[Preset]
+name = 50%
+condition = $disableBeams == 0
+category = 激光透明度
+$alpha = 0.5
+
+[Preset]
+name = 25%
+condition = $disableBeams == 0
+category = 激光透明度
+$alpha = 0.25
+
+[Preset]
+name = 10%
+condition = $disableBeams == 0
+category = 激光透明度
+$alpha = 0.1

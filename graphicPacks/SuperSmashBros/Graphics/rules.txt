@@ -16,52 +16,94 @@ $anisotropy = 1
 # Resolution
 
 [Preset]
+name = 640x360
+category = 分辨率
+$width = 640
+$height = 360
+
+[Preset]
 name = 960x540
 category = 分辨率
 $width = 960
 $height = 540
 
 [Preset]
-name = 1920x1080
+name = 1280x720 (HD)
+category = 分辨率
+$width = 1280
+$height = 720
+
+[Preset]
+name = 1600x900 (HD+)
+category = 分辨率
+$width = 1600
+$height = 900
+
+[Preset]
+name = 1920x1080 (全HD)
 category = 分辨率
 default = 1
 
 [Preset]
-name = 3840x2160
+name = 2560x1440 (2K)
+category = 分辨率
+$width = 2560
+$height = 1440
+
+[Preset]
+category = 分辨率
+name = 3200x1800
+$width = 3200
+$height = 1800
+
+[Preset]
+name = 3840x2160 (4K)
 category = 分辨率
 $width = 3840
 $height = 2160
 
 [Preset]
-name = 7680x4320
+name = 5120x2880 (5K)
+category = 分辨率
+$width = 5120
+$height = 2880
+
+[Preset]
+name = 7680x4320 (8K)
 category = 分辨率
 $width = 7680
 $height = 4320
 
+[Preset]
+name = 10240x5760 (10K)
+category = 分辨率
+$width = 10240
+$height = 5760
+
 # Shadow Quality
 
 [Preset]
-name = 低
+name = 低 (50%)
 category = 阴影质量
 $shadowQuality = 0.5
 
 [Preset]
-name = 中等
+name = 中等 (100%, Default)
 category = 阴影质量
 default = 1
 
 [Preset]
-name = 高
+name = 高 (200%)
 category = 阴影质量
 $shadowQuality = 2
 
 [Preset]
-name = 超级
+name = 超级 (300%)
 category = 阴影质量
 $shadowQuality = 3
 
 [Preset]
-name = 究极
+name = 究极 (400%, 不稳定)
 category = 阴影质量
 $shadowQuality = 4
 
@@ -69,28 +111,29 @@ $shadowQuality = 4
 
 [Preset]
 name = 1x
-category = 各向异性过滤质量
+category = Anisotropic Filtering Quality
 default = 1
 
 [Preset]
 name = 2x
-category = 各向异性过滤质量
+category = Anisotropic Filtering Quality
 $anisotropy = 2
 
 [Preset]
 name = 4x
-category = 各向异性过滤质量
+category = Anisotropic Filtering Quality
 $anisotropy = 4
 
 [Preset]
 name = 8x
-category = 各向异性过滤质量
+category = Anisotropic Filtering Quality
 $anisotropy = 8
 
 [Preset]
 name = 16x
-category = 各向异性过滤质量
+category = Anisotropic Filtering Quality
 $anisotropy = 16
+
 
 # Anisotropic Filtering
 
@@ -475,3 +518,4 @@ height = 512
 formats = 0xb,0xf
 overwriteWidth = $shadowQuality * 512
 overwriteHeight = $shadowQuality * 512
+

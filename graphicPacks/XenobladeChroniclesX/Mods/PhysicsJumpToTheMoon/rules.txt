@@ -1,0 +1,109 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "跳跃高度"
+path = "异度之刃X/模组/物理/跳跃高度"
+description = 提高跳跃的水平和垂直速度（两者的Vanilla值均为1.0）.
+version = 5
+
+[Default]
+$horz = 1.0
+$vert = 1.0
+
+[Preset]
+name = "距离x1.0 (默认)"
+category = "水平速度（达到的距离）"
+
+[Preset]
+name = "距离x1.5"
+category = "水平速度（达到的距离）"
+$horz = 1.5
+
+[Preset]
+name = "距离x1.6"
+category = "水平速度（达到的距离）"
+$horz = 1.6
+
+[Preset]
+name = "距离x1.7"
+category = "水平速度（达到的距离）"
+$horz = 1.7
+
+[Preset]
+name = "距离x1.8"
+category = "水平速度（达到的距离）"
+$horz = 1.8
+
+[Preset]
+name = "距离x1.9"
+category = "水平速度（达到的距离）"
+$horz = 1.9
+
+[Preset]
+name = "距离x2.0"
+category = "水平速度（达到的距离）"
+$horz = 2.0
+
+[Preset]
+name = "距离x2.5"
+category = "水平速度（达到的距离）"
+$horz = 2.5
+
+[Preset]
+name = "距离x3.0"
+category = "水平速度（达到的距离）"
+$horz = 3.0
+
+
+[Preset]
+name = "高度x1.0 (默认)"
+category = "垂直速度（高度）"
+
+[Preset]
+name = "高度x1.05"
+category = "垂直速度（高度）"
+$vert = 1.05
+
+[Preset]
+name = "高度x1.06"
+category = "垂直速度（高度）"
+$vert = 1.06
+
+[Preset]
+name = "高度x1.07"
+category = "垂直速度（高度）"
+$vert = 1.07
+
+[Preset]
+name = "高度x1.08"
+category = "垂直速度（高度）"
+$vert = 1.08
+
+[Preset]
+name = "高度x1.09"
+category = "垂直速度（高度）"
+$vert = 1.09
+
+[Preset]
+name = "高度x1.10"
+category = "垂直速度（高度）"
+$vert = 1.10
+
+[Preset]
+name = "高度x1.20"
+category = "垂直速度（高度）"
+$vert = 1.20
+
+[Preset]
+name = "高度x1.30"
+category = "垂直速度（高度）"
+$vert = 1.30
+
+[Preset]
+name = "高度x1.40"
+category = "垂直速度（高度）"
+$vert = 1.40
+
+[Preset]
+name = "高度x1.50"
+category = "垂直速度（高度）"
+$vert = 1.50

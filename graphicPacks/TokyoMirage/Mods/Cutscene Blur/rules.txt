@@ -1,0 +1,64 @@
+[Definition]
+titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
+name = 调整过场模糊
+path = "幻影异闻录/模组/调整过场模糊"
+description = 允许您更改过场动画中使用的模糊量/强度.||由getdls制作.
+version = 7
+
+[Default]
+$blurAmount = 1.0
+
+
+[Preset]
+category = 模糊量
+name = 100% (默认)
+
+[Preset]
+category = 模糊量
+name = 90%
+$blurAmount = 0.9
+
+[Preset]
+category = 模糊量
+name = 80%
+$blurAmount = 0.8
+
+[Preset]
+category = 模糊量
+name = 70%
+$blurAmount = 0.7
+
+[Preset]
+category = 模糊量
+name = 60%
+$blurAmount = 0.6
+
+[Preset]
+category = 模糊量
+name = 50%
+$blurAmount = 0.5
+
+[Preset]
+category = 模糊量
+name = 40%
+$blurAmount = 0.4
+
+[Preset]
+category = 模糊量
+name = 30%
+$blurAmount = 0.3
+
+[Preset]
+category = 模糊量
+name = 20%
+$blurAmount = 0.2
+
+[Preset]
+category = 模糊量
+name = 10%
+$blurAmount = 0.1
+
+[Preset]
+category = 模糊量
+name = 0%
+$blurAmount = 0.0

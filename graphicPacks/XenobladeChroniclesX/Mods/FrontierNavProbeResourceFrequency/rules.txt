@@ -1,0 +1,16 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "资源收入频率mod"
+path = "异度之刃X/模组/FrontierNav/资源收入频率mod"
+description = 影响FrontierNav资源收入的频率（Vanilla每5分钟一次）.
+version = 5
+
+[Default]
+$mod = 2
+
+[Preset]
+name = "每2分钟"
+
+[Preset]
+name = "每分钟"
+$mod = 1

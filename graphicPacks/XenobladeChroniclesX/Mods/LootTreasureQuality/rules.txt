@@ -1,0 +1,34 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "宝物质量" 
+path = "异度之刃X/模组/抢劫/宝物质量"
+description = 选择想要抢劫的首选宝藏质量（有关说明，请参见readme.txt）。
+version = 5
+
+[Default]
+$treasure:int = 0
+$forced:int = 0
+
+[Preset]
+name = "黄金品质"
+$treasure:int = 1
+
+[Preset]
+name = "白银品质"
+$treasure:int = 2
+
+[Preset]
+name = "青铜品质"
+$treasure:int = 3
+
+[Preset]
+name = "不要宝藏"
+
+[Preset]
+name = "是"
+category = 强制锁定
+$forced:int = 1
+
+[Preset]
+name = "否"
+category = 强制锁定

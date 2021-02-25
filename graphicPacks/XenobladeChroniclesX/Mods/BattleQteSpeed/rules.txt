@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "灵魂挑战 - 难度"
+path = "异度之刃X/模组/战斗/灵魂挑战 - 难度"
+description = 战斗中QTE的速度不会增加。
+version = 5

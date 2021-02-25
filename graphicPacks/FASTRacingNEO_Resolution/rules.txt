@@ -89,14 +89,14 @@ $gameHeight = 720
 # Common Ultrawide Resolutions
 
 [Preset]
-name = 2560x1080 (21:9)
+name = 2560x1080 ("21:9")
 $width = 2560
 $height = 1080
 $gameWidth = 1280
 $gameHeight = 720
 
 [Preset]
-name = 3440x1440 (21:9)
+name = 3440x1440 ("21:9")
 $width = 3440
 $height = 1440
 $gameWidth = 1280
@@ -173,6 +173,15 @@ $gameHeight = 720
 [TextureRedefine] # Game Resolution
 width = 1280
 height = 720
+formatsExcluded = 0x41a
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height / $gameHeight) * 720
+
+[TextureRedefine] # Game Resolution
+width = 1280
+height = 720
+formats = 0x41a
+inMEM1 = 1
 overwriteWidth = ($width / $gameWidth) * 1280
 overwriteHeight = ($height / $gameHeight) * 720
 

@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
-name = "没有Skell飞行音乐"
-path = "异度之刃X/模组/音乐/没有Skell飞行音乐"
-description = 在飞行中禁用音乐.
-version = 4

@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 0005000010135700,000500001012B100,0005000010128F00
-name = 60FPS 双人竞赛
-path = "索尼克:失落的世界/模组/60FPS双人竞赛"
-description = 双人竞赛模式中修补30FPS锁定.由M&&M制作.
-version = 4

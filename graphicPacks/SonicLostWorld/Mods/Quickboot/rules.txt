@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010135700,000500001012B100,0005000010128F00
+name = 快速启动
+path = "索尼克:失落的世界/模组/快速启动"
+description = 直接引导到标题屏幕。|可以通过修改patches.txt文件进行自定义。||由M&&M和Sajid制作.
+version = 6

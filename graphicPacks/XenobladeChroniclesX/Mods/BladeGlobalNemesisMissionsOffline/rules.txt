@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "离线全球复仇者任务"
+path = "异度之刃X/模组/BLADE/离线全球复仇者任务"
+description = “全球复仇者”（Telethia Plume和Yggralith Zero）在BLADE控制台中可用。|你仍然需要勋章才能开始战斗。
+version = 5

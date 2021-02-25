@@ -1,0 +1,16 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "逃生距离减少器"
+path = "异度之刃X/模组/战斗/逃生距离减少器"
+description = 减少失去敌人的仇恨所需的逃生距离.
+version = 5
+
+[Default]
+$mod = 1.333
+
+[Preset]
+name = 设为-25%
+
+[Preset]
+name = 设为-50%
+$mod = 2.0

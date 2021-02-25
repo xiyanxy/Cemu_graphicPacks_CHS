@@ -1,0 +1,102 @@
+[Definition]
+titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
+name = LOD偏差
+path = "幻影异闻录/增强插件/LOD偏差"
+description = 设置“细节级别偏移”会更改所用纹理的细节级别。|增加“远处纹理细节”会使远处的纹理看起来更清晰。|但是，降低纹理细节可能会提高性能。可能会引入图形错误||由getdls制作.
+version = 7
+
+[Default]
+$advancedOptions = 0
+$lodBias = 0
+
+
+# Show Experimental Options
+
+[Preset]
+category = 显示实验选项
+name = 禁用
+
+[Preset]
+category = 显示实验选项
+name = 启用 (用于截图/测试)
+$advancedOptions = 1
+
+
+# Texture Detail
+
+[Preset]
+category = 远处纹理细节
+name = 最低 (不推荐, +16)
+condition = $advancedOptions == 1
+$lodBias = +16
+
+[Preset]
+category = 远处纹理细节
+name = 超级低 (不推荐, +8)
+condition = $advancedOptions == 1
+$lodBias = +8
+
+[Preset]
+category = 远处纹理细节
+name = 很低 (不推荐, +4)
+condition = $advancedOptions == 1
+$lodBias = +4
+
+[Preset]
+category = 远处纹理细节
+name = 些许低 (+3)
+$lodBias = +3
+
+[Preset]
+category = 远处纹理细节
+name = 较低 (+2)
+$lodBias = +2
+
+[Preset]
+category = 远处纹理细节
+name = 一丝丝低 (+1)
+$lodBias = +1
+
+[Preset]
+category = 远处纹理细节
+name = 正常 (+0)
+default = 1
+$lodBias = 0
+
+[Preset]
+category = 远处纹理细节
+name = 一丝丝高 (-1)
+$lodBias = -1
+
+[Preset]
+category = 远处纹理细节
+name = 较高 (-2)
+$lodBias = -2
+
+[Preset]
+category = 远处纹理细节
+name = 些许高 (-3)
+$lodBias = -3
+
+[Preset]
+category = 远处纹理细节
+name = 非常高 (不推荐, -4)
+condition = $advancedOptions == 1
+$lodBias = -4
+
+[Preset]
+category = 远处纹理细节
+name = 超级低 (不推荐, -8)
+condition = $advancedOptions == 1
+$lodBias = -8
+
+[Preset]
+category = 远处纹理细节
+name = 最高 (不推荐, -16)
+condition = $advancedOptions == 1
+$lodBias = -16
+
+
+[TextureRedefine]
+formats = 0x01a,0x031,0x032,0x033,0x034,0x035,0x431,0x432,0x433,0x434,0x435
+overwriteRelativeLodBias = $lodBias

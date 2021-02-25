@@ -8,6 +8,26 @@ version = 6
 [Default]
 $setting:int = 0
 
+$enableGroundFogColor:int = 1
+$groundFogRed = 1.0
+$groundFogGreen = 1.0
+$groundFogBlue = 1.0
+$groundFogOpacity = 1.0
+$groundFogBrightness = 1.0
+
+$enableWaterFogColor:int = 1
+$waterFogRed = 1.0
+$waterFogGreen = 1.0
+$waterFogBlue = 1.0
+$waterFogOpacity = 1.0
+
+$enableGreeneryFogColor:int = 1
+$greeneryFogRed = 1.0
+$greeneryFogGreen = 1.0
+$greeneryFogBlue = 1.0
+$greeneryFogOpacity = 1.0
+$greeneryFogBrightness = 1.0
+
 $enableDistanceFogColor:int = 1
 $distanceFogRed = 1.0
 $distanceFogGreen = 1.0
@@ -35,84 +55,528 @@ $ganonAuraOpacity = 1.0
 # Setting Selector
 
 [Preset]
-name = 远处雾霾
+name = 开阔地雾霾
 category = 雾霾设置
 default = 1
 $setting:int = 0
 
 [Preset]
-name = 雾云
-category = 雾霾设置
+name = 水雾
+category = 雾设置
 $setting:int = 1
 
 [Preset]
-name = 海拉鲁城堡加农瘴气
-category = 雾霾设置
+name = 绿茵雾 (树木、灌木和藤蔓植物)
+category = 雾设置
+default = 1
 $setting:int = 2
 
+[Preset]
+name = 远处雾霾
+category = 雾设置
+$setting:int = 3
+
+[Preset]
+name = 云雾
+category = 雾设置
+$setting:int = 4
+
+[Preset]
+name = 海拉鲁城堡雾/瘴气
+category = 雾设置
+$setting:int = 5
+
+
+# Ground Fog
+
+[Preset]
+name = 100%不透明度 (默认)
+category = 开阔地雾能见度
+condition = $setting == 0
+default = 1
+$groundFogOpacity = 1.0
+
+[Preset]
+name = 80%不透明度
+category = 开阔地雾能见度
+condition = $setting == 0
+$groundFogOpacity = 0.8
+
+[Preset]
+name = 60%不透明度
+category = 开阔地雾能见度
+condition = $setting == 0
+$groundFogOpacity = 0.6
+
+[Preset]
+name = 50%不透明度
+category = 开阔地雾能见度
+condition = $setting == 0
+$groundFogOpacity = 0.5
+
+[Preset]
+name = 40%不透明度
+category = 开阔地雾能见度
+condition = $setting == 0
+$groundFogOpacity = 0.4
+
+[Preset]
+name = 20%不透明度
+category = 开阔地雾能见度
+condition = $setting == 0
+$groundFogOpacity = 0.2
+
+[Preset]
+name = 10%不透明度
+category = 开阔地雾能见度
+condition = $setting == 0
+$groundFogOpacity = 0.1
+
+[Preset]
+name = 0%不透明度
+category = 开阔地雾能见度
+condition = $setting == 0
+$groundFogOpacity = 0.0
+
+[Preset]
+name = 0.5x亮度
+category = 开阔地雾亮度
+condition = $setting == 0
+$groundFogBrightness = 0.5
+
+[Preset]
+name = 0.75x亮度
+category = 开阔地雾亮度
+condition = $setting == 0
+$groundFogBrightness = 0.75
+
+[Preset]
+name = 1x亮度 (Default)
+category = 开阔地雾亮度
+default = 1
+condition = $setting == 0
+$groundFogBrightness = 1.0
+
+[Preset]
+name = 1.5x亮度
+category = 开阔地雾亮度
+condition = $setting == 0
+$groundFogBrightness = 1.5
+
+[Preset]
+name = 2x亮度
+category = 开阔地雾亮度
+condition = $setting == 0
+$groundFogBrightness = 2.0
+
+[Preset]
+name = 3x亮度
+category = 开阔地雾亮度
+condition = $setting == 0
+$groundFogBrightness = 3.0
+
+[Preset]
+name = 4x亮度
+category = 开阔地雾亮度
+condition = $setting == 0
+$groundFogBrightness = 4.0
+
+[Preset]
+name = 游戏原始 (默认)
+category = 开阔地雾颜色
+condition = $setting == 0
+default = 1
+$enableGroundFogColor:int = 0
+
+[Preset]
+name = 黑雾
+category = 开阔地雾颜色
+condition = $setting == 0
+$groundFogRed = 1.0
+$groundFogGreen = 1.0
+$groundFogBlue = 1.0
+
+[Preset]
+name = 灰雾
+category = 开阔地雾颜色
+condition = $setting == 0
+$groundFogRed = 0.75
+$groundFogGreen = 0.75
+$groundFogBlue = 0.75
+
+[Preset]
+name = 深蓝雾
+category = 开阔地雾颜色
+condition = $setting == 0
+$groundFogRed = 0.0
+$groundFogGreen = 0.0
+$groundFogBlue = 0.5
+
+[Preset]
+name = 蓝雾
+category = 开阔地雾颜色
+condition = $setting == 0
+$groundFogRed = 0.0
+$groundFogGreen = 0.0
+$groundFogBlue = 1.0
+
+[Preset]
+name = 蓝青雾
+category = 开阔地雾颜色
+condition = $setting == 0
+$groundFogRed = 0.0
+$groundFogGreen = 0.5
+$groundFogBlue = 0.5
+
+[Preset]
+name = 绿雾
+category = 开阔地雾颜色
+condition = $setting == 0
+$groundFogRed = 0.0
+$groundFogGreen = 1.0
+$groundFogBlue = 0.0
+
+[Preset]
+name = 红雾
+category = 开阔地雾颜色
+condition = $setting == 0
+$groundFogRed = 1.0
+$groundFogGreen = 0.0
+$groundFogBlue = 0.0
+
+# Water Fog
+
+[Preset]
+name = 100%不透明度 (默认)
+category = 水雾能见度
+condition = $setting == 1
+default = 1
+$waterFogOpacity = 1.0
+
+[Preset]
+name = 80%不透明度
+category = 水雾能见度
+condition = $setting == 1
+$waterFogOpacity = 0.8
+
+[Preset]
+name = 60%不透明度
+category = 水雾能见度
+condition = $setting == 1
+$waterFogOpacity = 0.6
+
+[Preset]
+name = 50%不透明度
+category = 水雾能见度
+condition = $setting == 1
+$waterFogOpacity = 0.5
+
+[Preset]
+name = 40%不透明度
+category = 水雾能见度
+condition = $setting == 1
+$waterFogOpacity = 0.4
+
+[Preset]
+name = 20%不透明度
+category = 水雾能见度
+condition = $setting == 1
+$waterFogOpacity = 0.2
+
+[Preset]
+name = 10%不透明度
+category = 水雾能见度
+condition = $setting == 1
+$waterFogOpacity = 0.1
+
+[Preset]
+name = 0%不透明度
+category = 水雾能见度
+condition = $setting == 1
+$waterFogOpacity = 0.0
+
+[Preset]
+name = 游戏原始 (默认)
+category = 水雾颜色
+condition = $setting == 1
+default = 1
+$enableWaterFogColor:int = 0
+
+[Preset]
+name = 黑雾
+category = 水雾颜色
+condition = $setting == 1
+$waterFogRed = 1.0
+$waterFogGreen = 1.0
+$waterFogBlue = 1.0
+
+[Preset]
+name = 灰雾
+category = 水雾颜色
+condition = $setting == 1
+$waterFogRed = 0.75
+$waterFogGreen = 0.75
+$waterFogBlue = 0.75
+
+[Preset]
+name = 深蓝雾
+category = 水雾颜色
+condition = $setting == 1
+$waterFogRed = 0.0
+$waterFogGreen = 0.0
+$waterFogBlue = 0.5
+
+[Preset]
+name = 蓝雾
+category = 水雾颜色
+condition = $setting == 1
+$waterFogRed = 0.0
+$waterFogGreen = 0.0
+$waterFogBlue = 1.0
+
+[Preset]
+name = 蓝青雾
+category = 水雾颜色
+condition = $setting == 1
+$waterFogRed = 0.0
+$waterFogGreen = 0.5
+$waterFogBlue = 0.5
+
+[Preset]
+name = 绿雾
+category = 水雾颜色
+condition = $setting == 1
+$waterFogRed = 0.0
+$waterFogGreen = 1.0
+$waterFogBlue = 0.0
+
+[Preset]
+name = 红雾
+category = 水雾颜色
+condition = $setting == 1
+$waterFogRed = 1.0
+$waterFogGreen = 0.0
+$waterFogBlue = 0.0
+
+# Greenery Fog
+
+[Preset]
+name = 100%不透明度 (默认)
+category = 绿茵雾能见度
+condition = $setting == 2
+default = 1
+$greeneryFogOpacity = 1.0
+
+[Preset]
+name = 80%不透明度
+category = 绿茵雾能见度
+condition = $setting == 2
+$greeneryFogOpacity = 0.8
+
+[Preset]
+name = 60%不透明度
+category = 绿茵雾能见度
+condition = $setting == 2
+$greeneryFogOpacity = 0.6
+
+[Preset]
+name = 50%不透明度
+category = 绿茵雾能见度
+condition = $setting == 2
+$greeneryFogOpacity = 0.5
+
+[Preset]
+name = 40%不透明度
+category = 绿茵雾能见度
+condition = $setting == 2
+$greeneryFogOpacity = 0.4
+
+[Preset]
+name = 20%不透明度
+category = 绿茵雾能见度
+condition = $setting == 2
+$greeneryFogOpacity = 0.2
+
+[Preset]
+name = 10%不透明度
+category = 绿茵雾能见度
+condition = $setting == 2
+$greeneryFogOpacity = 0.1
+
+[Preset]
+name = 0%不透明度
+category = 绿茵雾能见度
+condition = $setting == 2
+$greeneryFogOpacity = 0.0
+
+[Preset]
+name = 0.5x亮度
+category = 绿茵雾亮度
+condition = $setting == 2
+$greeneryFogBrightness = 0.5
+
+[Preset]
+name = 0.75x亮度
+category = 绿茵雾亮度
+condition = $setting == 2
+$greeneryFogBrightness = 0.75
+
+[Preset]
+name = 1x亮度 (默认)
+category = 绿茵雾亮度
+default = 1
+condition = $setting == 2
+$greeneryFogBrightness = 1.0
+
+[Preset]
+name = 1.5x亮度
+category = 绿茵雾亮度
+condition = $setting == 2
+$greeneryFogBrightness = 1.5
+
+[Preset]
+name = 2x亮度
+category = 绿茵雾亮度
+condition = $setting == 2
+$greeneryFogBrightness = 2.0
+
+[Preset]
+name = 3x亮度
+category = 绿茵雾亮度
+condition = $setting == 2
+$greeneryFogBrightness = 3.0
+
+[Preset]
+name = 4x亮度
+category = 绿茵雾亮度
+condition = $setting == 2
+$greeneryFogBrightness = 4.0
+
+[Preset]
+name = 游戏原始 (默认)
+category = 绿茵雾颜色
+condition = $setting == 2
+default = 1
+$enableGreeneryFogColor:int = 0
+
+[Preset]
+name = 黑雾
+category = 绿茵雾颜色
+condition = $setting == 2
+$greeneryFogRed = 1.0
+$greeneryFogGreen = 1.0
+$greeneryFogBlue = 1.0
+
+[Preset]
+name = 灰雾
+category = 绿茵雾颜色
+condition = $setting == 2
+$greeneryFogRed = 0.75
+$greeneryFogGreen = 0.75
+$greeneryFogBlue = 0.75
+
+[Preset]
+name = 深蓝雾
+category = 绿茵雾颜色
+condition = $setting == 2
+$greeneryFogRed = 0.0
+$greeneryFogGreen = 0.0
+$greeneryFogBlue = 0.5
+
+[Preset]
+name = 蓝雾
+category = 绿茵雾颜色
+condition = $setting == 2
+$greeneryFogRed = 0.0
+$greeneryFogGreen = 0.0
+$greeneryFogBlue = 1.0
+
+[Preset]
+name = 蓝青雾
+category = 绿茵雾颜色
+condition = $setting == 2
+$greeneryFogRed = 0.0
+$greeneryFogGreen = 0.5
+$greeneryFogBlue = 0.5
+
+[Preset]
+name = 绿雾
+category = 绿茵雾颜色
+condition = $setting == 2
+$greeneryFogRed = 0.0
+$greeneryFogGreen = 1.0
+$greeneryFogBlue = 0.0
+
+[Preset]
+name = 红雾
+category = 绿茵雾颜色
+condition = $setting == 2
+$greeneryFogRed = 1.0
+$greeneryFogGreen = 0.0
+$greeneryFogBlue = 0.0
 
 # Distance Fog
 
 [Preset]
 name = 100%不透明度 (默认)
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 default = 1
 $distanceFogOpacity = 1.0
 
 [Preset]
 name = 80%不透明度
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogOpacity = 0.8
 
 [Preset]
 name = 60%不透明度
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogOpacity = 0.6
 
 [Preset]
 name = 50%不透明度
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogOpacity = 0.5
 
 [Preset]
 name = 40%不透明度
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogOpacity = 0.4
 
 [Preset]
 name = 20%不透明度
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogOpacity = 0.2
 
 [Preset]
 name = 10%不透明度
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogOpacity = 0.1
 
 [Preset]
 name = 0%不透明度
 category = 远处雾能见度
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogOpacity = 0.0
 
 [Preset]
-name = 正常 (默认)
+name = 游戏原始 (默认)
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 default = 1
 $enableDistanceFogColor:int = 0
 
 [Preset]
 name = 黑雾
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogRed = 1.0
 $distanceFogGreen = 1.0
 $distanceFogBlue = 1.0
@@ -120,7 +584,7 @@ $distanceFogBlue = 1.0
 [Preset]
 name = 灰雾
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogRed = 0.75
 $distanceFogGreen = 0.75
 $distanceFogBlue = 0.75
@@ -128,7 +592,7 @@ $distanceFogBlue = 0.75
 [Preset]
 name = 深蓝雾
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogRed = 0.0
 $distanceFogGreen = 0.0
 $distanceFogBlue = 0.5
@@ -136,7 +600,7 @@ $distanceFogBlue = 0.5
 [Preset]
 name = 蓝雾
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogRed = 0.0
 $distanceFogGreen = 0.0
 $distanceFogBlue = 1.0
@@ -144,7 +608,7 @@ $distanceFogBlue = 1.0
 [Preset]
 name = 蓝青雾
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogRed = 0.0
 $distanceFogGreen = 0.5
 $distanceFogBlue = 0.5
@@ -152,7 +616,7 @@ $distanceFogBlue = 0.5
 [Preset]
 name = 绿雾
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogRed = 0.0
 $distanceFogGreen = 1.0
 $distanceFogBlue = 0.0
@@ -160,7 +624,7 @@ $distanceFogBlue = 0.0
 [Preset]
 name = 红雾
 category = 远处雾颜色
-condition = $setting == 0
+condition = $setting == 3
 $distanceFogRed = 1.0
 $distanceFogGreen = 0.0
 $distanceFogBlue = 0.0
@@ -169,112 +633,112 @@ $distanceFogBlue = 0.0
 
 [Preset]
 name = 100%不透明度 (默认)
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 default = 1
 $fogCloudsOpacity = 1.0
 
 [Preset]
 name = 80%不透明度
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 $fogCloudsOpacity = 0.8
 
 [Preset]
 name = 60%不透明度
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 $fogCloudsOpacity = 0.6
 
 [Preset]
 name = 50%不透明度
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 $fogCloudsOpacity = 0.5
 
 [Preset]
 name = 40%不透明度
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 $fogCloudsOpacity = 0.4
 
 [Preset]
 name = 20%不透明度
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 $fogCloudsOpacity = 0.2
 
 [Preset]
 name = 10%不透明度
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 $fogCloudsOpacity = 0.1
 
 [Preset]
 name = 0%不透明度
-category = 雾云能见度
-condition = $setting == 1
+category = 云雾能见度
+condition = $setting == 4
 $fogCloudsOpacity = 0.0
 
 [Preset]
-name = 正常 (默认)
-category = 雾云颜色
-condition = $setting == 1
+name = 游戏原始 (默认)
+category = 云雾颜色
+condition = $setting == 4
 default = 1
 $enableFogCloudsColor:int = 0
 
 [Preset]
 name = 黑雾
-category = 雾云颜色
-condition = $setting == 1
+category = 云雾颜色
+condition = $setting == 4
 $fogCloudsRed = 1.0
 $fogCloudsGreen = 1.0
 $fogCloudsBlue = 1.0
 
 [Preset]
 name = 灰雾
-category = 雾云颜色
-condition = $setting == 1
+category = 云雾颜色
+condition = $setting == 4
 $fogCloudsRed = 0.75
 $fogCloudsGreen = 0.75
 $fogCloudsBlue = 0.75
 
 [Preset]
 name = 深蓝雾
-category = 雾云颜色
-condition = $setting == 1
+category = 云雾颜色
+condition = $setting == 4
 $fogCloudsRed = 0.0
 $fogCloudsGreen = 0.0
 $fogCloudsBlue = 0.5
 
 [Preset]
 name = 蓝雾
-category = 雾云颜色
-condition = $setting == 1
+category = 云雾颜色
+condition = $setting == 4
 $fogCloudsRed = 0.0
 $fogCloudsGreen = 0.0
 $fogCloudsBlue = 1.0
 
 [Preset]
 name = 蓝青雾
-category = 雾云颜色
-condition = $setting == 1
+category = 云雾颜色
+condition = $setting == 4
 $fogCloudsRed = 0.0
 $fogCloudsGreen = 0.5
 $fogCloudsBlue = 0.5
 
 [Preset]
 name = 绿雾
-category = 雾云颜色
-condition = $setting == 1
+category = 云雾颜色
+condition = $setting == 4
 $fogCloudsRed = 0.0
 $fogCloudsGreen = 1.0
 $fogCloudsBlue = 0.0
 
 [Preset]
 name = 红雾
-category = 雾云颜色
-condition = $setting == 1
+category = 云雾颜色
+condition = $setting == 4
 $fogCloudsRed = 1.0
 $fogCloudsGreen = 0.0
 $fogCloudsBlue = 0.0
@@ -284,63 +748,63 @@ $fogCloudsBlue = 0.0
 [Preset]
 name = 100%不透明度 (默认)
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 default = 1
 $castleFogOpacity = 1.0
 
 [Preset]
 name = 80%不透明度
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 $castleFogOpacity = 0.8
 
 [Preset]
 name = 60%不透明度
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 $castleFogOpacity = 0.6
 
 [Preset]
 name = 50%不透明度
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 $castleFogOpacity = 0.5
 
 [Preset]
 name = 40%不透明度
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 $castleFogOpacity = 0.4
 
 [Preset]
 name = 20%不透明度
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 $castleFogOpacity = 0.2
 
 [Preset]
 name = 10%不透明度
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 $castleFogOpacity = 0.1
 
 [Preset]
 name = 0%不透明度
 category = 城堡瘴气能见度
-condition = $setting == 2
+condition = $setting == 5
 $castleFogOpacity = 0.0
 
 [Preset]
-name = 正常 (默认)
+name = 游戏原始 (默认)
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 default = 1
 $enableCastleFogColor:int = 0
 
 [Preset]
 name = 黑色
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 $castleFogRed = 1.0
 $castleFogGreen = 1.0
 $castleFogBlue = 1.0
@@ -348,7 +812,7 @@ $castleFogBlue = 1.0
 [Preset]
 name = 灰色
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 $castleFogRed = 0.75
 $castleFogGreen = 0.75
 $castleFogBlue = 0.75
@@ -356,7 +820,7 @@ $castleFogBlue = 0.75
 [Preset]
 name = 深蓝色
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 $castleFogRed = 0.0
 $castleFogGreen = 0.0
 $castleFogBlue = 0.5
@@ -364,7 +828,7 @@ $castleFogBlue = 0.5
 [Preset]
 name = 蓝色
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 $castleFogRed = 0.0
 $castleFogGreen = 0.0
 $castleFogBlue = 1.0
@@ -372,7 +836,7 @@ $castleFogBlue = 1.0
 [Preset]
 name = 蓝青色
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 $castleFogRed = 0.0
 $castleFogGreen = 0.5
 $castleFogBlue = 0.5
@@ -380,7 +844,7 @@ $castleFogBlue = 0.5
 [Preset]
 name = 绿色
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 $castleFogRed = 0.0
 $castleFogGreen = 1.0
 $castleFogBlue = 0.0
@@ -388,7 +852,7 @@ $castleFogBlue = 0.0
 [Preset]
 name = 灰色
 category = 城堡瘴气颜色
-condition = $setting == 2
+condition = $setting == 5
 $castleFogRed = 1.0
 $castleFogGreen = 0.0
 $castleFogBlue = 0.0
@@ -399,81 +863,81 @@ $castleFogBlue = 0.0
 [Preset]
 name = 300%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 2.0
 
 [Preset]
 name = 200%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 2.0
 
 [Preset]
 name = 150%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 1.5
 
 [Preset]
 name = 100%不透明度 (默认)
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 default = 1
 $ganonAuraOpacity = 1.0
 
 [Preset]
 name = 80%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 0.8
 
 [Preset]
 name = 60%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 0.6
 
 [Preset]
 name = 50%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 0.5
 
 [Preset]
 name = 40%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 0.4
 
 [Preset]
 name = 20%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 0.2
 
 [Preset]
 name = 10%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 0.2
 
 [Preset]
 name = 0%不透明度
 category = 加农瘴气能见度
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraOpacity = 0.0
 
 [Preset]
-name = 正常 (默认)
+name = 游戏原始 (默认)
 category = 加农瘴气颜色
-condition = $setting == 2
+condition = $setting == 6
 default = 1
 $enableGanonAuraColor:int = 0
 
 [Preset]
 name = 黑色
 category = 加农瘴气颜色
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraRed = 1.0
 $ganonAuraGreen = 1.0
 $ganonAuraBlue = 1.0
@@ -481,7 +945,7 @@ $ganonAuraBlue = 1.0
 [Preset]
 name = 深蓝色
 category = 加农瘴气颜色
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 0.0
 $ganonAuraBlue = 0.5
@@ -489,7 +953,7 @@ $ganonAuraBlue = 0.5
 [Preset]
 name = 蓝色
 category = 加农瘴气颜色
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 0.0
 $ganonAuraBlue = 1.0
@@ -497,7 +961,7 @@ $ganonAuraBlue = 1.0
 [Preset]
 name = 蓝青色
 category = 加农瘴气颜色
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 0.5
 $ganonAuraBlue = 0.5
@@ -505,7 +969,7 @@ $ganonAuraBlue = 0.5
 [Preset]
 name = 绿色
 category = 加农瘴气颜色
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 1.0
 $ganonAuraBlue = 0.0
@@ -513,7 +977,7 @@ $ganonAuraBlue = 0.0
 [Preset]
 name = 红色
 category = 加农瘴气颜色
-condition = $setting == 2
+condition = $setting == 6
 $ganonAuraRed = 1.0
 $ganonAuraGreen = 0.0
 $ganonAuraBlue = 0.0

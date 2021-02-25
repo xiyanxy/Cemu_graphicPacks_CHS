@@ -1,0 +1,203 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "天气设置"
+path = "异度之刃X/模组/天气/天气设置"
+description = 设定天气,只需选择一个并加载/重新加载即可.
+version = 5
+
+[Default]
+$wtr = 1
+$region = 1
+
+[Preset] ###########################################
+name = "原始荒野"
+category = 地区
+
+[Preset]
+name = "晴天"
+category = 天气
+condition = $region == 1
+
+[Preset]
+name = "小雨"
+category = 天气
+condition = $region == 1
+$wtr = 2
+
+[Preset]
+name = "大雨"
+category = 天气
+condition = $region == 1
+$wtr = 4
+
+[Preset]
+name = "雷雨"
+category = 天气
+condition = $region == 1
+$wtr = 5
+
+[Preset]
+name = "极光"
+category = 天气
+condition = $region == 1
+$wtr = 6
+
+[Preset]
+name = "流星雨"
+category = 天气
+condition = $region == 1
+$wtr = 7
+
+[Preset]
+name = "彩虹"
+category = 天气
+condition = $region == 1
+$wtr = 8
+
+[Preset] ###########################################
+name = "夜光之森"
+category = 地区
+$region = 2
+
+[Preset]
+name = "晴天"
+category = 天气
+condition = $region == 2
+
+[Preset]
+name = "浓雾"
+category = 天气
+condition = $region == 2
+$wtr = 2
+
+[Preset]
+name = "小雨"
+category = 天气
+condition = $region == 2
+$wtr = 3
+
+[Preset]
+name = "雷雨"
+category = 天气
+condition = $region == 2
+$wtr = 4
+
+[Preset]
+name = "能量雾"
+category = 天气
+condition = $region == 2
+$wtr = 5
+
+[Preset] ###########################################
+name = "忘却溪谷"
+category = 地区
+$region = 3
+
+[Preset]
+name = "晴天"
+category = 天气
+condition = $region == 3
+
+[Preset]
+name = "小雨"
+category = 天气
+condition = $region == 3
+$wtr = 2
+
+[Preset]
+name = "热风"
+category = 天气
+condition = $region == 3
+$wtr = 3
+
+[Preset]
+name = "沙尘暴"
+category = 天气
+condition = $region == 3
+$wtr = 4
+
+[Preset]
+name = "电磁风暴"
+category = 天气
+condition = $region == 3
+$wtr = 6
+
+[Preset]
+name = "激光"
+category = 天气
+condition = $region == 3
+$wtr = 7
+
+[Preset]
+name = "流星雨"
+category = 天气
+condition = $region == 3
+$wtr = 8
+
+[Preset]
+name = "彩虹"
+category = 天气
+condition = $region == 3
+$wtr = 9
+
+[Preset] ###########################################
+name = "白树大陆"
+category = 地区
+$region = 4
+
+[Preset]
+name = "多云"
+category = 天气
+condition = $region == 4
+
+[Preset]
+name = "上升的能量雾"
+category = 天气
+condition = $region == 4
+$wtr = 3
+
+[Preset]
+name = "孢子"
+category = 天气
+condition = $region == 4
+$wtr = 4
+
+[Preset]
+name = "深红极光"
+category = 天气
+condition = $region == 4
+$wtr = 5
+
+[Preset] ###########################################
+name = "黑钢大陆"
+category = 地区
+$region = 5
+
+[Preset]
+name = "晴天"
+category = 天气
+condition = $region == 5
+
+[Preset]
+name = "多云"
+category = 天气
+condition = $region == 5
+$wtr = 2
+
+[Preset]
+name = "电磁风暴"
+category = 天气
+condition = $region == 5
+$wtr = 4
+
+[Preset]
+name = "硫磺雨"
+category = 天气
+condition = $region == 5
+$wtr = 5
+
+[Preset]
+name = "彩虹"
+category = 天气
+condition = $region == 5
+$wtr = 6

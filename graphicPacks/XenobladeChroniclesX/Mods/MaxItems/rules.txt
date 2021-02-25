@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "最多物品"
+path = "异度之刃X/模组/最大限度/最多物品"
+description = "将最大物品数增加到999。"
+version = 5

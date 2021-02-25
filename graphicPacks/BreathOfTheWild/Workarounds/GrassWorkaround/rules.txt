@@ -1,0 +1,8 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = AMD Vulkan驱动草摆动
+path = "塞尔达传说: 旷野之息/解决方案/草摆动 (AMD Vulkan)"
+description = 修复了当Vulkan扩展丢失时，一些草在远处不正确地摆动。如果你在使用Intel/Nvidia GPU时遇到此问题，应更新驱动程序。|制作者Exzap
+rendererFilter = vulkan
+vendorFilter = amd
+version = 6

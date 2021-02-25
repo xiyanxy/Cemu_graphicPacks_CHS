@@ -1,0 +1,24 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "BLADE点数X"
+path = "异度之刃X/模组/经验/BLADE点数"
+description = 更改在各种情况下获得的BLADE点数.
+version = 5
+
+[Default]
+$mod = 2
+
+[Preset]
+name = "x2"
+
+[Preset]
+name = "x5"
+$mod = 5
+
+[Preset]
+name = "x10"
+$mod = 10
+
+[Preset]
+name = "x50"
+$mod = 50

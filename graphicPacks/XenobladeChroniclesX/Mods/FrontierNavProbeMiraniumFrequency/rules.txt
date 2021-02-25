@@ -1,0 +1,33 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "Miranium收入频率mod"
+path = "异度之刃X/模组/FrontierNav/Miranium收入频率mod"
+description = 影响Miranium的FrontierNav收入的频率（Vanilla每30分钟一次）.
+version = 5
+
+[Default]
+$mod = 1
+
+[Preset]
+name = "每分钟"
+
+[Preset]
+name = "每2分钟"
+$mod = 2
+
+[Preset]
+name = "每5分钟"
+$mod = 5
+
+[Preset]
+name = "每10分钟"
+$mod = 10
+
+[Preset]
+name = "每15分钟"
+$mod = 15
+
+[Preset]
+name = "每分20钟"
+$mod = 20
+

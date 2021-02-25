@@ -1,0 +1,24 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "冲刺更快"
+path = "异度之刃X/模组/物理/阿甘快跑，快跑!(狗头)"
+description = 提高冲刺速度.
+version = 5
+
+[Default]
+$mod = 0.66
+
+[Preset]
+name = "速度x1.25"
+$mod = 0.80
+
+[Preset]
+name = "速度x1.5"
+
+[Preset]
+name = "速度x2"
+$mod = 0.5
+
+[Preset]
+name = "速度x3"
+$mod = 0.33

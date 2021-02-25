@@ -1,5 +1,6 @@
 [Definition]
 titleIds = 00050000101C9400,00050000101C9500
+name = 相机灵敏度
 path = "塞尔达传说: 旷野之息/模组/相机敏感度"
 description = 如题.|在正常灵敏度的基础上，你可以提高移动灵敏度.||由FakeMichau 和 theboy181制作.
 version = 6
@@ -7,7 +8,7 @@ version = 6
 [Default]
 $sensitivity = 1.00
 $movementSensitivity = 1.00
-
+$vertMovementSens = 1.00
 
 [Preset]
 name = 0.5x
@@ -129,3 +130,53 @@ $movementSensitivity = 2.50
 name = 3x
 category = 额外的运动灵敏度
 $movementSensitivity = 3.00
+
+[Preset]
+name = 0.2x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.2
+
+[Preset]
+name = 0.3x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.3
+
+[Preset]
+name = 0.4x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.4
+
+[Preset]
+name = 0.5x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.5
+
+[Preset]
+name = 0.6x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.6
+
+[Preset]
+name = 0.7x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.7
+
+[Preset]
+name = 0.8x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.8
+
+[Preset]
+name = 0.9x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 0.9
+
+[Preset]
+name = 1x (Default)
+category = 附加垂直运动灵敏度
+default = 1
+
+[Preset]
+name = 1.1x
+category = 附加垂直运动灵敏度
+$vertMovementSens = 1.10

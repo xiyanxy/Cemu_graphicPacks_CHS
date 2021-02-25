@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010135700,000500001012B100,0005000010128F00
+name = 禁用语音
+path = "索尼克:失落的世界/模组/禁用语音"
+description = 禁用游戏的语音播放，这主要是由Deadly Six使用.||由M&&M制作.
+version = 6

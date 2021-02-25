@@ -1,0 +1,25 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "敌人统计修正"
+path = "异度之刃X/模组/战斗/敌人统计修正"
+description = 对敌人的属性（HP，近战攻击，近战准确度，远程攻击，远程准确度，潜能和闪避）应用百分比修正.|你可以在Bestiary菜单中查看新值
+version = 5
+
+[Default]
+$mod = 0.0005
+
+[Preset]
+name = 设为50%
+
+[Preset]
+name = 设为75%
+$mod = 0.00075
+
+[Preset]
+name = 设为125%
+$mod = 0.00125
+
+[Preset]
+name = 设为150%
+$mod = 0.0015
+

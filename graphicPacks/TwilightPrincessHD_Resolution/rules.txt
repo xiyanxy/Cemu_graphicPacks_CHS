@@ -368,7 +368,7 @@ $UIAspectY = 1.0
 $UItransp = 1.0
 
 [Preset]
-name = 2560x2880 (Vertical x2 - 0.75 sub scaling)
+name = 2560x2880 (垂直 x2 - 0.75 sub scaling)
 $width = 2560
 $height = 2880
 $gameWidth = 1920
@@ -383,7 +383,7 @@ $UIAspectY = 1.0
 $UItransp = 1.0
 
 [Preset] #
-name = 3840x4320 (Vertical x2 - 0.5 sub scaling)
+name = 3840x4320 (垂直 x2 - 0.5 sub scaling)
 $width = 3840
 $height = 4320
 $gameWidth = 1920
@@ -398,7 +398,7 @@ $UIAspectY = 1.0
 $UItransp = 1.0
 
 [Preset]
-name = 2560x2160 (21:9 Vertical x2)
+name = 2560x2160 (21:9 垂直 x2)
 $width = 2560
 $height = 2160
 $gameWidth = 1920
@@ -836,7 +836,7 @@ $UIAspectY = 1.0
 $UItransp = 0.75
 
 [Preset]
-name = 1920x2160 (Vertical x2) - UI 25%透明度
+name = 1920x2160 (垂直 x2) - UI 25%透明度
 $width = 1920
 $height = 2160
 $gameWidth = 1920
@@ -851,7 +851,7 @@ $UIAspectY = 1.0
 $UItransp = 0.75
 
 [Preset]
-name = 2560x2880 (Vertical x2 - 0.75 sub scaling) - UI 25%透明度
+name = 2560x2880 (垂直 x2 - 0.75 sub scaling) - UI 25%透明度
 $width = 2560
 $height = 2880
 $gameWidth = 1920
@@ -866,7 +866,7 @@ $UIAspectY = 1.0
 $UItransp = 0.75
 
 [Preset] #
-name = 3840x4320 (Vertical x2 - 0.5 sub scaling) - UI 25%透明度
+name = 3840x4320 (垂直 x2 - 0.5 sub scaling) - UI 25%透明度
 $width = 3840
 $height = 4320
 $gameWidth = 1920
@@ -881,7 +881,7 @@ $UIAspectY = 1.0
 $UItransp = 0.75
 
 [Preset]
-name = 2560x2160 (21:9 Vertical x2) - UI 25%透明度
+name = 2560x2160 (21:9 垂直 x2) - UI 25%透明度
 $width = 2560
 $height = 2160
 $gameWidth = 1920
@@ -896,7 +896,7 @@ $UIAspectY = 1.0
 $UItransp = 0.75
 
 [Preset]
-name = 3440x2880 (21:9 Vertical x2 - 0.75 sub scaling) - UI 25%透明度
+name = 3440x2880 (21:9 垂直 x2 - 0.75 sub scaling) - UI 25%透明度
 $width = 3440
 $height = 2880
 $gameWidth = 1920
@@ -911,7 +911,7 @@ $UIAspectY = 1.0
 $UItransp = 0.75
 
 [Preset]
-name = 5760x1080 (48:9 Vertical x2 - 0.5 sub scaling) - UI 25%透明度
+name = 5760x1080 (48:9 垂直 x2 - 0.5 sub scaling) - UI 25%透明度
 $width = 5760
 $height = 2160
 $gameWidth = 1920

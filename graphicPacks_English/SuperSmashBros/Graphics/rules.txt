@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 0005000010110E00,0005000010145000,0005000010144F00
-name = Graphic Options
+name = Graphics Settings
 path = "Super Smash Bros. for Wii U/Graphics"
-description = Allows you to change the game's resolution, shadow quality and anisotropic filtering quality.|Made by M&&M.
+description = Allows you to change the game's resolution, shadow quality and anisotropic filtering quality.||Made by M&&M.
 version = 6
 
 [Default]
@@ -16,52 +16,94 @@ $anisotropy = 1
 # Resolution
 
 [Preset]
+name = 640x360
+category = Resolution
+$width = 640
+$height = 360
+
+[Preset]
 name = 960x540
 category = Resolution
 $width = 960
 $height = 540
 
 [Preset]
-name = 1920x1080
+name = 1280x720 (HD)
+category = Resolution
+$width = 1280
+$height = 720
+
+[Preset]
+name = 1600x900 (HD+)
+category = Resolution
+$width = 1600
+$height = 900
+
+[Preset]
+name = 1920x1080 (Full HD)
 category = Resolution
 default = 1
 
 [Preset]
-name = 3840x2160
+name = 2560x1440 (2K)
+category = Resolution
+$width = 2560
+$height = 1440
+
+[Preset]
+category = Resolution
+name = 3200x1800
+$width = 3200
+$height = 1800
+
+[Preset]
+name = 3840x2160 (4K)
 category = Resolution
 $width = 3840
 $height = 2160
 
 [Preset]
-name = 7680x4320
+name = 5120x2880 (5K)
+category = Resolution
+$width = 5120
+$height = 2880
+
+[Preset]
+name = 7680x4320 (8K)
 category = Resolution
 $width = 7680
 $height = 4320
 
+[Preset]
+name = 10240x5760 (10K)
+category = Resolution
+$width = 10240
+$height = 5760
+
 # Shadow Quality
 
 [Preset]
-name = Low
+name = Low (50%)
 category = Shadow Quality
 $shadowQuality = 0.5
 
 [Preset]
-name = Medium
+name = Medium (100%, Default)
 category = Shadow Quality
 default = 1
 
 [Preset]
-name = High
+name = High (200%)
 category = Shadow Quality
 $shadowQuality = 2
 
 [Preset]
-name = Ultra
+name = Ultra (300%)
 category = Shadow Quality
 $shadowQuality = 3
 
 [Preset]
-name = Extreme
+name = Extreme (400%, Unstable)
 category = Shadow Quality
 $shadowQuality = 4
 
@@ -91,6 +133,7 @@ $anisotropy = 8
 name = 16x
 category = Anisotropic Filtering Quality
 $anisotropy = 16
+
 
 # Anisotropic Filtering
 
@@ -475,3 +518,4 @@ height = 512
 formats = 0xb,0xf
 overwriteWidth = $shadowQuality * 512
 overwriteHeight = $shadowQuality * 512
+

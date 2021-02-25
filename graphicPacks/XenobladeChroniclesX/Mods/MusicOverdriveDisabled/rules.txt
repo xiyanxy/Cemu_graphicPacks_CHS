@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "没有Overdrive音乐"
+path = "异度之刃X/模组/音乐/没有Overdrive音乐"
+description = 启用“Overdrive”功能时，禁用音乐。
+version = 5

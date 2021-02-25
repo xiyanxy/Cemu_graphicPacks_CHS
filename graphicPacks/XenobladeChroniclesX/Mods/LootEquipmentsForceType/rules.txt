@@ -1,0 +1,179 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = "装备 - 锁定类型" 
+path = "异度之刃X/模组/抢劫/装备 - 锁定类型"
+description = 设置被搜刮的装备类型.
+version = 5
+
+[Default]
+$type:int = 2
+$sub:int = 0
+
+[Preset] ###########################################
+name = "地面武器"
+category = 装备类型
+
+[Preset]
+name = "随机"
+category = 地面武器
+condition = $type == 2
+
+[Preset]
+name = "光子剑"
+category = 地面武器
+condition = $type == 2
+$sub:int = 1
+
+[Preset]
+name = "突击步枪"
+category = 地面武器
+condition = $type == 2
+$sub:int = 2
+
+[Preset]
+name = "狙击步枪"
+category = 地面武器
+condition = $type == 2
+$sub:int = 3
+
+[Preset]
+name = "双枪"
+category = 地面武器
+condition = $type == 2
+$sub:int = 4
+
+[Preset]
+name = "加特林机枪"
+category = 地面武器
+condition = $type == 2
+$sub:int = 5
+
+[Preset]
+name = "镭射枪"
+category = 地面武器
+condition = $type == 2
+$sub:int = 6
+
+[Preset]
+name = "Psycho发射器"
+category = 地面武器
+condition = $type == 2
+$sub:int = 7
+
+[Preset]
+name = "长剑"
+category = 地面武器
+condition = $type == 2
+$sub:int = 8
+
+[Preset]
+name = "标枪"
+category = 地面武器
+condition = $type == 2
+$sub:int = 9
+
+[Preset]
+name = "双剑"
+category = 地面武器
+condition = $type == 2
+$sub:int = 10
+
+[Preset]
+name = "盾牌"
+category = 地面武器
+condition = $type == 2
+$sub:int = 11
+
+[Preset]
+name = "刀"
+category = 地面武器
+condition = $type == 2
+$sub:int = 12
+
+[Preset] ###########################################
+name = "地面装甲"
+category = 装备类型
+$type:int = 4
+
+[Preset]
+name = "随机"
+category = 地面装甲
+condition = $type == 4
+
+[Preset]
+name = "头部"
+category = 地面装甲
+condition = $type == 4
+$sub:int = 1
+
+[Preset]
+name = "躯干"
+category = 地面装甲
+condition = $type == 4
+$sub:int = 2
+
+[Preset]
+name = "右臂"
+category = 地面装甲
+condition = $type == 4
+$sub:int = 3
+
+[Preset]
+name = "左臂"
+category = 地面装甲
+condition = $type == 4
+$sub:int = 4
+
+[Preset]
+name = "腿部"
+category = 地面装甲
+condition = $type == 4
+$sub:int = 5
+
+[Preset] ###########################################
+name = "Skell装甲 (仅随机)"
+category = 装备类型
+$type:int = 6
+
+[Preset] ###########################################
+name = "Skell装甲"
+category = 装备类型
+$type:int = 8
+
+[Preset]
+name = "随机"
+category = Skell装甲
+condition = $type == 8
+
+[Preset]
+name = "头部"
+category = Skell装甲
+condition = $type == 8
+$sub:int = 1
+
+[Preset]
+name = "躯干"
+category = Skell装甲
+condition = $type == 8
+$sub:int = 2
+
+[Preset]
+name = "右臂"
+category = Skell装甲
+condition = $type == 8
+$sub:int = 3
+
+[Preset]
+name = "左臂"
+category = Skell装甲
+condition = $type == 8
+$sub:int = 4
+
+[Preset]
+name = "腿部"
+category = Skell装甲
+condition = $type == 8
+$sub:int = 5
+
+
+

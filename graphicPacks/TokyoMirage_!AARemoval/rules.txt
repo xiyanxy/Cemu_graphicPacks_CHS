@@ -1,6 +1,0 @@
-[Definition]
-titleIds = 00050000101ED700,00050000101ED800,0005000010131D00
-name = 移除AA
-path = "幻影异闻录/增强插件/移除AA"
-description = 删除AA,无性能提升.用于清洁外观或注入外部AA.由getdls制作.
-version = 4
