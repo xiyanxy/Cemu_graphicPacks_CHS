@@ -1,0 +1,69 @@
+[Definition]
+titleIds = 0005000010175B00,0005000010177800,0005000010191F00
+name = 无上限帧率
+path = "索尼克爆破:雷利克的崛起/模组/无上限帧率"
+description = 修复游戏的帧率上限 | 某些游戏问题可能会在60FPS之后产生||由M&&M制作
+version = 6
+
+[Default]
+$fpsLimit = 60
+
+# Simple FPS Limit
+
+[Preset]
+name = 240FPS限制
+category = FPS限制
+$fpsLimit = 240
+
+[Preset]
+name = 165FPS限制
+category = FPS限制
+$fpsLimit = 165
+
+[Preset]
+name = 144FPS限制
+category = FPS限制
+$fpsLimit = 144
+
+[Preset]
+name = 120FPS限制
+category = FPS限制
+$fpsLimit = 120
+
+[Preset]
+name = 90FPS限制
+category = FPS限制
+$fpsLimit = 90
+
+[Preset]
+name = 75FPS限制
+category = FPS限制
+$fpsLimit = 75
+
+[Preset]
+name = 72FPS限制
+category = FPS限制
+$fpsLimit = 72
+
+[Preset]
+name = 60FPS限制 (默认)
+category = FPS限制
+default = 1
+
+[Preset]
+name = 45FPS限制
+category = FPS限制
+$fpsLimit = 45
+
+[Preset]
+name = 30FPS限制
+category = FPS限制
+$fpsLimit = 30
+
+[Preset]
+name = 20FPS限制
+category = FPS限制
+$fpsLimit = 20
+
+[Control]
+vsyncFrequency = $fpsLimit

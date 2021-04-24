@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = å¢å¼ºæ’ä»¶
-path = "å¡å°”è¾¾ä¼ è¯´: æ—·é‡ä¹‹æ¯/å¢å¼ºæ’ä»¶"
-description = å…è®¸ä½ æ”¹å˜å¤„ç†æ•ˆæœå’Œçº¹ç†ç»†èŠ‚ï¼Œä»¥å¢å¼ºç”»è´¨.||ç”±Kiri, Jamie, M&&M, Pig, æ¸…æ™°åº¦çš„é¢„è®¾åˆ¶ä½œè€…ç­‰åˆ¶ä½œ.
+name = ÔöÇ¿²å¼ş
+path = "Èû¶û´ï´«Ëµ: ¿õÒ°Ö®Ï¢/ÔöÇ¿²å¼ş"
+description = ÔÊĞíÄã¸Ä±ä´¦ÀíĞ§¹ûºÍÎÆÀíÏ¸½Ú£¬ÒÔÔöÇ¿»­ÖÊ.||ÓÉKiri, Jamie, M&&M, Pig, ÇåÎú¶ÈµÄÔ¤ÉèÖÆ×÷ÕßµÈÖÆ×÷.
 version = 6
 
 [Default]
@@ -17,141 +17,141 @@ $anisotropy = 1
 # Clarity Preset
 
 [Preset]
-name = ç¦ç”¨ (é»˜è®¤)
-category = æ¸…æ™°åº¦
+name = ½ûÓÃ (Ä¬ÈÏ)
+category = ÇåÎú¶È
 default = 1
 $disableClarity:int = 1
 
 [Preset]
-name = Serfrostçš„é¢„è®¾ (é»˜è®¤)
-category = æ¸…æ™°åº¦
+name = SerfrostµÄÔ¤Éè (Ä¬ÈÏ)
+category = ÇåÎú¶È
 $preset:int = 10
 
 [Preset]
-name = Serfrostçš„é¢„è®¾ (æ˜¾ç¤ºæš—æ·¡æ—¶ä½¿ç”¨)
-category = æ¸…æ™°åº¦
+name = SerfrostµÄÔ¤Éè (ÏÔÊ¾°µµ­Ê±Ê¹ÓÃ)
+category = ÇåÎú¶È
 $preset:int = 9
 
 [Preset]
-name = Serfrostçš„é¢„è®¾ (æ˜¾ç¤ºå¤ªäº®æ—¶ä½¿ç”¨)
-category = æ¸…æ™°åº¦
+name = SerfrostµÄÔ¤Éè (ÏÔÊ¾Ì«ÁÁÊ±Ê¹ÓÃ)
+category = ÇåÎú¶È
 $preset:int = 8
 
 [Preset]
-name = Bruzçš„é¢„è®¾
-category = æ¸…æ™°åº¦
+name = BruzµÄÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 1
 
 [Preset]
-name = CellHunterçš„é¢„è®¾
-category = æ¸…æ™°åº¦
+name = CellHunterµÄÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 7
 
 [Preset]
-name = Jamieçš„é¢„è®¾
-category = æ¸…æ™°åº¦
+name = JamieµÄÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 3
 
 [Preset]
-name = t3nkaä¸­æ€§+
-category = æ¸…æ™°åº¦
+name = t3nkaÖĞĞÔ+
+category = ÇåÎú¶È
 $preset:int = 2
 
 [Preset]
-name = The Complaining Gamerçš„é¢„è®¾
-category = æ¸…æ™°åº¦
+name = The Complaining GamerµÄÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 5
 
 [Preset]
-name = Viské¢„è®¾
-category = æ¸…æ™°åº¦
+name = ViskÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 11
 
 [Preset]
-name = å¯¹æ¯”åº¦é¢„è®¾
-category = æ¸…æ™°åº¦
+name = ¶Ô±È¶ÈÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 4
 
 [Preset]
-name = ç”µå½±å¼é¢„è®¾
-category = æ¸…æ™°åº¦
+name = µçÓ°Ê½Ô¤Éè
+category = ÇåÎú¶È
 $preset:int = 6
 
 [Preset]
-name = Silentvergeçš„é‡å¤–æ±‚ç”Ÿé¢„è®¾ (æš–è‰²è°ƒ)
-category = æ¸…æ™°åº¦
+name = SilentvergeµÄÒ°ÍâÇóÉúÔ¤Éè (Å¯É«µ÷)
+category = ÇåÎú¶È
 $preset:int = 12
 
 [Preset]
-name = Silentvergeçš„é‡å¤–æ±‚ç”Ÿé¢„è®¾ (å†·è‰²è°ƒ)
-category = æ¸…æ™°åº¦
+name = SilentvergeµÄÒ°ÍâÇóÉúÔ¤Éè (ÀäÉ«µ÷)
+category = ÇåÎú¶È
 $preset:int = 13
 
 [Preset]
-name = æˆˆå¤šçš„å¢¨è¥¿å“¥é¢„è®¾
-category = æ¸…æ™°åº¦
+name = ¸ê¶àµÄÄ«Î÷¸çÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 14
 
 [Preset]
-name = BSoDæ¸¸æˆçš„é¢„è®¾
-category = æ¸…æ™°åº¦
+name = BSoDÓÎÏ·µÄÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 15
 
 [Preset]
-name = è‡ªå®šä¹‰é¢„è®¾
-category = æ¸…æ™°åº¦
+name = ×Ô¶¨ÒåÔ¤Éè
+category = ÇåÎú¶È
 $preset:int = 0
 
 # Depth of Field
 
 [Preset]
-name = å¯ç”¨
-category = æ™¯æ·±
+name = ÆôÓÃ
+category = ¾°Éî
 default = 1
 
 [Preset]
-name = ç¦ç”¨ (æ— æ€§èƒ½æå‡å³ä¸æå‡FPS)
-category = æ™¯æ·±
+name = ½ûÓÃ (ÎŞĞÔÄÜÌáÉı¼´²»ÌáÉıFPS)
+category = ¾°Éî
 $disableDOF:int = 1
 
 # Enhanced Reflections
 
 [Preset]
-name = æ­£å¸¸åå°„
-category = åå°„æ•ˆæœ
+name = Õı³£·´Éä
+category = ·´ÉäĞ§¹û
 default = 1
 
 [Preset]
-name = å¢å¼ºåå°„
-category = åå°„æ•ˆæœ
+name = ÔöÇ¿·´Éä
+category = ·´ÉäĞ§¹û
 $reflExtra:int = 1
 
 # Anisotropic Filtering
 
 [Preset]
-name = ç©¶æ (16x)
-category = å„å‘å¼‚æ€§è¿‡æ»¤
+name = ¾¿¼« (16x)
+category = ¸÷ÏòÒìĞÔ¹ıÂË
 $anisotropy = 16
 
 [Preset]
-name = è¶…çº§ (8x, é»˜è®¤)
-category = å„å‘å¼‚æ€§è¿‡æ»¤
+name = ³¬¼¶ (8x, Default)
+category = ¸÷ÏòÒìĞÔ¹ıÂË
 default = 1
 $anisotropy = 8
 
 [Preset]
-name = é«˜ (4x)
-category = å„å‘å¼‚æ€§è¿‡æ»¤
+name = ¸ß (4x)
+category = ¸÷ÏòÒìĞÔ¹ıÂË
 $anisotropy = 4
 
 [Preset]
-name = ä¸­ (2x)
-category = å„å‘å¼‚æ€§è¿‡æ»¤
+name = ÖĞ (2x)
+category = ¸÷ÏòÒìĞÔ¹ıÂË
 $anisotropy = 2
 
 [Preset]
-name = ä½ (1x)
-category = å„å‘å¼‚æ€§è¿‡æ»¤
+name = µÍ (1x)
+category = ¸÷ÏòÒìĞÔ¹ıÂË
 $anisotropy = 1
 
 

@@ -395,13 +395,13 @@ $anisotropy = 16
 # Advanced Options
 
 [Preset]
-name = Disabled
-category = Advanced Options
+name = 禁用
+category = 高级选项
 default = 1
 
 [Preset]
-name = Enabled
-category = Advanced Options
+name = 启用
+category = 高级选项
 $advancedOpt = 1
 
 # Anti-Aliasing

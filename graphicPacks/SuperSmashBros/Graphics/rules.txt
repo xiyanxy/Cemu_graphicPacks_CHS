@@ -88,7 +88,7 @@ category = 阴影质量
 $shadowQuality = 0.5
 
 [Preset]
-name = 中等 (100%, Default)
+name = 中等 (100%, 默认)
 category = 阴影质量
 default = 1
 
@@ -111,27 +111,27 @@ $shadowQuality = 4
 
 [Preset]
 name = 1x
-category = Anisotropic Filtering Quality
+category = 各向异性过滤质量
 default = 1
 
 [Preset]
 name = 2x
-category = Anisotropic Filtering Quality
+category = 各向异性过滤质量
 $anisotropy = 2
 
 [Preset]
 name = 4x
-category = Anisotropic Filtering Quality
+category = 各向异性过滤质量
 $anisotropy = 4
 
 [Preset]
 name = 8x
-category = Anisotropic Filtering Quality
+category = 各向异性过滤质量
 $anisotropy = 8
 
 [Preset]
 name = 16x
-category = Anisotropic Filtering Quality
+category = 各向异性过滤质量
 $anisotropy = 16
 
 

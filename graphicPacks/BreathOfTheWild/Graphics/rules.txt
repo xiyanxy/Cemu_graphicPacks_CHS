@@ -1,8 +1,8 @@
 [Definition]
 titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
-name = ç”»è´¨è®¾ç½®
-path = "å¡å°”è¾¾ä¼ è¯´: æ—·é‡ä¹‹æ¯/ç”»è´¨è®¾ç½®"
-description = å…è®¸ä½ æ”¹å˜æ¸¸æˆåˆ†è¾¨ç‡ï¼Œé˜´å½±åˆ†è¾¨ç‡å’Œåé”¯é½¿.||ç”±Kiri, Skalfate, rajkosto å’Œ NAVrasåˆ¶ä½œ.
+name = »­ÖÊÉèÖÃ
+path = "Èû¶û´ï´«Ëµ: ¿õÒ°Ö®Ï¢/»­ÖÊÉèÖÃ"
+description = ÔÊĞíÄã¸Ä±äÓÎÏ··Ö±æÂÊ£¬ÒõÓ°·Ö±æÂÊºÍ·´¾â³İ.||ÓÉKiri, Skalfate, rajkosto ºÍ NAVrasÖÆ×÷.
 version = 6
 
 [Default]
@@ -22,48 +22,48 @@ $edgeThresholdMin:int = 0.0156
 # Aspect Ratio
 
 [Preset]
-name = 16:9 (é»˜è®¤)
-category = å±å¹•é«˜å®½æ¯”
+name = 16:9 (Ä¬ÈÏ)
+category = ÆÁÄ»¸ß¿í±È
 
 [Preset]
 name = 16:10
-category = å±å¹•é«˜å®½æ¯”
+category = ÆÁÄ»¸ß¿í±È
 $aspectRatioWidth = 16
 $aspectRatioHeight = 10
 
 [Preset]
 name = 21:9
-category = å±å¹•é«˜å®½æ¯”
+category = ÆÁÄ»¸ß¿í±È
 $aspectRatioWidth = 21
 $aspectRatioHeight = 9
 
 [Preset]
 name = 32:9
-category = å±å¹•é«˜å®½æ¯”
+category = ÆÁÄ»¸ß¿í±È
 $aspectRatioWidth = 32
 $aspectRatioHeight = 9
 
 [Preset]
 name = 32:10
-category = å±å¹•é«˜å®½æ¯”
+category = ÆÁÄ»¸ß¿í±È
 $aspectRatioWidth = 32
 $aspectRatioHeight = 10
 
 [Preset]
 name = 48:9
-category = å±å¹•é«˜å®½æ¯”
+category = ÆÁÄ»¸ß¿í±È
 $aspectRatioWidth = 48
 $aspectRatioHeight = 9
 
 [Preset]
 name = 4:3
-category = å±å¹•é«˜å®½æ¯”
+category = ÆÁÄ»¸ß¿í±È
 $aspectRatioWidth = 4
 $aspectRatioHeight = 3
 
 [Preset]
 name = 5:4
-category = å±å¹•é«˜å®½æ¯”
+category = ÆÁÄ»¸ß¿í±È
 $aspectRatioWidth = 5
 $aspectRatioHeight = 4
 
@@ -71,83 +71,83 @@ $aspectRatioHeight = 4
 
 [Preset]
 name = 320x180
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 320
 $height = 180
 
 [Preset]
 name = 640x360
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 640
 $height = 360
 
 [Preset]
 name = 960x540
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 960
 $height = 540
 
 [Preset]
-name = 1280x720 (HD, é»˜è®¤)
-category = åˆ†è¾¨ç‡
+name = 1280x720 (HD, Ä¬ÈÏ)
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 default = 1
 
 [Preset]
 name = 1600x900 (HD+)
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 1600
 $height = 900
 
 [Preset]
-name = 1920x1080 (å…¨HD)
-category = åˆ†è¾¨ç‡
+name = 1920x1080 (È«HD)
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 1920
 $height = 1080
 
 [Preset]
 name = 2560x1440 (2K)
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 2560
 $height = 1440
 
 [Preset]
 name = 3200x1800
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 3200
 $height = 1800
 
 [Preset]
 name = 3840x2160 (4K)
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 3840
 $height = 2160
 
 [Preset]
 name = 5120x2880 (5K)
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 5120
 $height = 2880
 
 [Preset]
 name = 7680x4320 (8K)
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 7680
 $height = 4320
 
 [Preset]
 name = 10240x5760 (10K)
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 10240
 $height = 5760
@@ -156,49 +156,49 @@ $height = 5760
 
 [Preset]
 name = 1440x900
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 1440
 $height = 900
 
 [Preset]
 name = 1680x1050
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 1680
 $height = 1050
 
 [Preset]
 name = 1920x1200
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 1920
 $height = 1200
 
 [Preset]
 name = 2560x1600
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 2560
 $height = 1600
 
 [Preset]
 name = 2880x1800
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 2880
 $height = 1800
 
 [Preset]
 name = 3840x2400
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 3840
 $height = 2400
 
 [Preset]
 name = 5120x3200
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 16) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 5120
 $height = 3200
@@ -207,49 +207,49 @@ $height = 3200
 
 [Preset]
 name = 2560x1080
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 2560
 $height = 1080
 
 [Preset]
 name = 3440x1440
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 3440
 $height = 1440
 
 [Preset]
 name = 3840x1600
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 3840
 $height = 1600
 
 [Preset]
 name = 4300x1800
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 4300
 $height = 1800
 
 [Preset]
 name = 5120x2160
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 5120
 $height = 2160
 
 [Preset]
 name = 6880x2880
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 6880
 $height = 2880
 
 [Preset]
 name = 10240x4320
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 21) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 10240
 $height = 4320
@@ -258,28 +258,28 @@ $height = 4320
 
 [Preset]
 name = 3840x1080
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 3840
 $height = 1080
 
 [Preset]
 name = 5120x1440
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 5120
 $height = 1440
 
 [Preset]
 name = 7680x2160
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 7680
 $height = 2160
 
 [Preset]
 name = 10240x2880
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 10240
 $height = 2880
@@ -288,21 +288,21 @@ $height = 2880
 
 [Preset]
 name = 3840x1200
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 3840
 $height = 1200
 
 [Preset]
 name = 5760x1200
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 5760
 $height = 1800
 
 [Preset]
 name = 7680x2400
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 32) == 0) + (($aspectRatioHeight - 10) == 0)) == 2
 $width = 7680
 $height = 2400
@@ -311,7 +311,7 @@ $height = 2400
 
 [Preset]
 name = 5760x1080
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 48) == 0) + (($aspectRatioHeight - 9) == 0)) == 2
 $width = 5760
 $height = 1080
@@ -320,35 +320,35 @@ $height = 1080
 
 [Preset]
 name = 800x600
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
 $width = 800
 $height = 600
 
 [Preset]
 name = 1024x768
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
 $width = 1024
 $height = 768
 
 [Preset]
 name = 1280x960
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
 $width = 1280
 $height = 960
 
 [Preset]
 name = 1600x1200
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
 $width = 1600
 $height = 1200
 
 [Preset]
 name = 1920x1440
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 4) == 0) + (($aspectRatioHeight - 3) == 0)) == 2
 $width = 1920
 $height = 1440
@@ -357,28 +357,28 @@ $height = 1440
 
 [Preset]
 name = 1280x1024
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
 $width = 1280
 $height = 1024
 
 [Preset]
-name = 5760x1080 (3å…¨HD )
-category = åˆ†è¾¨ç‡
+name = 5760x1080 (3È«HD )
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
 $width = 5760
 $height = 1080
 
 [Preset]
 name = 8640x1620
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
 $width = 8640
 $height = 1620
 
 [Preset]
 name = 14400x2700
-category = åˆ†è¾¨ç‡
+category = ·Ö±æÂÊ
 condition = ((($aspectRatioWidth - 5) == 0) + (($aspectRatioHeight - 4) == 0)) == 2
 $width = 14400
 $height = 2700
@@ -386,45 +386,45 @@ $height = 2700
 # Anti-Aliasing
 
 [Preset]
-name = æ­£å¸¸FXAA (é»˜è®¤)
+name = Õı³£FXAA (Ä¬ÈÏ)
 category = Anti-Aliasing
 default = 1
 
 [Preset]
-name = è‹±ä¼Ÿè¾¾FXAA
+name = Ó¢Î°´ïFXAA
 category = Anti-Aliasing
 $fxaa:int = 2
 
 [Preset]
-name = ç¦ç”¨
+name = ½ûÓÃ
 category = Anti-Aliasing
 $fxaa:int = 0
 
 # Shadow Graphics Pack
 
 [Preset]
-name = ä½ (50%)
-category = é˜´å½±
+name = µÍ (50%)
+category = ÒõÓ°
 $shadowRes = 0.5
 
 [Preset]
-name = ä¸­ç­‰ (100%, é»˜è®¤)
+name = ÖĞµÈ (100%, Ä¬ÈÏ)
 default = 1
-category = é˜´å½±
+category = ÒõÓ°
 
 [Preset]
-name = é«˜ (200%)
-category = é˜´å½±
+name = ¸ß (200%)
+category = ÒõÓ°
 $shadowRes = 2
 
 [Preset]
-name = è¶…çº§ (300%)
-category = é˜´å½±
+name = ³¬¼¶ (300%)
+category = ÒõÓ°
 $shadowRes = 3
 
 [Preset]
-name = ç©¶æ (400%, ä¸ç¨³å®š)
-category = é˜´å½±
+name = ¾¿¼« (400%, Unstable)
+category = ÒõÓ°
 $shadowRes = 4
 
 # All 720p textures:

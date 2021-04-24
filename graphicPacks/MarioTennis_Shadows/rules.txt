@@ -22,7 +22,7 @@ name = 超级 (300%)
 $shadowRes = 3
 
 [Preset]
-name = 究极 (400%, Unstable)
+name = 究极 (400%, 不稳定)
 $shadowRes = 4
 
 [TextureRedefine] # Shadows

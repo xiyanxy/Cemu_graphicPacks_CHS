@@ -183,7 +183,7 @@ $sharp_mix = 0.00
 
 
 [Preset] # jff
-name =  Skyward Swordish
+name =  Ìì¿ÕÖ®½£
 $redShadows = 0.95
 $greenShadows = 0.95
 $blueSadows = 1.0
