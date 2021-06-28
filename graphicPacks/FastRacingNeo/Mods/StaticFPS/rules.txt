@@ -1,0 +1,77 @@
+[Definition]
+titleIds = 000500001012F000,00050000101D6000,00050000101E4100,00050000101FED00
+name = 静态FPS
+path = "极速赛车NEO/模组/静态FPS"
+description = 更改游戏帧率.如果低于所选的帧率,则会发现速度有所下降.仅适用于最新的游戏.
+version = 5
+
+[Default]
+$targetFPS:int = 60
+
+
+# FPS Limit
+
+[Preset]
+name= 244 FPS (实验)
+category = FPS限制
+$targetFPS:int = 244
+
+[Preset]
+name= 165 FPS (实验)
+category = FPS限制
+$targetFPS:int = 165
+
+[Preset]
+name = 144 FPS (实验)
+category = FPS限制
+$targetFPS:int = 144
+
+[Preset]
+name = 120 FPS
+category = FPS限制
+$targetFPS:int = 120
+
+[Preset]
+name = 100 FPS
+category = FPS限制
+$targetFPS:int = 100
+
+[Preset]
+name = 85 FPS
+category = FPS限制
+$targetFPS:int = 85
+
+[Preset]
+name = 75 FPS
+category = FPS限制
+$targetFPS:int = 75
+
+[Preset]
+name = 72 FPS
+category = FPS限制
+$targetFPS:int = 72
+
+[Preset]
+name = 60 FPS (默认)
+category = FPS限制
+default = 1
+
+[Preset]
+name = 40 FPS
+category = FPS限制
+$targetFPS:int = 40
+
+[Preset]
+name = 30 FPS
+category = FPS限制
+$targetFPS:int = 30
+
+[Preset]
+name = 20 FPS
+category = FPS限制
+$targetFPS:int = 20
+
+
+
+[Control]
+vsyncFrequency = $targetFPS

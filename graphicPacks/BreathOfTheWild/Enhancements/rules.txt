@@ -134,7 +134,7 @@ category = 各向异性过滤
 $anisotropy = 16
 
 [Preset]
-name = 超级 (8x, Default)
+name = 超级 (8x, 默认)
 category = 各向异性过滤
 default = 1
 $anisotropy = 8
