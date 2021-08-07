@@ -18,7 +18,7 @@ $bit8:int = 0x100
 
 [Preset]
 name = 禁用 (默认)
-category = Show Debug Options
+category = 显示调试选项
 $debug:int = 0
 
 [Preset]
