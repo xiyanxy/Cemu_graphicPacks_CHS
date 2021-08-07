@@ -1,0 +1,111 @@
+[Definition]
+titleIds = 00050000101C9300,00050000101C9400,00050000101C9500
+name = "大师模式插件"
+path = "塞尔达传说: 旷野之息/修改器/大师模式插件"
+description = 允许选择何种任天堂插件应用于大师模式(在普通模式下不奏效). 需要重新启动才能应用更改. ||由Torphedo和Fleevoid制作, 感谢Exzap和leoetlino提供很多帮助.
+version = 7
+
+[Default]
+$debug:int = 0
+$bit0:int = 0x1
+$bit1:int = 0x0
+$bit3:int = 0x8
+$bit4:int = 0x10
+$bit5:int = 0x20
+$bit6:int = 0x40
+$bit7:int = 0x80
+$bit8:int = 0x100
+
+[Preset]
+name = 禁用 (默认)
+category = Show Debug Options
+$debug:int = 0
+
+[Preset]
+name = 启用 (显示影响的选项)
+category = 显示调试选项
+$debug:int = 1
+
+[Preset]
+name = 禁用 (默认)
+category = 1击必杀保护
+$bit3:int = 0x8
+
+[Preset]
+name = 启用
+category = 1击必杀保护
+$bit3:int = 0x0
+
+[Preset]
+name = 启用 (默认)
+category = 禁用加农僵直锁
+$bit4:int = 0x10
+
+[Preset]
+name = 禁用
+category = 禁用加农僵直锁
+$bit4:int = 0x0
+
+[Preset]
+Name = 启用 (默认)
+category = 血量重置
+$bit5:int = 0x20
+
+[Preset]
+Name = 禁用
+category = 血量重置
+$bit5:int = 0x0
+
+[Preset]
+name = 启用 (默认)
+category = 守护者随机开火时间
+$bit6:int = 0x40
+
+[Preset]
+name = 禁用
+category = 守护者随机开火时间
+$bit6:int = 0x0
+
+[Preset]
+name = 启用 (默认)
+category = 1.5倍来自Boss的伤害乘数和力量测试
+$bit7:int = 0x80
+
+[Preset]
+name = 禁用
+category = 1.5倍来自Boss的伤害乘数和力量测试
+$bit7:int = 0x0
+
+[Preset]
+name = 启用 (默认)
+category = 缩短敌人查敌距离
+$bit8:int = 0x100
+
+[Preset]
+name = 禁用
+category = 缩短敌人查敌距离
+$bit8:int = 0x0
+
+[Preset]
+name = 启用 (默认)
+category = 最后使用困难模式(什么都不做)
+condition = $debug == 1
+$bit0:int = 0x1
+
+[Preset]
+name = 禁用
+category = 最后使用困难模式(什么都不做)
+condition = $debug == 1
+$bit0:int = 0x0
+
+[Preset]
+name = 禁用 (默认)
+category = Nerf烹饪 (似乎不奏效或未完善)
+condition = $debug == 1
+$bit1:int = 0x0
+
+[Preset]
+name = 启用
+category = Nerf烹饪 (似乎不奏效或未完善)
+condition = $debug == 1
+$bit1:int = 0x2

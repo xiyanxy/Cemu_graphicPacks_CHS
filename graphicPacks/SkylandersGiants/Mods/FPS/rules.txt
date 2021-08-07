@@ -1,0 +1,76 @@
+[Definition]
+titleIds = 000500001010D700, 0005000010116000
+name = FPS
+path = "小龙斯派罗:巨人/模组/FPS"
+description = 更改游戏的动态FPS.可能有错误,尤其是在超过120FPS时.||由Mew00制作.
+version = 6
+
+[Default]
+$targetFPS:int = 60
+
+
+# FPS Limit
+
+[Preset]
+name= 244 FPS
+category = FPS限制
+$targetFPS:int = 244
+
+[Preset]
+name= 165 FPS
+category = FPS限制
+$targetFPS:int = 165
+
+[Preset]
+name = 144 FPS
+category = FPS限制
+$targetFPS:int = 144
+
+[Preset]
+name = 120 FPS
+category = FPS限制
+$targetFPS:int = 120
+
+[Preset]
+name = 100 FPS
+category = FPS限制
+$targetFPS:int = 100
+
+[Preset]
+name = 85 FPS
+category = FPS限制
+$targetFPS:int = 85
+
+[Preset]
+name = 75 FPS
+category = FPS限制
+$targetFPS:int = 75
+
+[Preset]
+name = 72 FPS
+category = FPS限制
+$targetFPS:int = 72
+
+[Preset]
+name = 60 FPS (默认)
+category = FPS限制
+default = 1
+$targetFPS:int = 60
+
+[Preset]
+name = 40 FPS
+category = FPS限制
+$targetFPS:int = 40
+
+[Preset]
+name = 30 FPS
+category = FPS限制
+
+[Preset]
+name = 20 FPS
+category = FPS限制
+$targetFPS:int = 20
+
+
+[Control]
+vsyncFrequency = 2*$targetFPS

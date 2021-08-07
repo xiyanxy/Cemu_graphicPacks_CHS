@@ -1,0 +1,6 @@
+[Definition]
+titleIds = 0005000010176900,0005000010176A00,0005000010162B00
+name = 30FPS
+path = "喷射战士/模组/30FPS"
+description = 将游戏帧率从60FPS降低到30FPS,以便在低端硬件上玩.|在Dojo中不奏效||由Niko制作.
+version = 6
