@@ -423,7 +423,7 @@ category = 阴影
 $shadowRes = 3
 
 [Preset]
-name = 究极 (400%, Unstable)
+name = 究极 (400%, 不稳定)
 category = 阴影
 $shadowRes = 4
 

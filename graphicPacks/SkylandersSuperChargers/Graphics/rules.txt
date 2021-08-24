@@ -1,5 +1,5 @@
 [Definition]
-titleIds = 00050000101BFC00,0005000E101B8500
+titleIds = 00050000101BFC00,00050000101B8500
 name = 画质设置
 path = "小龙斯派罗:超级充能者/画质设置"
 description = 修改游戏TV和gamepad窗口分辨率. 另外可修改阴影质量.||由Crementif和Winner Nombre制作.

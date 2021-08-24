@@ -35,7 +35,7 @@ $AO = 1.0
 $beach = 1.0
 
 [Preset]
-name = 更少的天空效果
+name = 更少的天空光晕
 $redShadows = 1.0
 $greenShadows = 1.0
 $blueSadows = 1.0

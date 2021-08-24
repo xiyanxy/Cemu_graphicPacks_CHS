@@ -1,9 +1,9 @@
 [Definition]
-titleIds = 000500001010D700, 0005000010116000
+titleIds = 000500001010D700,0005000010116000
 name = FPS
 path = "小龙斯派罗:巨人/模组/FPS"
-description = 更改游戏的动态FPS.可能有错误,尤其是在超过120FPS时.||由Mew00制作.
-version = 6
+description = 更改游戏的FPS限制.|使用高FPS运行游戏可能会出现小故障.||由DigitNetics和Mew00制作.
+version = 7
 
 [Default]
 $targetFPS:int = 60
@@ -55,7 +55,6 @@ $targetFPS:int = 72
 name = 60 FPS (默认)
 category = FPS限制
 default = 1
-$targetFPS:int = 60
 
 [Preset]
 name = 40 FPS
@@ -65,6 +64,7 @@ $targetFPS:int = 40
 [Preset]
 name = 30 FPS
 category = FPS限制
+$targetFPS:int = 30
 
 [Preset]
 name = 20 FPS
@@ -73,4 +73,4 @@ $targetFPS:int = 20
 
 
 [Control]
-vsyncFrequency = 2*$targetFPS
+vsyncFrequency = $targetFPS

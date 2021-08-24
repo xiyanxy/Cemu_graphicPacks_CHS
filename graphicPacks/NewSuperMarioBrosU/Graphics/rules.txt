@@ -2,7 +2,7 @@
 titleIds = 0005000010101D00,0005000010101E00,000500001014B700,000500001014B800,0005000010101C00,0005000010142300,0005000010142400,0005000010142200
 name = 图像设置
 path = "新超级马里奥兄弟U/图像插件/图像设置"
-description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影和模糊质量||由getdls制作.
+description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量和模糊强度||由getdls制作.
 version = 6
 
 [Default]
@@ -14,15 +14,11 @@ $gameWidth = 1280
 $gameHeight = 720
 $gamePadWidth = 854
 $gamePadHeight = 480
-$shadowRes = 1
+$shadowQuality = 1
 $blurQuality = 0.0
 
 
 # TV Resolution
-
-[Preset]
-category = TV分辨率
-name = 1280x720 (默认)
 
 [Preset]
 category = TV分辨率
@@ -35,6 +31,11 @@ category = TV分辨率
 name = 960x540
 $width = 960
 $height = 540
+
+[Preset]
+category = TV分辨率
+name = 1280x720
+default = 1
 
 [Preset]
 category = TV分辨率
@@ -82,14 +83,15 @@ $height = 4320
 # Gamepad分辨率
 
 [Preset]
-name = 854x480 (默认)
-category = Gamepad分辨率
-
-[Preset]
 category = Gamepad分辨率
 name = 640x360
 $padWidth = 640
 $padHeight = 360
+
+[Preset]
+name = 854x480
+category = Gamepad分辨率
+default = 1
 
 [Preset]
 category = Gamepad分辨率
@@ -143,36 +145,37 @@ $padHeight = 4320
 # Shadow Quality
 
 [Preset]
+name = 低
 category = 阴影质量
-name = 低 (50%)
-$shadowRes = 0.5
+$shadowQuality = 0.5
 
 [Preset]
+name = 中等
 category = 阴影质量
-name = 中等 (100%, 默认)
 default = 1
 
 [Preset]
+name = 高
 category = 阴影质量
-name = 高 (200%)
-$shadowRes = 2
+$shadowQuality = 2
 
 [Preset]
+name = 超级
 category = 阴影质量
-name = 超级 (300%)
-$shadowRes = 3
+$shadowQuality = 3
 
 [Preset]
+name = 究极
 category = 阴影质量
-name = 究极 (400%, 不稳定)
-$shadowRes = 4
+$shadowQuality = 4
 
 
 # 模糊质量
 
 [Preset]
 category = 模糊质量
-name = 中等 (默认)
+name = 中等
+default = 1
 
 [Preset]
 category = 模糊质量
@@ -218,8 +221,8 @@ overwriteHeight = ($height/$gameHeight) * 720
 width = 1024
 height = 1024
 formats = 0x005
-overwriteWidth = $shadowRes * 1024
-overwriteHeight = $shadowRes * 1024
+overwriteWidth = $shadowQuality * 1024
+overwriteHeight = $shadowQuality * 1024
 
 [TextureRedefine] # Gamepad
 width = 864

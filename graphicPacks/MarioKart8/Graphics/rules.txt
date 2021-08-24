@@ -2,7 +2,7 @@
 titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
 name = 图像设置
 path = "马里奥赛车8/图像设置"
-description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量 ||抗锯齿、光晕量、运动模糊质量、细节等级和各向异性过滤质量.由Crementif, theboy181 和 M&&M制作.
+description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量 ||抗锯齿、光晕强度、运动模糊质量、细节等级和各向异性过滤质量.由Crementif, theboy181 和 M&&M制作.
 version = 6
 
 [Default]
@@ -421,32 +421,32 @@ default = 1
 # Bloom
 
 [Preset]
-name = 关闭
-category = 光晕量
+name = 0%
+category = 光晕强度
 condition = $advancedOpt == 1
 $bloom = 0
 
 [Preset]
-name = 低
-category = 光晕量
+name = 50%
+category = 光晕强度
 condition = $advancedOpt == 1
 $bloom = 0.5
 
 [Preset]
-name = 正常
-category = 光晕量
+name = 100%
+category = 光晕强度
 condition = $advancedOpt == 1
 default = 1
 
 [Preset]
-name = 高
-category = 光晕量
+name = 125%
+category = 光晕强度
 condition = $advancedOpt == 1
 $bloom = 1.25
 
 [Preset]
-name = 超级
-category = 光晕量
+name = 150%
+category = 光晕强度
 condition = $advancedOpt == 1
 $bloom = 1.5
 

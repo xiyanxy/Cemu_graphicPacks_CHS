@@ -38,12 +38,12 @@ $bit3:int = 0x0
 
 [Preset]
 name = 启用 (默认)
-category = 禁用加农僵直锁
+category = 禁用盖侬僵直锁
 $bit4:int = 0x10
 
 [Preset]
 name = 禁用
-category = 禁用加农僵直锁
+category = 禁用盖侬僵直锁
 $bit4:int = 0x0
 
 [Preset]

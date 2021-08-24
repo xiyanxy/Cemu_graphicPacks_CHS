@@ -862,81 +862,81 @@ $castleFogBlue = 0.0
 
 [Preset]
 name = 300%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 2.0
 
 [Preset]
 name = 200%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 2.0
 
 [Preset]
 name = 150%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 1.5
 
 [Preset]
 name = 100%不透明度 (默认)
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 default = 1
 $ganonAuraOpacity = 1.0
 
 [Preset]
 name = 80%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 0.8
 
 [Preset]
 name = 60%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 0.6
 
 [Preset]
 name = 50%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 0.5
 
 [Preset]
 name = 40%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 0.4
 
 [Preset]
 name = 20%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 0.2
 
 [Preset]
 name = 10%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 0.2
 
 [Preset]
 name = 0%不透明度
-category = 加农瘴气能见度
+category = 盖侬瘴气能见度
 condition = $setting == 6
 $ganonAuraOpacity = 0.0
 
 [Preset]
 name = 游戏原始 (默认)
-category = 加农瘴气颜色
+category = 盖侬瘴气颜色
 condition = $setting == 6
 default = 1
 $enableGanonAuraColor:int = 0
 
 [Preset]
 name = 黑色
-category = 加农瘴气颜色
+category = 盖侬瘴气颜色
 condition = $setting == 6
 $ganonAuraRed = 1.0
 $ganonAuraGreen = 1.0
@@ -944,7 +944,7 @@ $ganonAuraBlue = 1.0
 
 [Preset]
 name = 深蓝色
-category = 加农瘴气颜色
+category = 盖侬瘴气颜色
 condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 0.0
@@ -952,7 +952,7 @@ $ganonAuraBlue = 0.5
 
 [Preset]
 name = 蓝色
-category = 加农瘴气颜色
+category = 盖侬瘴气颜色
 condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 0.0
@@ -960,7 +960,7 @@ $ganonAuraBlue = 1.0
 
 [Preset]
 name = 蓝青色
-category = 加农瘴气颜色
+category = 盖侬瘴气颜色
 condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 0.5
@@ -968,7 +968,7 @@ $ganonAuraBlue = 0.5
 
 [Preset]
 name = 绿色
-category = 加农瘴气颜色
+category = 盖侬瘴气颜色
 condition = $setting == 6
 $ganonAuraRed = 0.0
 $ganonAuraGreen = 1.0
@@ -976,7 +976,7 @@ $ganonAuraBlue = 0.0
 
 [Preset]
 name = 红色
-category = 加农瘴气颜色
+category = 盖侬瘴气颜色
 condition = $setting == 6
 $ganonAuraRed = 1.0
 $ganonAuraGreen = 0.0

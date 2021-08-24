@@ -64,7 +64,7 @@ category = Game State
 $state = 10
 
 [Preset]
-name = Advertise (11, Default)
+name = Advertise (11, д╛хо)
 category = Game State
 default = 1
 

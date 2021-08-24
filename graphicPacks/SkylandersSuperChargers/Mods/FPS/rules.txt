@@ -1,9 +1,9 @@
 [Definition]
-titleIds = 00050000101BFC00,0005000E101B8500
+titleIds = 00050000101BFC00,00050000101B8500
 name = FPS
 path = "小龙斯派罗:超级充能者/模组/FPS"
-description = 修改游戏动态FPS. 可能存在BUG, 特别是FPS大于120时.||由Mew00和Winner Nombre制作.
-version = 6
+description = 更改游戏的FPS限制.|使用高FPS运行游戏可能会出现小故障.||||由Mew00、Winner Nombre和DigitNetics制作.
+version = 7
 
 [Default]
 $targetFPS:int = 30

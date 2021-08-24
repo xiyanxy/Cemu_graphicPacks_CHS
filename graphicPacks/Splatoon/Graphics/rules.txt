@@ -2,7 +2,7 @@
 titleIds = 0005000010176900,0005000010176A00,0005000010162B00
 name = 图像设置
 path = "喷射战士/图像插件/图像设置"
-description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量、光晕量和各向异性过滤质量.由M&&M 和 Xalphenos制作.
+description = 允许更改游戏的TV分辨率、Gamepad分辨率、阴影质量、光晕强度和各向异性过滤质量.由M&&M 和 Xalphenos制作.
 version = 6
 
 [Default]
@@ -299,31 +299,31 @@ name = 究极
 category = 阴影质量
 $shadowQuality = 4
 
-# Bloom
+# Bloom Intensity
 
 [Preset]
-name = 关闭
-category = 光晕量
+name = 0%
+category = 光晕强度
 $bloom = 0
 
 [Preset]
-name = 低
-category = 光晕量
+name = 50%
+category = 光晕强度
 $bloom = 0.5
 
 [Preset]
-name = 正常
-category = 光晕量
+name = 100%
+category = 光晕强度
 default = 1
 
 [Preset]
-name = 高
-category = 光晕量
+name = 125%
+category = 光晕强度
 $bloom = 1.25
 
 [Preset]
-name = 超级
-category = 光晕量
+name = 150%
+category = 光晕强度
 $bloom = 1.5
 
 # Anisotropic Filtering Quality

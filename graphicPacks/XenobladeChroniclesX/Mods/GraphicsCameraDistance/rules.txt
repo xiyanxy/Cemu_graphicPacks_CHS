@@ -9,13 +9,13 @@ version = 5
 $mod = 2.0
 
 [Preset]
-name = "缩放2"
+name = "缩放x2"
 
 [Preset]
-name = "缩放5"
+name = "缩放x5"
 $mod = 5.0
 
 [Preset]
-name = "缩放10"
+name = "缩放x10"
 $mod = 10.0
 

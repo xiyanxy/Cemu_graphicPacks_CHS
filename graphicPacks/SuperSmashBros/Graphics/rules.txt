@@ -6,12 +6,25 @@ description = 允许更改游戏的分辨率、阴影质量和各向异性过滤质量.由M&&M制作.
 version = 6
 
 [Default]
+$advancedMode:int = 0
 $width = 1920
 $height = 1080
 $gameWidth = 1920
 $gameHeight = 1080
 $shadowQuality = 1
 $anisotropy = 1
+
+# Settings Mode
+
+[Preset]
+name = 禁用
+category = 附加降采样分辨率
+default = 1
+
+[Preset]
+name = 启用
+category = 附加降采样分辨率
+$advancedMode:int = 1
 
 # Resolution
 
@@ -28,57 +41,100 @@ $width = 960
 $height = 540
 
 [Preset]
-name = 1280x720 (HD)
+name = 1280x720
 category = 分辨率
 $width = 1280
 $height = 720
 
 [Preset]
-name = 1600x900 (HD+)
+name = 1600x900
 category = 分辨率
 $width = 1600
 $height = 900
 
 [Preset]
-name = 1920x1080 (全HD)
+name = 1920x1080
 category = 分辨率
 default = 1
 
 [Preset]
-name = 2560x1440 (2K)
+name = 2560x1440
 category = 分辨率
 $width = 2560
 $height = 1440
 
 [Preset]
-category = 分辨率
 name = 3200x1800
+category = 分辨率
 $width = 3200
 $height = 1800
 
 [Preset]
-name = 3840x2160 (4K)
+name = 3840x2160
 category = 分辨率
 $width = 3840
 $height = 2160
 
 [Preset]
-name = 5120x2880 (5K)
+name = 5120x2880
 category = 分辨率
 $width = 5120
 $height = 2880
 
 [Preset]
-name = 7680x4320 (8K)
+name = 7680x4320
 category = 分辨率
 $width = 7680
 $height = 4320
 
 [Preset]
-name = 10240x5760 (10K)
+name = 10240x5760
 category = 分辨率
 $width = 10240
 $height = 5760
+
+[Preset]
+name = 2560x1080 (21:9)
+category = Resolution
+$width = 2560
+$height = 1080
+
+[Preset]
+name = 3440x1440 (21:9)
+category = Resolution
+$width = 3440
+$height = 1440
+
+[Preset]
+name = 3440x1440 (21:9) [150% 从5160x2160降采样]
+category = Resolution
+condition = $advancedMode == 1
+$width = 5160
+$height = 2160
+
+[Preset]
+name = 5120x2160 (21:9)
+category = Resolution
+$width = 5120
+$height = 2160
+
+[Preset]
+name = 3840x1080 (32:9)
+category = Resolution
+$width = 3840
+$height = 1080
+
+[Preset]
+name = 5120x1440 (32:9)
+category = Resolution
+$width = 5120
+$height = 1440
+
+[Preset]
+name = 7680x2160 (32:9)
+category = Resolution
+$width = 7680
+$height = 2160
 
 # Shadow Quality
 

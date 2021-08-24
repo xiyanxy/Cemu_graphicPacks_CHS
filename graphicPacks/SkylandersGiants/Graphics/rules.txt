@@ -1,9 +1,9 @@
 [Definition]
-titleIds = 000500001010D700, 0005000010116000
+titleIds = 000500001010D700,0005000010116000
 name = 分辨率
 path = "小龙斯派罗:巨人/画质设置"
 description = 修改游戏分辨率.
-version = 6
+version = 7
 
 [Default]
 $width = 1280

@@ -1,0 +1,45 @@
+[Definition]
+titleIds = 0005000010116100,00050000101C4C00,00050000101C4D00
+name = 地面伤害减少器
+path = "异度之刃X/模组/战斗/地面伤害减少器
+description = 通过分割减少你和你的团队对敌人造成的伤害，使游戏更具挑战性. 不会影响显示的损坏数字.|可能是实验性的，因为它还没有完全经过测试.||由Lashoun制作.
+version = 5
+
+[Default]
+$divr = 2
+
+[Preset]
+category = 伤害减少
+name = 正常伤害 (默认)
+default = 1
+$divr = 1
+
+[Preset]
+category = 伤害减少
+name = 伤害 / 2
+$divr = 2
+
+[Preset]
+category = 伤害减少
+name = 伤害 / 3
+$divr = 3
+
+[Preset]
+category = 伤害减少
+name = 伤害 / 5
+$divr = 5
+
+[Preset]
+category = 伤害减少
+name = 伤害 / 10
+$divr = 10
+
+[Preset]
+category = 伤害减少
+name = 伤害 / 10
+$divr = 50
+
+[Preset]
+category = 伤害减少
+name = 伤害 / 100
+$divr = 100
